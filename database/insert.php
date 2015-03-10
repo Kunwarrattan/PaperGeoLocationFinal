@@ -4,7 +4,7 @@
 
 require 'database.php';
 
-$sql    = 'SELECT institution,ville, province,country FROM addresses';
+$sql    = 'SELECT institute,ville, province,country FROM lonlat';
 $result = mysqli_query($link, $sql);
 
 if (!$result) {
@@ -15,9 +15,10 @@ if (!$result) {
 
     $i=1;
     while ($row = mysqli_fetch_assoc($result)) {
-        if($i<5){
+        if($i<200){
             // echo $row['institution'].' '.$row['ville'].'<br/>';
-            insert($i,$row['institution'],$row['ville'],$row['province'],$row['country']);
+            //echo $i;
+            insert($i,$row['institute'],$row['ville'],$row['province'],$row['country']);
             $i++;
         }else{
             break;
