@@ -29,7 +29,6 @@ function cal(dest1,dest2){
     origin1=dest1;
     destinationA=dest2;
 
-
     var service = new google.maps.DistanceMatrixService();
 
     service.getDistanceMatrix(
@@ -43,7 +42,7 @@ function cal(dest1,dest2){
         }, callback);
 }
 
-//--------------------------------------------------------------------------------------------------------
+
 function callback(response, status) {
     if (status != google.maps.DistanceMatrixStatus.OK) {
         alert('Error was: ' + status);
