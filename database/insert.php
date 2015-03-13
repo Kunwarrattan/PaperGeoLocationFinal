@@ -4,23 +4,23 @@ require 'database.php';
 $data = array();
 $i=1;
 $index = $_GET['index']-1;
-if($index >= 0 || $index < 270)
+if($index >= 1 || $index < 80)
 {    //exit();
-$sql    = 'SELECT institute,ville, province,country FROM address_unique Limit '.($index*9).", 9";
+$sql    = 'SELECT id,institute,ville, province,country FROM address_unique Limit '.($index*9).", 9";
 }else{
     exit();
 }
 $result = mysqli_query($link, $sql);
 
 if (!$result) {
-    echo "DB Error, could not query th  e database\n";
+    echo "DB Error, could not query the database\n";
     echo 'MySQL Error: ' . mysqli_error($link);
     exit;
 }
 
     while ($row = mysqli_fetch_assoc($result)) {
         if ($i >= 0){
-            $temp = insert($i, $row['institute'], $row['ville'], $row['province'], $row['country']);
+            $temp = insert($row['id'], $row['institute'], $row['ville'], $row['province'], $row['country']);
             $data[] = $temp;
         }
         $i++;

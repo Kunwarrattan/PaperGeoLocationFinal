@@ -4,6 +4,8 @@ $lati = null;
 $lng = null;
 $addressnew  = null;
 $addressold = null;
+$id=null;
+
 if(isset($_REQUEST['lat']) && $_REQUEST['lat']!="")
 {
     $lati=($_REQUEST['lat']);
@@ -21,7 +23,10 @@ if(isset($_REQUEST['addressold']) && $_REQUEST['addressold']!="")
 {
     $addressold=($_REQUEST['addressold']);
 }
-
+if(isset($_REQUEST['id']) && $_REQUEST['id']!="")
+{
+    $id=($_REQUEST['id']);
+}
 
 print_r($_REQUEST);
 
@@ -29,9 +34,24 @@ print_r($_REQUEST);
 require 'database.php';
 // INSERT INTO `final_addresses`(`lat`, `long`, `full_address`) VALUES ('12.49494290000007','55.763516','2800 Lyngby Denmark')
 if($lng!= null && $lng != null){
-$query = "INSERT IGNORE INTO `final_addresses`( `lat`, `long`, `full_address`) VALUES ($lati,$lng,\"$addressnew\")";
-//echo $query;
-$result = mysqli_query($link, $query);
+
+    $query = "INSERT INTO `final_addresses`( `lat`, `long`, `full_address`) VALUES ($lati,$lng,\"$addressnew\")";
+    $result = mysqli_query($link, $query);
+
+    $idN = mysqli_insert_id($link);
+   // $idOLD = null;
+    if($idN == null){
+        $query2 = "SELECT `id` FROM `final_addresses` where `lat`= $lati AND `long` = $lng";
+        $result2 = mysqli_query($link, $query2);
+        while ($row = mysqli_fetch_assoc($result2)) {
+            $idN  = $row['id'];
+        }
+    }
+
+
+    $queryUpdate ="UPDATE `address_unique` set `latlongid` = $idN WHERE `id` = $id";
+    $result1 = mysqli_query($link, $queryUpdate);
+    echo $queryUpdate;
 
 if (!$result) {
     echo "DB Error, could not query the database\n";

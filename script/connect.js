@@ -11,7 +11,7 @@ var longi;
 var latti;
 var ajaxRequest;
 var milliseconds = 1001;
-var index = 0;
+var index = 1;
 function sleep() {
     var start = new Date().getTime();
     for (var i = 0; i < 1e7; i++) {
@@ -55,10 +55,10 @@ function adddresSetup(i,inst,vil,pro,con){
     //startTimer();
     address = inst+","+vil+","+pro+","+con;
     sleep();
-    getLatLong(address);
+    getLatLong(address,i);
 }
 
-function getLatLong(address) {
+function getLatLong(address,id) {
     geocoder = new google.maps.Geocoder();
     var result = "";
     geocoder.geocode( { 'address': address }, function(results, status) {
@@ -66,7 +66,7 @@ function getLatLong(address) {
                     var addr_type = results[0].formatted_address;
                     longi = results[0].geometry.location.lng();
                     latti = results[0].geometry.location.lat();
-                    var v = longi+"||"+ latti+"||"+addr_type+"||"+address;
+                    var v = longi+"||"+ latti+"||"+addr_type+"||"+address+"||"+id;
                     insertlatLongIntoDB(v);
                    // alert(v);
         } else {
@@ -113,6 +113,7 @@ function insertlatLongIntoDB(stringVal){
             var k =randomIntFromInterval(1000,2000);
             setTimeout(ajaxFunction(),  k);
             var val = ajaxRequest.responseText;
+          //  alert(val);
             var str_array = val.split('||');
             for(var i = 0; i < str_array.length; i++) {
                  //alert(str_array[i]);
@@ -123,7 +124,7 @@ function insertlatLongIntoDB(stringVal){
     k = stringVal.split("||");
    // alert(k[0]+" "+k[1]+" "+k[2]+" "+k[3]);
     //alert("insertLLIntoDB.php?lat="+k[0]+"&lng="+k[1]+"&addressnew="+k[2]+"&addressold="+k[3]);
-    ajaxRequest.open("POST", "insertLLIntoDB.php?lat="+k[0]+"&lng="+k[1]+"&addressnew="+k[2]+"&addressold="+k[3], true);
+    ajaxRequest.open("POST", "insertLLIntoDB.php?lat="+k[0]+"&lng="+k[1]+"&addressnew="+k[2]+"&addressold="+k[3]+"&id="+k[4], true);
     ajaxRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     ajaxRequest.send(null);
 }
