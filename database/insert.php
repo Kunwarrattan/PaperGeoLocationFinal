@@ -4,7 +4,7 @@ require 'database.php';
 $data = array();
 $i=1;
 $index = $_GET['index']-1;
-if($index >= 1 || $index < 80)
+if($index >= 70 || $index < 380)
 {    //exit();
 $sql    = 'SELECT id,institute,ville, province,country FROM address_unique Limit '.($index*9).", 9";
 }else{
