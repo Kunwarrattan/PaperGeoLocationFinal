@@ -11,7 +11,7 @@ var longi;
 var latti;
 var ajaxRequest;
 var milliseconds = 1001;
-var index = 1;
+var index = 80;
 function sleep() {
     var start = new Date().getTime();
     for (var i = 0; i < 1e7; i++) {
@@ -110,7 +110,7 @@ function insertlatLongIntoDB(stringVal){
         if(ajaxRequest.readyState == 4){
             index++;
             //sleep();
-            var k =randomIntFromInterval(1000,2000);
+            var k =randomIntFromInterval(500,2000);
             setTimeout(ajaxFunction(),  k);
             var val = ajaxRequest.responseText;
           //  alert(val);

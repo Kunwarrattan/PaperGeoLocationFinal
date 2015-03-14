@@ -2,9 +2,9 @@
 set_time_limit(0);
 require 'database.php';
 $data = array();
-$i=1;
+    $i=1;
 $index = $_GET['index']-1;
-if($index >= 1 || $index < 80)
+if($index >= 80 || $index < 200)
 {    //exit();
 $sql    = 'SELECT id,institute,ville, province,country FROM address_unique Limit '.($index*9).", 9";
 }else{
