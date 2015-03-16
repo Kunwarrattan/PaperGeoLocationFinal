@@ -2,11 +2,9 @@
 <head>
     <script language="javascript" type="text/javascript" src="../script/connect.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.js"></script>
-<<<<<<< HEAD
+
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyCNWi7ox_0KV9lrVojv4SteoYESUxNdK8k&language=en"></script>	<!-- Google Maps API -->
-=======
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false%language=en"></script>	<!-- Google Maps API -->
->>>>>>> origin/master
+
 </head>
 
 <body>

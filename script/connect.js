@@ -11,11 +11,9 @@ var longi;
 var latti;
 var ajaxRequest;
 var milliseconds = 1001;
-<<<<<<< HEAD
-var index = 80;
-=======
-var index = 70;
->>>>>>> origin/master
+
+var index = 1475;
+
 function sleep() {
     var start = new Date().getTime();
     for (var i = 0; i < 1e7; i++) {
