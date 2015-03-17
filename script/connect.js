@@ -12,7 +12,7 @@ var latti;
 var ajaxRequest;
 var milliseconds = 1001;
 
-var index = 1475;
+var index = 1840;
 
 function sleep() {
     var start = new Date().getTime();
@@ -55,24 +55,60 @@ function initialize() {
 
 function adddresSetup(i,inst,vil,pro,con){
     //startTimer();
+    inst.replace(/ /g , "+");
+    vil.replace(/ /g , "+");
+    pro.replace(/ /g , "+");
+    con.replace(/ /g , "+");
+
     address = inst+","+vil+","+pro+","+con;
     sleep();
-    getLatLong(address,i);
+    getLatLong(address,i,true);
 }
 
-function getLatLong(address,id) {
+function getLatLong(address,id,flag) {
+    if(flag == false){
+        console.log(address);
+        console.log("Inverse action");
+    }
+    var add = address;
     geocoder = new google.maps.Geocoder();
     var result = "";
     geocoder.geocode( { 'address': address }, function(results, status) {
+        console.log(status);
         if (status == google.maps.GeocoderStatus.OK) {
                     var addr_type = results[0].formatted_address;
                     longi = results[0].geometry.location.lng();
                     latti = results[0].geometry.location.lat();
                     var v = longi+"||"+ latti+"||"+addr_type+"||"+address+"||"+id;
+                    console.log(v);
                     insertlatLongIntoDB(v);
                    // alert(v);
-        } else {
-            result = "Unable to find address: " + status;
+        } else if (status == "ZERO_RESULTS") {
+            //console.log(address);
+            var str_array = address.split(",");
+            var ints = str_array[0];
+            var ville = str_array[1];
+            var province = str_array[2];
+            var country = str_array[3];
+
+
+            ints.replace(/ /g , "+");
+            ville.replace(/ /g , "+");
+            province.replace(/ /g , "+");
+            country.replace(/ /g , "+");
+            var add = null;
+
+            if(ville==""){
+                add = province+","+country;
+            }
+            else if(province==""){
+                add = ville+","+country;
+            }
+            if(country==""){
+                add = ville+","+province;
+            }
+            console.log("igonred address="+add+" id =" + id);
+            getLatLong(add,id,false);
         }
     });
 }
@@ -88,11 +124,14 @@ function ajaxFunction(){
             var i;
             var temp_html = "";
             console.log(data);
+            console.log("-------------------------------------------------------------------");
             for(i=0;i<data.length;i++) {
                 temp_html += data[i].count+" - "+data[i].institute+" - "+data[i].ville+" - "+data[i].province+" - "+data[i].country+"<br/>";
                 adddresSetup(data[i].count,data[i].institute, data[i].ville, data[i].province, data[i].country);
             }
-            $('#data-list').append(temp_html);
+            var temp = "-------------------------------------------<br/>";
+            $('#data-list').html(temp_html);
+            $('#data-list').html(temp);
 
         }
     }

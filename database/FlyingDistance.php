@@ -1,9 +1,5 @@
 <?php
 
-//$d2 = distance(120.15507000000002, 30.274085, -79.01929969999998, 35.7595731, "K") . " Kilometers<br>";
-//echo $d2;
-//echo ($t2=timeCal($d2). "  Minutes <br>");
-//echo display($t2), "\n";
 require 'database.php';
 
 $lat1 = null;
@@ -16,7 +12,7 @@ $addCFID = null;
 $sql1 = "select `fID_Art`, `Cited_ID_Art`  from `cited_paper`";
 $result1 = mysqli_query($link, $sql1);
 
-if (!$result) {
+if (!$result1) {
     echo "\nDB Error, could not query the database Cited_Paper\n";
     echo 'MySQL Error: ' . mysqli_error($link);
     exit;
@@ -36,13 +32,22 @@ while ($row = mysqli_fetch_assoc($result1)) {
     while ($row = mysqli_fetch_assoc($result2)) {
         $add1  = $row['latlong'];
     }
+    if (!$result2) {
+        echo "\nDB Error, could not query the Addresses database\n";
+        echo 'MySQL Error: ' . mysqli_error($link);
+        //exit;
+    }
 
     $sql3 = "SELECT `Cited_ID_Art`,`latlong` FROM `cited_paper_address` where `id_art`= $addCFID ";
     $result3 = mysqli_query($link, $sql3);
     while ($row = mysqli_fetch_assoc($result3)) {
         $add2  = $row['latlong'];
     }
-
+    if (!$result3) {
+        echo "\nDB Error, could not query the Cited_paper_Addresses database\n";
+        echo 'MySQL Error: ' . mysqli_error($link);
+        //exit;
+    }
 
     $lat1 = null;
     $lat2 = null;
@@ -56,27 +61,20 @@ while ($row = mysqli_fetch_assoc($result1)) {
         $lng1  = $row['long'];
     }
 
-    $sql4 = "SELECT `lat`,`long` FROM `final_addresses` where `id`= $add2 ";
-    $result4 = mysqli_query($link, $sql4);
-    while ($row = mysqli_fetch_assoc($result4)) {
+    $sql5 = "SELECT `lat`,`long` FROM `final_addresses` where `id`= $add2 ";
+    $result5 = mysqli_query($link, $sql5);
+    while ($row = mysqli_fetch_assoc($result5)) {
         $lat2  = $row['lat'];
         $lng2  = $row['long'];
     }
-    $FlyingDistance = distance($lat1, $lng1, $lat2, $lng2, "K");
-    $time = timeCal($d2);
-    $FlyingTime  = display($time);
+    $FlyingDistance = distance($lat1, $lng1, $lat2, $lng2, "K"); //Distance in kilometers
+    $time = timeCal($FlyingDistance);   // Time in minutes
+    $FlyingTime  = display($time);      // Time Foramt in HH:MM:SS
 
     $queryFinal = "INSERT INTO `cited_paper` ( `FlyingDistance`, `FlyingTime`) VALUES ($FlyingDistance,$FlyingTime)";
     $result = mysqli_query($link, $queryFinal);
 }
 
-
-
-
-
-function  database(){
-
-}
 
 
 function distance($lat1, $lon1, $lat2, $lon2, $unit) {

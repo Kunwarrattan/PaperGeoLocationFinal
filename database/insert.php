@@ -5,9 +5,9 @@ $data = array();
     $i=1;
 $index = $_GET['index']-1;
 
-if($index >= 1475 || $index < 1700)
+if($index >= 1840 || $index < 1834)
 {    //exit();
-$sql    = 'SELECT id,institute,ville, province,country FROM address_unique Limit '.($index*9).", 9";
+$sql    = 'SELECT id,institute,ville, province,country FROM address_unique Limit '.($index*10).", 10";
 }else{
     exit();
 }
@@ -16,7 +16,7 @@ $result = mysqli_query($link, $sql);
 if (!$result) {
     echo "DB Error, could not query the database\n";
     echo 'MySQL Error: ' . mysqli_error($link);
-    exit;
+    //exit;
 }
 
     while ($row = mysqli_fetch_assoc($result)) {

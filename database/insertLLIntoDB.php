@@ -69,7 +69,7 @@ if($lng!= null && $lng != null){
 
 
 if (!$result) {
-    echo "DB Error, could not query the database\n";
+    echo "\n DB Error, could not query the database\n";
     echo 'MySQL Error: ' . mysqli_error($link);
     //exit;
 }
