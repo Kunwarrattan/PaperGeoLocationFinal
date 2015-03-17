@@ -12,7 +12,7 @@ var latti;
 var ajaxRequest;
 var milliseconds = 1001;
 
-var index = 1860;
+var index = 5156;
 
 function sleep() {
     var start = new Date().getTime();
@@ -83,7 +83,7 @@ function getLatLong(address,id,flag) {
                     console.log(v);
                     insertlatLongIntoDB(v);
                    // alert(v);
-        } else if (status == "ZERO_RESULTS") {
+        } else if (status == google.maps.GeocoderStatus.ZERO_RESULTS) {
             //console.log(address);
             var str_array = address.split(",");
             var ints = str_array[0];
@@ -130,8 +130,8 @@ function ajaxFunction(){
                 adddresSetup(data[i].count,data[i].institute, data[i].ville, data[i].province, data[i].country);
             }
             var temp = "-------------------------------------------<br/>";
-            $('#data-list').text(temp_html);
-            $('#data-list').text(temp);
+            $('#data-list').append(temp_html);
+            $('#data-list').append(temp);
 
         }
     }
