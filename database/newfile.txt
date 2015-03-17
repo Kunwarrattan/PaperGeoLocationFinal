@@ -1480,3 +1480,2446 @@ SELECT `id` FROM `final_addresses` where `lat`= 12.568337100000008 AND `long` = 
  UPDATE `address_unique` set `latlongid` = 1000001604 WHERE `id` = 41627
 SELECT `id` FROM `final_addresses` where `lat`= 128.88890000000004 AND `long` = 36.4919
 --------------------------------------------
+1000000903
+
+ UPDATE `address_unique` set `latlongid` = 1000000903 WHERE `id` = 41549
+SELECT `id` FROM `final_addresses` where `lat`= -5.984458899999936 AND `long` = 37.3890924
+--------------------------------------------
+1000015416
+
+
+ UPDATE `address_unique` set `latlongid` = 1000015416 WHERE `id` = 41552
+SELECT `id` FROM `final_addresses` where `lat`= -56.16453139999999 AND `long` = -34.9011127SELECT `id` FROM `final_addresses` where `lat`= -89.56794739999998 AND `long` = 40.8171184
+--------------------------------------------
+1000005004
+
+ UPDATE `address_unique` set `latlongid` = 1000015419 WHERE `id` = 41551
+ UPDATE `address_unique` set `latlongid` = 1000005004 WHERE `id` = 41554SELECT `id` FROM `final_addresses` where `lat`= 17.83680400000003 AND `long` = 59.410065
+--------------------------------------------`= -89.39852830000001 AND `long` = 40.6331249
+--------------------------------------------
+1000001960
+
+ UPDATE `address_unique` set `latlongid` = 1000001960 WHERE `id` = 41553
+SELECT `id` FROM `final_addresses` where `lat`= -88.24338290000003 AND `long` = 40.1164204
+--------------------------------------------
+1000015416
+
+ UPDATE `address_unique` set `latlongid` = 1000015416 WHERE `id` = 41556
+SELECT `id` FROM `final_addresses` where `lat`= -89.56794739999998 AND `long` = 40.8171184
+--------------------------------------------
+1000004633
+
+ UPDATE `address_unique` set `latlongid` = 1000004633 WHERE `id` = 41555
+SELECT `id` FROM `final_addresses` where `lat`= -84.29631230000001 AND `long` = 33.7748275
+--------------------------------------------
+1000000181
+
+ UPDATE `address_unique` set `latlongid` = 1000000181 WHERE `id` = 41557
+SELECT `id` FROM `final_addresses` where `lat`= -89.58898640000001 AND `long` = 40.6936488
+--------------------------------------------
+1000002761
+
+ UPDATE `address_unique` set `latlongid` = 1000002761 WHERE `id` = 41560
+SELECT `id` FROM `final_addresses` where `lat`= 11.877409100000023 AND `long` = 44.2898527
+--------------------------------------------
+1000000181
+
+ UPDATE `address_unique` set `latlongid` = 1000000181 WHERE `id` = 41558
+SELECT `id` FROM `final_addresses` where `lat`= -89.58898640000001 AND `long` = 40.6936488
+--------------------------------------------
+1000018656
+
+ UPDATE `address_unique` set `latlongid` = 1000005161 WHERE `id` = 41562
+SELECT `id` FROM `final_addresses` where `lat`= 5.469722499999989 AND `long` = 51.44164199999999
+--------------------------------------------
+ELECT `id` FROM `final_addresses` where `lat`= 12.32813980000003 AND `long` = 50.31156989999999
+--------------------------------------------
+1000000181
+
+ UPDATE `address_unique` set `latlongid` = 1000000181 WHERE `id` = 41559
+SELECT `id` FROM `final_addresses` where `lat`= -89.58898640000001 AND `long` = 40.6936488
+--------------------------------------------
+1000005161
+
+ UPDATE `address_unique` set `latlongid` = 1000005161 WHERE `id` = 41563
+SELECT `id` FROM `final_addresses` where `lat`= 5.469722499999989 AND `long` = 51.44164199999999
+--------------------------------------------
+1000015420
+
+ UPDATE `address_unique` set `latlongid` = 1000015420 WHERE `id` = 41564
+SELECT `id` FROM `final_addresses` where `lat`= 5.472026599999936 AND `long` = 51.4657773
+--------------------------------------------
+1000000417
+
+ UPDATE `address_unique` set `latlongid` = 1000000417 WHERE `id` = 41565
+1000000954` FROM `final_addresses` where `lat`= 116.40739499999995 AND `long` = 39.904211
+--------------------------------------------
+
+ UPDATE `address_unique` set `latlongid` = 1000000954 WHERE `id` = 41568
+SELECT `id` FROM `final_addresses` where `lat`= 121.56541770000001 AND `long` = 25.0329694
+--------------------------------------------
+1000015420
+
+ UPDATE `address_unique` set `latlongid` = 1000015420 WHERE `id` = 41570
+SELECT `id` FROM `final_addresses` where `lat`= 5.472026599999936 AND `long` = 51.4657773
+--------------------------------------------
+1000015420
+
+ UPDATE `address_unique` set `latlongid` = 1000015420 WHERE `id` = 41571
+SELECT `id` FROM `final_addresses` where `lat`= 5.472026599999936 AND `long` = 51.4657773
+--------------------------------------------
+1000000427
+
+ UPDATE `address_unique` set `latlongid` = 1000000427 WHERE `id` = 41569
+SELECT `id` FROM `final_addresses` where `lat`= 139.73199249999993 AND `long` = 35.7090259
+--------------------------------------------
+1000015429
+
+ UPDATE `address_unique` set `latlongid` = 1000015429 WHERE `id` = 41572
+SELECT `id` FROM `final_addresses` where `lat`= 2.2743418999999676 AND `long` = 48.8245306
+--------------------------------------------
+1000000139
+
+ UPDATE `address_unique` set `latlongid` = 1000000139 WHERE `id` = 41574
+SELECT `id` FROM `final_addresses` where `lat`= -1.553621000000021 AND `long` = 47.218371
+--------------------------------------------
+1000001604
+
+ UPDATE `address_unique` set `latlongid` = 1000001604 WHERE `id` = 41576
+SELECT `id` FROM `final_addresses` where `lat`= 128.88890000000004 AND `long` = 36.4919
+--------------------------------------------
+1000001876
+
+ UPDATE `address_unique` set `latlongid` = 1000001876 WHERE `id` = 41577
+SELECT `id` FROM `final_addresses` where `lat`= 128.601445 AND `long` = 35.8714354
+--------------------------------------------
+1000009277
+
+
+ UPDATE `address_unique` set `latlongid` = 1000015434 WHERE `id` = 41575
+SELECT `id` FROM `final_addresses` where `lat`= 126.70520620000002 AND `long` = 37.4562557
+--------------------------------------------`= -76.998692 AND `long` = 38.9368811
+--------------------------------------------
+1000000326
+
+ UPDATE `address_unique` set `latlongid` = 1000000326 WHERE `id` = 41573
+SELECT `id` FROM `final_addresses` where `lat`= -77.03687070000001 AND `long` = 38.9071923
+--------------------------------------------
+1000000238
+
+ UPDATE `address_unique` set `latlongid` = 1000000238 WHERE `id` = 41580
+SELECT `id` FROM `final_addresses` where `lat`= 126.97796919999996 AND `long` = 37.566535
+--------------------------------------------
+1000015432
+
+ UPDATE `address_unique` set `latlongid` = 1000015432 WHERE `id` = 41581
+SELECT `id` FROM `final_addresses` where `lat`= 22.54480369999999 AND `long` = 51.2476612
+--------------------------------------------
+1000000238
+
+ UPDATE `address_unique` set `latlongid` = 1000000238 WHERE `id` = 41585
+SELECT `id` FROM `final_addresses` where `lat`= 126.97796919999996 AND `long` = 37.566535
+--------------------------------------------
+1000015439
+
+ UPDATE `address_unique` set `latlongid` = 1000015439 WHERE `id` = 41583
+SELECT `id` FROM `final_addresses` where `lat`= -43.23324919999999 AND `long` = -22.9788226
+--------------------------------------------
+1000002252
+
+ UPDATE `address_unique` set `latlongid` = 1000002252 WHERE `id` = 41584
+SELECT `id` FROM `final_addresses` where `lat`= 127.02860090000001 AND `long` = 37.2635727
+--------------------------------------------
+1000002145
+
+ UPDATE `address_unique` set `latlongid` = 1000002145 WHERE `id` = 41586
+SELECT `id` FROM `final_addresses` where `lat`= 9.99368179999999 AND `long` = 53.5510846
+--------------------------------------------
+1000015554
+
+ UPDATE `address_unique` set `latlongid` = 1000015554 WHERE `id` = 41582
+SELECT `id` FROM `final_addresses` where `lat`= -52.337588600000004 AND `long` = -31.7653989
+--------------------------------------------
+1000002145
+
+ UPDATE `address_unique` set `latlongid` = 1000002145 WHERE `id` = 41587
+SELECT `id` FROM `final_addresses` where `lat`= 9.99368179999999 AND `long` = 53.5510846
+--------------------------------------------
+1000000082
+
+ UPDATE `address_unique` set `latlongid` = 1000000082 WHERE `id` = 41588
+SELECT `id` FROM `final_addresses` where `lat`= 8.247252600000024 AND `long` = 49.9928617
+--------------------------------------------
+1000000082
+
+ UPDATE `address_unique` set `latlongid` = 1000000082 WHERE `id` = 41589
+SELECT `id` FROM `final_addresses` where `lat`= 8.247252600000024 AND `long` = 49.9928617
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 41594
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000000873
+000015435
+
+ UPDATE `address_unique` set `latlongid` = 1000015435 WHERE `id` = 41590
+ UPDATE `address_unique` set `latlongid` = 1000000873 WHERE `id` = 41592
+ELECT `id` FROM `final_addresses` where `lat`= 121.432772 AND `long` = 25.0363278
+--------------------------------------------`= -87.62979819999998 AND `long` = 41.8781136
+--------------------------------------------
+1000015440
+
+ UPDATE `address_unique` set `latlongid` = 1000015440 WHERE `id` = 41593
+SELECT `id` FROM `final_addresses` where `lat`= 7.46328410000001 AND `long` = 51.3670777
+--------------------------------------------
+1000006327
+
+ UPDATE `address_unique` set `latlongid` = 1000006327 WHERE `id` = 41591
+SELECT `id` FROM `final_addresses` where `lat`= -84.51201960000003 AND `long` = 39.1031182
+--------------------------------------------
+1000000082
+
+ UPDATE `address_unique` set `latlongid` = 1000000082 WHERE `id` = 41595
+SELECT `id` FROM `final_addresses` where `lat`= 8.247252600000024 AND `long` = 49.9928617
+--------------------------------------------
+1000015504
+
+ UPDATE `address_unique` set `latlongid` = 1000015504 WHERE `id` = 41792
+SELECT `id` FROM `final_addresses` where `lat`= 3.9566904000000704 AND `long` = 50.4542165
+--------------------------------------------
+1000015505
+
+ UPDATE `address_unique` set `latlongid` = 1000015505 WHERE `id` = 41791
+SELECT `id` FROM `final_addresses` where `lat`= 9.177178499999968 AND `long` = 45.4621325
+--------------------------------------------
+1000000238
+
+ UPDATE `address_unique` set `latlongid` = 1000000238 WHERE `id` = 41790
+SELECT `id` FROM `final_addresses` where `lat`= 126.97796919999996 AND `long` = 37.566535
+--------------------------------------------
+1000015502
+
+ UPDATE `address_unique` set `latlongid` = 1000015502 WHERE `id` = 41796
+SELECT `id` FROM `final_addresses` where `lat`= 5.871631400000069 AND `long` = 51.8228558
+--------------------------------------------
+1000000152
+
+ UPDATE `address_unique` set `latlongid` = 1000000152 WHERE `id` = 41794
+SELECT `id` FROM `final_addresses` where `lat`= 5.837226399999963 AND `long` = 51.8125626
+--------------------------------------------
+1000000152
+
+ UPDATE `address_unique` set `latlongid` = 1000000152 WHERE `id` = 41793
+SELECT `id` FROM `final_addresses` where `lat`= 5.837226399999963 AND `long` = 51.8125626
+--------------------------------------------
+1000000152
+
+ UPDATE `address_unique` set `latlongid` = 1000000152 WHERE `id` = 41795
+SELECT `id` FROM `final_addresses` where `lat`= 5.837226399999963 AND `long` = 51.8125626
+--------------------------------------------
+1000002625
+
+ UPDATE `address_unique` set `latlongid` = 1000002625 WHERE `id` = 41789
+SELECT `id` FROM `final_addresses` where `lat`= 127.38454750000005 AND `long` = 36.3504119
+--------------------------------------------
+1000004796
+
+ UPDATE `address_unique` set `latlongid` = 1000004796 WHERE `id` = 41805
+SELECT `id` FROM `final_addresses` where `lat`= 129.07564160000004 AND `long` = 35.1795543
+--------------------------------------------
+1000015439
+
+ UPDATE `address_unique` set `latlongid` = 1000015439 WHERE `id` = 41806
+SELECT `id` FROM `final_addresses` where `lat`= -43.23324919999999 AND `long` = -22.9788226
+--------------------------------------------
+1000015439
+
+ UPDATE `address_unique` set `latlongid` = 1000015439 WHERE `id` = 41808
+SELECT `id` FROM `final_addresses` where `lat`= -43.23324919999999 AND `long` = -22.9788226
+--------------------------------------------
+1000000192
+
+ UPDATE `address_unique` set `latlongid` = 1000000192 WHERE `id` = 41809
+SELECT `id` FROM `final_addresses` where `lat`= -51.217658400000005 AND `long` = -30.0346471
+--------------------------------------------
+1000000192
+
+ UPDATE `address_unique` set `latlongid` = 1000000192 WHERE `id` = 41810
+SELECT `id` FROM `final_addresses` where `lat`= -51.217658400000005 AND `long` = -30.0346471
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 41811
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000000238
+
+ UPDATE `address_unique` set `latlongid` = 1000000238 WHERE `id` = 41812
+SELECT `id` FROM `final_addresses` where `lat`= 126.97796919999996 AND `long` = 37.566535
+--------------------------------------------
+1000005578
+
+ UPDATE `address_unique` set `latlongid` = 1000005578 WHERE `id` = 41807
+SELECT `id` FROM `final_addresses` where `lat`= -43.17289649999998 AND `long` = -22.9068467
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 41813
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000015459
+
+ UPDATE `address_unique` set `latlongid` = 1000015459 WHERE `id` = 41814
+SELECT `id` FROM `final_addresses` where `lat`= 19.304323000000068 AND `long` = 49.08154740000001
+--------------------------------------------
+1000015508
+
+ UPDATE `address_unique` set `latlongid` = 1000015508 WHERE `id` = 41816
+SELECT `id` FROM `final_addresses` where `lat`= 9.692984499999966 AND `long` = 45.0526206
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 41817
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 41818
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000014509
+
+ UPDATE `address_unique` set `latlongid` = 1000014509 WHERE `id` = 41819
+SELECT `id` FROM `final_addresses` where `lat`= -38.50230399999998 AND `long` = -12.9730401
+--------------------------------------------
+1000015530
+
+ UPDATE `address_unique` set `latlongid` = 1000015530 WHERE `id` = 41821
+SELECT `id` FROM `final_addresses` where `lat`= -0.38356420000002345 AND `long` = 39.4768184
+--------------------------------------------
+1000015448
+
+ UPDATE `address_unique` set `latlongid` = 1000015448 WHERE `id` = 41823
+SELECT `id` FROM `final_addresses` where `lat`= -46.32191449999999 AND `long` = -23.9466022
+--------------------------------------------
+1000015448
+
+ UPDATE `address_unique` set `latlongid` = 1000015448 WHERE `id` = 41822
+SELECT `id` FROM `final_addresses` where `lat`= -46.32191449999999 AND `long` = -23.9466022
+--------------------------------------------
+1000015527
+
+ UPDATE `address_unique` set `latlongid` = 1000015527 WHERE `id` = 41824
+SELECT `id` FROM `final_addresses` where `lat`= -47.45256029999996 AND `long` = -23.5015299
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 41825
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000000238
+
+ UPDATE `address_unique` set `latlongid` = 1000000238 WHERE `id` = 41826
+SELECT `id` FROM `final_addresses` where `lat`= 126.97796919999996 AND `long` = 37.566535
+--------------------------------------------
+1000018793
+
+ UPDATE `address_unique` set `latlongid` = 1000018793 WHERE `id` = 41827
+
+--------------------------------------------
+1000001876
+
+ UPDATE `address_unique` set `latlongid` = 1000001876 WHERE `id` = 41831
+SELECT `id` FROM `final_addresses` where `lat`= 128.601445 AND `long` = 35.8714354
+--------------------------------------------
+1000001876
+
+ UPDATE `address_unique` set `latlongid` = 1000001876 WHERE `id` = 41840
+SELECT `id` FROM `final_addresses` where `lat`= 128.601445 AND `long` = 35.8714354
+--------------------------------------------
+1000015536
+
+ UPDATE `address_unique` set `latlongid` = 1000015536 WHERE `id` = 41841
+SELECT `id` FROM `final_addresses` where `lat`= -70.68972259999998 AND `long` = -33.4679916
+--------------------------------------------
+1000015535
+
+ UPDATE `address_unique` set `latlongid` = 1000015535 WHERE `id` = 41842
+SELECT `id` FROM `final_addresses` where `lat`= -72.61052560000002 AND `long` = -38.7450373
+--------------------------------------------
+1000015502
+
+ UPDATE `address_unique` set `latlongid` = 1000015502 WHERE `id` = 41843
+SELECT `id` FROM `final_addresses` where `lat`= 5.871631400000069 AND `long` = 51.8228558
+--------------------------------------------
+1000015530
+
+ UPDATE `address_unique` set `latlongid` = 1000015530 WHERE `id` = 41844
+SELECT `id` FROM `final_addresses` where `lat`= -0.38356420000002345 AND `long` = 39.4768184
+--------------------------------------------
+1000015539
+
+ UPDATE `address_unique` set `latlongid` = 1000015539 WHERE `id` = 41846
+SELECT `id` FROM `final_addresses` where `lat`= -71.61268849999999 AND `long` = -33.047238
+--------------------------------------------
+1000015539
+
+ UPDATE `address_unique` set `latlongid` = 1000015539 WHERE `id` = 41845
+SELECT `id` FROM `final_addresses` where `lat`= -71.61268849999999 AND `long` = -33.047238
+--------------------------------------------
+1000015432
+
+ UPDATE `address_unique` set `latlongid` = 1000015432 WHERE `id` = 41848
+SELECT `id` FROM `final_addresses` where `lat`= 22.54480369999999 AND `long` = 51.2476612
+--------------------------------------------
+1000015540
+
+ UPDATE `address_unique` set `latlongid` = 1000015540 WHERE `id` = 41849
+SELECT `id` FROM `final_addresses` where `lat`= 76.78049680000004 AND `long` = 9.2587701
+--------------------------------------------
+1000000238
+
+ UPDATE `address_unique` set `latlongid` = 1000000238 WHERE `id` = 41850
+SELECT `id` FROM `final_addresses` where `lat`= 126.97796919999996 AND `long` = 37.566535
+--------------------------------------------
+1000015420
+
+ UPDATE `address_unique` set `latlongid` = 1000015420 WHERE `id` = 41852
+SELECT `id` FROM `final_addresses` where `lat`= 5.472026599999936 AND `long` = 51.4657773
+--------------------------------------------
+1000000238
+
+ UPDATE `address_unique` set `latlongid` = 1000000238 WHERE `id` = 41851
+SELECT `id` FROM `final_addresses` where `lat`= 126.97796919999996 AND `long` = 37.566535
+--------------------------------------------
+1000015549
+
+ UPDATE `address_unique` set `latlongid` = 1000015549 WHERE `id` = 41853
+SELECT `id` FROM `final_addresses` where `lat`= -83.6574511 AND `long` = 9.8965556
+--------------------------------------------
+1000015547
+
+ UPDATE `address_unique` set `latlongid` = 1000015547 WHERE `id` = 41854
+SELECT `id` FROM `final_addresses` where `lat`= -83.6685799 AND `long` = 9.900497
+--------------------------------------------
+1000000049
+
+ UPDATE `address_unique` set `latlongid` = 1000000049 WHERE `id` = 41855
+SELECT `id` FROM `final_addresses` where `lat`= -9.139336599999979 AND `long` = 38.7222524
+--------------------------------------------
+1000000267
+
+ UPDATE `address_unique` set `latlongid` = 1000000267 WHERE `id` = 41857
+SELECT `id` FROM `final_addresses` where `lat`= -77.86277799999999 AND `long` = 40.796111
+--------------------------------------------
+1000015391
+
+ UPDATE `address_unique` set `latlongid` = 1000015391 WHERE `id` = 41856
+SELECT `id` FROM `final_addresses` where `lat`= -71.42450489999999 AND `long` = 42.20009659999999
+--------------------------------------------
+1000001626
+
+ UPDATE `address_unique` set `latlongid` = 1000001626 WHERE `id` = 41858
+SELECT `id` FROM `final_addresses` where `lat`= -78.898619 AND `long` = 35.9940329
+--------------------------------------------
+1000001626
+
+ UPDATE `address_unique` set `latlongid` = 1000001626 WHERE `id` = 41860
+SELECT `id` FROM `final_addresses` where `lat`= -78.898619 AND `long` = 35.9940329
+--------------------------------------------
+1000001626
+
+ UPDATE `address_unique` set `latlongid` = 1000001626 WHERE `id` = 41861
+SELECT `id` FROM `final_addresses` where `lat`= -78.898619 AND `long` = 35.9940329
+--------------------------------------------
+1000015555
+
+ UPDATE `address_unique` set `latlongid` = 1000015555 WHERE `id` = 41863
+SELECT `id` FROM `final_addresses` where `lat`= 30.63888689999999 AND `long` = -29.6950961
+--------------------------------------------
+1000000204
+
+ UPDATE `address_unique` set `latlongid` = 1000000204 WHERE `id` = 41862
+SELECT `id` FROM `final_addresses` where `lat`= -79.01929969999998 AND `long` = 35.7595731
+--------------------------------------------
+1000015557
+
+ UPDATE `address_unique` set `latlongid` = 1000015557 WHERE `id` = 41864
+SELECT `id` FROM `final_addresses` where `lat`= -77.41082010000002 AND `long` = 39.6237094
+--------------------------------------------
+1000015554
+
+ UPDATE `address_unique` set `latlongid` = 1000015554 WHERE `id` = 41865
+SELECT `id` FROM `final_addresses` where `lat`= -52.337588600000004 AND `long` = -31.7653989
+--------------------------------------------
+1000000238
+
+ UPDATE `address_unique` set `latlongid` = 1000000238 WHERE `id` = 41866
+SELECT `id` FROM `final_addresses` where `lat`= 126.97796919999996 AND `long` = 37.566535
+--------------------------------------------
+1000001075
+
+ UPDATE `address_unique` set `latlongid` = 1000001075 WHERE `id` = 41867
+SELECT `id` FROM `final_addresses` where `lat`= 9.364396800000009 AND `long` = 47.4179284
+--------------------------------------------
+1000015559
+
+ UPDATE `address_unique` set `latlongid` = 1000015559 WHERE `id` = 41868
+SELECT `id` FROM `final_addresses` where `lat`= -76.47935469999999 AND `long` = 39.3515029
+--------------------------------------------
+1000015560
+
+ UPDATE `address_unique` set `latlongid` = 1000015560 WHERE `id` = 41869
+SELECT `id` FROM `final_addresses` where `lat`= -76.73191609999998 AND `long` = 39.2720509
+--------------------------------------------
+1000003581
+
+ UPDATE `address_unique` set `latlongid` = 1000003581 WHERE `id` = 41871
+SELECT `id` FROM `final_addresses` where `lat`= 4.40246430000002 AND `long` = 51.2194475
+--------------------------------------------
+1000009555
+
+ UPDATE `address_unique` set `latlongid` = 1000009555 WHERE `id` = 41872
+SELECT `id` FROM `final_addresses` where `lat`= 2.108613099999957 AND `long` = 41.5462745
+--------------------------------------------
+1000015562
+
+ UPDATE `address_unique` set `latlongid` = 1000015562 WHERE `id` = 41873
+SELECT `id` FROM `final_addresses` where `lat`= 11.434054899999978 AND `long` = 48.1227429
+--------------------------------------------
+1000000177
+
+ UPDATE `address_unique` set `latlongid` = 1000000177 WHERE `id` = 41874
+SELECT `id` FROM `final_addresses` where `lat`= -122.14301949999998 AND `long` = 37.4418834
+--------------------------------------------
+1000015563
+
+ UPDATE `address_unique` set `latlongid` = 1000015563 WHERE `id` = 41875
+SELECT `id` FROM `final_addresses` where `lat`= 8.891500199999996 AND `long` = 45.6053912
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 41876
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000010050
+
+ UPDATE `address_unique` set `latlongid` = 1000010050 WHERE `id` = 41877
+SELECT `id` FROM `final_addresses` where `lat`= 10.327903600000013 AND `long` = 44.801485
+--------------------------------------------
+1000000290
+
+ UPDATE `address_unique` set `latlongid` = 1000000290 WHERE `id` = 41878
+SELECT `id` FROM `final_addresses` where `lat`= 7.686856499999976 AND `long` = 45.070312
+--------------------------------------------
+1000015571
+
+ UPDATE `address_unique` set `latlongid` = 1000015571 WHERE `id` = 41880
+SELECT `id` FROM `final_addresses` where `lat`= 12.636563300000034 AND `long` = 43.7262567
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 41879
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000015572
+
+ UPDATE `address_unique` set `latlongid` = 1000015572 WHERE `id` = 41881
+SELECT `id` FROM `final_addresses` where `lat`= 9.121661300000028 AND `long` = 39.2238411
+--------------------------------------------
+1000000176
+
+ UPDATE `address_unique` set `latlongid` = 1000000176 WHERE `id` = 41882
+SELECT `id` FROM `final_addresses` where `lat`= 11.876761100000067 AND `long` = 45.4064349
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 41883
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000000622
+
+ UPDATE `address_unique` set `latlongid` = 1000000622 WHERE `id` = 41886
+SELECT `id` FROM `final_addresses` where `lat`= 13.77681819999998 AND `long` = 45.6495264
+--------------------------------------------
+1000000290
+
+ UPDATE `address_unique` set `latlongid` = 1000000290 WHERE `id` = 41885
+SELECT `id` FROM `final_addresses` where `lat`= 7.686856499999976 AND `long` = 45.070312
+--------------------------------------------
+1000007278
+
+ UPDATE `address_unique` set `latlongid` = 1000007278 WHERE `id` = 41889
+SELECT `id` FROM `final_addresses` where `lat`= 10.211801899999955 AND `long` = 45.5415526
+--------------------------------------------
+1000015576
+
+ UPDATE `address_unique` set `latlongid` = 1000015576 WHERE `id` = 41888
+SELECT `id` FROM `final_addresses` where `lat`= 9.018484299999955 AND `long` = 55.4828152
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 41890
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000000201
+
+ UPDATE `address_unique` set `latlongid` = 1000000201 WHERE `id` = 41887
+SELECT `id` FROM `final_addresses` where `lat`= -0.9781302999999753 AND `long` = 51.4542645
+--------------------------------------------
+1000015580
+
+ UPDATE `address_unique` set `latlongid` = 1000015580 WHERE `id` = 41891
+SELECT `id` FROM `final_addresses` where `lat`= 10.11470220000001 AND `long` = 54.3460549
+--------------------------------------------
+1000012830
+
+ UPDATE `address_unique` set `latlongid` = 1000012830 WHERE `id` = 41892
+SELECT `id` FROM `final_addresses` where `lat`= 8.694923099999983 AND `long` = 50.0294877
+--------------------------------------------
+1000001096
+
+ UPDATE `address_unique` set `latlongid` = 1000001096 WHERE `id` = 41893
+SELECT `id` FROM `final_addresses` where `lat`= 8.682126700000026 AND `long` = 50.1109221
+--------------------------------------------
+1000015580
+
+ UPDATE `address_unique` set `latlongid` = 1000015580 WHERE `id` = 41894
+SELECT `id` FROM `final_addresses` where `lat`= 10.11470220000001 AND `long` = 54.3460549
+--------------------------------------------
+1000001173
+
+ UPDATE `address_unique` set `latlongid` = 1000001173 WHERE `id` = 41896
+SELECT `id` FROM `final_addresses` where `lat`= 5.6909725000000435 AND `long` = 50.8513682
+--------------------------------------------
+1000012830
+
+ UPDATE `address_unique` set `latlongid` = 1000012830 WHERE `id` = 41895
+SELECT `id` FROM `final_addresses` where `lat`= 8.694923099999983 AND `long` = 50.0294877
+--------------------------------------------
+1000001173
+
+ UPDATE `address_unique` set `latlongid` = 1000001173 WHERE `id` = 41897
+SELECT `id` FROM `final_addresses` where `lat`= 5.6909725000000435 AND `long` = 50.8513682
+--------------------------------------------
+1000000049
+
+ UPDATE `address_unique` set `latlongid` = 1000000049 WHERE `id` = 41899
+SELECT `id` FROM `final_addresses` where `lat`= -9.139336599999979 AND `long` = 38.7222524
+--------------------------------------------
+1000000083
+
+ UPDATE `address_unique` set `latlongid` = 1000000083 WHERE `id` = 41900
+SELECT `id` FROM `final_addresses` where `lat`= -75.51381179999998 AND `long` = 40.0362184
+--------------------------------------------
+1000015597
+
+ UPDATE `address_unique` set `latlongid` = 1000015597 WHERE `id` = 41898
+SELECT `id` FROM `final_addresses` where `lat`= 41.983333000000016 AND `long` = 45.05
+--------------------------------------------
+1000015589
+
+ UPDATE `address_unique` set `latlongid` = 1000015589 WHERE `id` = 41901
+SELECT `id` FROM `final_addresses` where `lat`= 145.02281990000006 AND `long` = -37.88291359999999
+--------------------------------------------
+1000001663
+
+ UPDATE `address_unique` set `latlongid` = 1000001663 WHERE `id` = 41902
+SELECT `id` FROM `final_addresses` where `lat`= 144.96327999999994 AND `long` = -37.814107
+--------------------------------------------
+1000015589
+
+ UPDATE `address_unique` set `latlongid` = 1000015589 WHERE `id` = 41903
+SELECT `id` FROM `final_addresses` where `lat`= 145.02281990000006 AND `long` = -37.88291359999999
+--------------------------------------------
+1000015594
+
+ UPDATE `address_unique` set `latlongid` = 1000015594 WHERE `id` = 41904
+SELECT `id` FROM `final_addresses` where `lat`= -75.42797480000002 AND `long` = 38.9126129
+--------------------------------------------
+1000008662
+
+ UPDATE `address_unique` set `latlongid` = 1000008662 WHERE `id` = 41906
+SELECT `id` FROM `final_addresses` where `lat`= -2.1192869999999857 AND `long` = 53.258663
+--------------------------------------------
+1000000886
+
+ UPDATE `address_unique` set `latlongid` = 1000000886 WHERE `id` = 41905
+SELECT `id` FROM `final_addresses` where `lat`= -8.629105299999992 AND `long` = 41.1579438
+--------------------------------------------
+1000015601
+
+ UPDATE `address_unique` set `latlongid` = 1000015601 WHERE `id` = 41907
+SELECT `id` FROM `final_addresses` where `lat`= 78.69358460000001 AND `long` = 10.8300559
+--------------------------------------------
+1000014269
+
+ UPDATE `address_unique` set `latlongid` = 1000014269 WHERE `id` = 41917
+SELECT `id` FROM `final_addresses` where `lat`= -80.244216 AND `long` = 36.09985959999999
+--------------------------------------------
+1000001954
+
+ UPDATE `address_unique` set `latlongid` = 1000001954 WHERE `id` = 41918
+SELECT `id` FROM `final_addresses` where `lat`= -0.3762881000000107 AND `long` = 39.4699075
+--------------------------------------------
+1000015606
+
+ UPDATE `address_unique` set `latlongid` = 1000015606 WHERE `id` = 41922
+SELECT `id` FROM `final_addresses` where `lat`= -79.48490000000004 AND `long` = 43.139227
+--------------------------------------------
+1000015602
+
+ UPDATE `address_unique` set `latlongid` = 1000015602 WHERE `id` = 41919
+SELECT `id` FROM `final_addresses` where `lat`= -50.32635600000003 AND `long` = -27.8154629
+--------------------------------------------
+1000007334
+
+ UPDATE `address_unique` set `latlongid` = 1000007334 WHERE `id` = 41921
+SELECT `id` FROM `final_addresses` where `lat`= -4.421265500000004 AND `long` = 36.721261
+--------------------------------------------
+1000015603
+
+ UPDATE `address_unique` set `latlongid` = 1000015603 WHERE `id` = 41923
+SELECT `id` FROM `final_addresses` where `lat`= -71.5147839 AND `long` = 42.00287609999999
+--------------------------------------------
+1000000602
+
+ UPDATE `address_unique` set `latlongid` = 1000000602 WHERE `id` = 41924
+SELECT `id` FROM `final_addresses` where `lat`= 0.12181699999996454 AND `long` = 52.205337
+--------------------------------------------
+1000015611
+
+ UPDATE `address_unique` set `latlongid` = 1000015611 WHERE `id` = 41925
+SELECT `id` FROM `final_addresses` where `lat`= -0.14591799999993782 AND `long` = 51.516437
+--------------------------------------------
+1000000993
+
+ UPDATE `address_unique` set `latlongid` = 1000000993 WHERE `id` = 41926
+SELECT `id` FROM `final_addresses` where `lat`= -121.88632860000001 AND `long` = 37.3382082
+--------------------------------------------
+1000000602
+
+ UPDATE `address_unique` set `latlongid` = 1000000602 WHERE `id` = 41929
+SELECT `id` FROM `final_addresses` where `lat`= 0.12181699999996454 AND `long` = 52.205337
+--------------------------------------------
+1000008780
+
+ UPDATE `address_unique` set `latlongid` = 1000008780 WHERE `id` = 41931
+SELECT `id` FROM `final_addresses` where `lat`= 0.1324319000000287 AND `long` = 52.201776
+--------------------------------------------
+1000000602
+
+ UPDATE `address_unique` set `latlongid` = 1000000602 WHERE `id` = 41932
+SELECT `id` FROM `final_addresses` where `lat`= 0.12181699999996454 AND `long` = 52.205337
+--------------------------------------------
+1000000602
+
+ UPDATE `address_unique` set `latlongid` = 1000000602 WHERE `id` = 41934
+SELECT `id` FROM `final_addresses` where `lat`= 0.12181699999996454 AND `long` = 52.205337
+--------------------------------------------
+1000000602
+
+ UPDATE `address_unique` set `latlongid` = 1000000602 WHERE `id` = 41935
+SELECT `id` FROM `final_addresses` where `lat`= 0.12181699999996454 AND `long` = 52.205337
+--------------------------------------------
+1000000602
+
+ UPDATE `address_unique` set `latlongid` = 1000000602 WHERE `id` = 41933
+SELECT `id` FROM `final_addresses` where `lat`= 0.12181699999996454 AND `long` = 52.205337
+--------------------------------------------
+1000015616
+
+ UPDATE `address_unique` set `latlongid` = 1000015616 WHERE `id` = 41937
+SELECT `id` FROM `final_addresses` where `lat`= -7.477030199999945 AND `long` = 41.2772797
+--------------------------------------------
+1000000602
+
+ UPDATE `address_unique` set `latlongid` = 1000000602 WHERE `id` = 41938
+SELECT `id` FROM `final_addresses` where `lat`= 0.12181699999996454 AND `long` = 52.205337
+--------------------------------------------
+1000000529
+
+ UPDATE `address_unique` set `latlongid` = 1000000529 WHERE `id` = 41939
+SELECT `id` FROM `final_addresses` where `lat`= -71.1097335 AND `long` = 42.3736158
+--------------------------------------------
+1000002960
+
+ UPDATE `address_unique` set `latlongid` = 1000002960 WHERE `id` = 41940
+SELECT `id` FROM `final_addresses` where `lat`= -92.28959479999997 AND `long` = 34.7464809
+--------------------------------------------
+1000000110
+
+ UPDATE `address_unique` set `latlongid` = 1000000110 WHERE `id` = 41941
+SELECT `id` FROM `final_addresses` where `lat`= 9.18592430000001 AND `long` = 45.4654219
+--------------------------------------------
+1000000427
+
+ UPDATE `address_unique` set `latlongid` = 1000000427 WHERE `id` = 41942
+SELECT `id` FROM `final_addresses` where `lat`= 139.73199249999993 AND `long` = 35.7090259
+--------------------------------------------
+1000000299
+
+ UPDATE `address_unique` set `latlongid` = 1000000299 WHERE `id` = 41944
+SELECT `id` FROM `final_addresses` where `lat`= 17.638926699999956 AND `long` = 59.85856380000001
+--------------------------------------------
+1000000082
+
+ UPDATE `address_unique` set `latlongid` = 1000000082 WHERE `id` = 41945
+SELECT `id` FROM `final_addresses` where `lat`= 8.247252600000024 AND `long` = 49.9928617
+--------------------------------------------
+1000015624
+
+ UPDATE `address_unique` set `latlongid` = 1000015624 WHERE `id` = 41947
+SELECT `id` FROM `final_addresses` where `lat`= 144.94600779999996 AND `long` = -37.8150178
+--------------------------------------------
+1000003081
+
+ UPDATE `address_unique` set `latlongid` = 1000003081 WHERE `id` = 41948
+SELECT `id` FROM `final_addresses` where `lat`= 172.63622540000006 AND `long` = -43.5320544
+--------------------------------------------
+1000013571
+
+ UPDATE `address_unique` set `latlongid` = 1000013571 WHERE `id` = 41946
+SELECT `id` FROM `final_addresses` where `lat`= -73.94854240000001 AND `long` = 40.744679
+--------------------------------------------
+1000002120
+
+ UPDATE `address_unique` set `latlongid` = 1000002120 WHERE `id` = 41950
+SELECT `id` FROM `final_addresses` where `lat`= -114.0708459 AND `long` = 51.0486151
+--------------------------------------------
+1000015630
+
+ UPDATE `address_unique` set `latlongid` = 1000015630 WHERE `id` = 41951
+SELECT `id` FROM `final_addresses` where `lat`= 173.28396529999998 AND `long` = -41.2706319
+--------------------------------------------
+1000000188
+
+ UPDATE `address_unique` set `latlongid` = 1000000188 WHERE `id` = 41949
+SELECT `id` FROM `final_addresses` where `lat`= -73.24538239999998 AND `long` = 42.4500845
+--------------------------------------------
+1000015630
+
+ UPDATE `address_unique` set `latlongid` = 1000015630 WHERE `id` = 41952
+SELECT `id` FROM `final_addresses` where `lat`= 173.28396529999998 AND `long` = -41.2706319
+--------------------------------------------
+1000015634
+
+ UPDATE `address_unique` set `latlongid` = 1000015634 WHERE `id` = 41955
+SELECT `id` FROM `final_addresses` where `lat`= -50.9371721 AND `long` = -28.4892195
+--------------------------------------------
+1000015634
+
+ UPDATE `address_unique` set `latlongid` = 1000015634 WHERE `id` = 41954
+SELECT `id` FROM `final_addresses` where `lat`= -50.9371721 AND `long` = -28.4892195
+--------------------------------------------
+1000015638
+
+ UPDATE `address_unique` set `latlongid` = 1000015638 WHERE `id` = 41956
+SELECT `id` FROM `final_addresses` where `lat`= -51.51962129999998 AND `long` = -29.1474704
+--------------------------------------------
+1000015639
+
+ UPDATE `address_unique` set `latlongid` = 1000015639 WHERE `id` = 41957
+SELECT `id` FROM `final_addresses` where `lat`= 40.52344900000003 AND `long` = 41.02005
+--------------------------------------------
+1000015640
+
+ UPDATE `address_unique` set `latlongid` = 1000015640 WHERE `id` = 41958
+SELECT `id` FROM `final_addresses` where `lat`= -74.68039999999996 AND `long` = 40.669264
+--------------------------------------------
+1000000831
+
+ UPDATE `address_unique` set `latlongid` = 1000000831 WHERE `id` = 41959
+SELECT `id` FROM `final_addresses` where `lat`= -77.0427934 AND `long` = -12.046374
+--------------------------------------------
+1000000831
+
+ UPDATE `address_unique` set `latlongid` = 1000000831 WHERE `id` = 41960
+SELECT `id` FROM `final_addresses` where `lat`= -77.0427934 AND `long` = -12.046374
+--------------------------------------------
+1000015643
+
+ UPDATE `address_unique` set `latlongid` = 1000015643 WHERE `id` = 41962
+SELECT `id` FROM `final_addresses` where `lat`= -0.35098019999998087 AND `long` = 44.6456426
+--------------------------------------------
+1000002737
+
+ UPDATE `address_unique` set `latlongid` = 1000002737 WHERE `id` = 41963
+SELECT `id` FROM `final_addresses` where `lat`= 1.4442090000000007 AND `long` = 43.604652
+--------------------------------------------
+1000002737
+
+ UPDATE `address_unique` set `latlongid` = 1000002737 WHERE `id` = 41964
+SELECT `id` FROM `final_addresses` where `lat`= 1.4442090000000007 AND `long` = 43.604652
+--------------------------------------------
+1000002219
+
+ UPDATE `address_unique` set `latlongid` = 1000002219 WHERE `id` = 41973
+SELECT `id` FROM `final_addresses` where `lat`= -75.56681659999998 AND `long` = 39.6620397
+--------------------------------------------
+1000005817
+
+ UPDATE `address_unique` set `latlongid` = 1000005817 WHERE `id` = 41974
+SELECT `id` FROM `final_addresses` where `lat`= 2.134078000000045 AND `long` = 48.701844
+--------------------------------------------
+1000001904
+
+ UPDATE `address_unique` set `latlongid` = 1000001904 WHERE `id` = 41976
+SELECT `id` FROM `final_addresses` where `lat`= 8.946255999999948 AND `long` = 44.4056499
+--------------------------------------------
+1000004811
+
+ UPDATE `address_unique` set `latlongid` = 1000004811 WHERE `id` = 41977
+SELECT `id` FROM `final_addresses` where `lat`= -60.02173140000002 AND `long` = -3.1190275
+--------------------------------------------
+1000002109
+
+ UPDATE `address_unique` set `latlongid` = 1000002109 WHERE `id` = 41979
+SELECT `id` FROM `final_addresses` where `lat`= -84.50371640000003 AND `long` = 38.0405837
+--------------------------------------------
+1000001904
+
+ UPDATE `address_unique` set `latlongid` = 1000001904 WHERE `id` = 41978
+SELECT `id` FROM `final_addresses` where `lat`= 8.946255999999948 AND `long` = 44.4056499
+--------------------------------------------
+1000001904
+
+ UPDATE `address_unique` set `latlongid` = 1000001904 WHERE `id` = 41981
+SELECT `id` FROM `final_addresses` where `lat`= 8.946255999999948 AND `long` = 44.4056499
+--------------------------------------------
+1000015662
+
+ UPDATE `address_unique` set `latlongid` = 1000015662 WHERE `id` = 41982
+SELECT `id` FROM `final_addresses` where `lat`= 1.9436487000000398 AND `long` = 48.8483206
+--------------------------------------------
+1000003139
+
+ UPDATE `address_unique` set `latlongid` = 1000003139 WHERE `id` = 41983
+SELECT `id` FROM `final_addresses` where `lat`= 1.917699999999968 AND `long` = 48.849581
+--------------------------------------------
+1000015666
+
+ UPDATE `address_unique` set `latlongid` = 1000015666 WHERE `id` = 41984
+SELECT `id` FROM `final_addresses` where `lat`= -0.9407347000000073 AND `long` = 54.0175479
+--------------------------------------------
+1000000337
+
+ UPDATE `address_unique` set `latlongid` = 1000000337 WHERE `id` = 41985
+SELECT `id` FROM `final_addresses` where `lat`= -1.0872979000000669 AND `long` = 53.95996510000001
+--------------------------------------------
+1000010441
+
+ UPDATE `address_unique` set `latlongid` = 1000010441 WHERE `id` = 41988
+SELECT `id` FROM `final_addresses` where `lat`= -66.8037185 AND `long` = 10.4696404
+--------------------------------------------
+1000001960
+
+ UPDATE `address_unique` set `latlongid` = 1000001960 WHERE `id` = 41987
+SELECT `id` FROM `final_addresses` where `lat`= -88.24338290000003 AND `long` = 40.1164204
+--------------------------------------------
+1000001701
+
+ UPDATE `address_unique` set `latlongid` = 1000001701 WHERE `id` = 41989
+SELECT `id` FROM `final_addresses` where `lat`= -1.6777925999999752 AND `long` = 48.117266
+--------------------------------------------
+1000002529
+
+ UPDATE `address_unique` set `latlongid` = 1000002529 WHERE `id` = 41991
+SELECT `id` FROM `final_addresses` where `lat`= 5.369779999999992 AND `long` = 43.296482
+--------------------------------------------
+1000015674
+
+ UPDATE `address_unique` set `latlongid` = 1000015674 WHERE `id` = 41994
+SELECT `id` FROM `final_addresses` where `lat`= 176.24974610000004 AND `long` = -38.1368478
+--------------------------------------------
+1000000154
+
+ UPDATE `address_unique` set `latlongid` = 1000000154 WHERE `id` = 41993
+SELECT `id` FROM `final_addresses` where `lat`= -76.2858726 AND `long` = 36.8507689
+--------------------------------------------
+1000000175
+
+ UPDATE `address_unique` set `latlongid` = 1000000175 WHERE `id` = 41995
+SELECT `id` FROM `final_addresses` where `lat`= -1.2577263000000585 AND `long` = 51.7520209
+--------------------------------------------
+1000000992
+
+ UPDATE `address_unique` set `latlongid` = 1000000992 WHERE `id` = 42005
+SELECT `id` FROM `final_addresses` where `lat`= -77.09470920000001 AND `long` = 38.984652
+--------------------------------------------
+1000000406
+
+ UPDATE `address_unique` set `latlongid` = 1000000406 WHERE `id` = 42006
+SELECT `id` FROM `final_addresses` where `lat`= -77.15275780000002 AND `long` = 39.0839973
+--------------------------------------------
+1000000992
+
+ UPDATE `address_unique` set `latlongid` = 1000000992 WHERE `id` = 42007
+SELECT `id` FROM `final_addresses` where `lat`= -77.09470920000001 AND `long` = 38.984652
+--------------------------------------------
+1000001098
+
+ UPDATE `address_unique` set `latlongid` = 1000001098 WHERE `id` = 42010
+SELECT `id` FROM `final_addresses` where `lat`= 10.526769599999966 AND `long` = 52.2688736
+--------------------------------------------
+1000018269
+
+ UPDATE `address_unique` set `latlongid` = 1000018269 WHERE `id` = 42009
+SELECT `id` FROM `final_addresses` where `lat`= 13.317014900000004 AND `long` = 52.44134099999999
+--------------------------------------------
+1000000079
+
+ UPDATE `address_unique` set `latlongid` = 1000000079 WHERE `id` = 42011
+SELECT `id` FROM `final_addresses` where `lat`= -3.7037901999999576 AND `long` = 40.4167754
+--------------------------------------------
+1000015688
+
+ UPDATE `address_unique` set `latlongid` = 1000015688 WHERE `id` = 42013
+SELECT `id` FROM `final_addresses` where `lat`= -3.832249000000047 AND `long` = 40.40569
+--------------------------------------------
+1000018924
+
+ UPDATE `address_unique` set `latlongid` = 1000018924 WHERE `id` = 42014
+
+--------------------------------------------
+1000001701
+
+ UPDATE `address_unique` set `latlongid` = 1000001701 WHERE `id` = 42015
+SELECT `id` FROM `final_addresses` where `lat`= -1.6777925999999752 AND `long` = 48.117266
+--------------------------------------------
+1000018926
+
+ UPDATE `address_unique` set `latlongid` = 1000018926 WHERE `id` = 42018
+
+--------------------------------------------
+1000001626
+
+ UPDATE `address_unique` set `latlongid` = 1000001626 WHERE `id` = 42017
+SELECT `id` FROM `final_addresses` where `lat`= -78.898619 AND `long` = 35.9940329
+--------------------------------------------
+1000002090
+
+ UPDATE `address_unique` set `latlongid` = 1000002090 WHERE `id` = 42020
+SELECT `id` FROM `final_addresses` where `lat`= -122.23635480000002 AND `long` = 37.48521520000001
+--------------------------------------------
+1000018929
+
+ UPDATE `address_unique` set `latlongid` = 1000018929 WHERE `id` = 42022
+
+--------------------------------------------
+1000007165
+
+ UPDATE `address_unique` set `latlongid` = 1000007165 WHERE `id` = 42024
+SELECT `id` FROM `final_addresses` where `lat`= 1.9092510000000402 AND `long` = 47.902964
+--------------------------------------------
+1000015695
+
+ UPDATE `address_unique` set `latlongid` = 1000015695 WHERE `id` = 42021
+SELECT `id` FROM `final_addresses` where `lat`= 5.286415099999999 AND `long` = 52.1154381
+--------------------------------------------
+1000005142
+
+ UPDATE `address_unique` set `latlongid` = 1000005142 WHERE `id` = 42025
+SELECT `id` FROM `final_addresses` where `lat`= -74.46081700000002 AND `long` = 40.54564
+--------------------------------------------
+1000000622
+
+ UPDATE `address_unique` set `latlongid` = 1000000622 WHERE `id` = 42027
+SELECT `id` FROM `final_addresses` where `lat`= 13.77681819999998 AND `long` = 45.6495264
+--------------------------------------------
+1000015701
+
+ UPDATE `address_unique` set `latlongid` = 1000015701 WHERE `id` = 42028
+SELECT `id` FROM `final_addresses` where `lat`= 76.93801889999997 AND `long` = 10.9383129
+--------------------------------------------
+1000000622
+
+ UPDATE `address_unique` set `latlongid` = 1000000622 WHERE `id` = 42029
+SELECT `id` FROM `final_addresses` where `lat`= 13.77681819999998 AND `long` = 45.6495264
+--------------------------------------------
+1000000622
+
+ UPDATE `address_unique` set `latlongid` = 1000000622 WHERE `id` = 42031
+SELECT `id` FROM `final_addresses` where `lat`= 13.77681819999998 AND `long` = 45.6495264
+--------------------------------------------
+1000009484
+
+ UPDATE `address_unique` set `latlongid` = 1000009484 WHERE `id` = 42033
+SELECT `id` FROM `final_addresses` where `lat`= 13.862286900000072 AND `long` = 45.6413652
+--------------------------------------------
+1000000622
+
+ UPDATE `address_unique` set `latlongid` = 1000000622 WHERE `id` = 42034
+SELECT `id` FROM `final_addresses` where `lat`= 13.77681819999998 AND `long` = 45.6495264
+--------------------------------------------
+1000000079
+
+ UPDATE `address_unique` set `latlongid` = 1000000079 WHERE `id` = 42036
+SELECT `id` FROM `final_addresses` where `lat`= -3.7037901999999576 AND `long` = 40.4167754
+--------------------------------------------
+1000000622
+
+ UPDATE `address_unique` set `latlongid` = 1000000622 WHERE `id` = 42037
+SELECT `id` FROM `final_addresses` where `lat`= 13.77681819999998 AND `long` = 45.6495264
+--------------------------------------------
+1000018941
+
+ UPDATE `address_unique` set `latlongid` = 1000018941 WHERE `id` = 42039
+
+--------------------------------------------
+1000012587
+
+ UPDATE `address_unique` set `latlongid` = 1000012587 WHERE `id` = 42040
+SELECT `id` FROM `final_addresses` where `lat`= 4.688430000000039 AND `long` = 50.56515
+--------------------------------------------
+1000001784
+
+ UPDATE `address_unique` set `latlongid` = 1000001784 WHERE `id` = 42042
+SELECT `id` FROM `final_addresses` where `lat`= -0.6303860000000441 AND `long` = 44.80583
+--------------------------------------------
+1000005578
+
+ UPDATE `address_unique` set `latlongid` = 1000005578 WHERE `id` = 42043
+SELECT `id` FROM `final_addresses` where `lat`= -43.17289649999998 AND `long` = -22.9068467
+--------------------------------------------
+1000005578
+
+ UPDATE `address_unique` set `latlongid` = 1000005578 WHERE `id` = 42045
+SELECT `id` FROM `final_addresses` where `lat`= -43.17289649999998 AND `long` = -22.9068467
+--------------------------------------------
+1000005578
+
+ UPDATE `address_unique` set `latlongid` = 1000005578 WHERE `id` = 42046
+SELECT `id` FROM `final_addresses` where `lat`= -43.17289649999998 AND `long` = -22.9068467
+--------------------------------------------
+1000005578
+
+ UPDATE `address_unique` set `latlongid` = 1000005578 WHERE `id` = 42048
+SELECT `id` FROM `final_addresses` where `lat`= -43.17289649999998 AND `long` = -22.9068467
+--------------------------------------------
+1000000049
+
+ UPDATE `address_unique` set `latlongid` = 1000000049 WHERE `id` = 42050
+SELECT `id` FROM `final_addresses` where `lat`= -9.139336599999979 AND `long` = 38.7222524
+--------------------------------------------
+1000000577
+
+ UPDATE `address_unique` set `latlongid` = 1000000577 WHERE `id` = 42052
+SELECT `id` FROM `final_addresses` where `lat`= -71.05888010000001 AND `long` = 42.3600825
+--------------------------------------------
+1000000577
+
+ UPDATE `address_unique` set `latlongid` = 1000000577 WHERE `id` = 42055
+SELECT `id` FROM `final_addresses` where `lat`= -71.05888010000001 AND `long` = 42.3600825
+--------------------------------------------
+1000000215
+
+ UPDATE `address_unique` set `latlongid` = 1000000215 WHERE `id` = 42057
+SELECT `id` FROM `final_addresses` where `lat`= 12.496365500000024 AND `long` = 41.9027835
+--------------------------------------------
+1000000577
+
+ UPDATE `address_unique` set `latlongid` = 1000000577 WHERE `id` = 42053
+SELECT `id` FROM `final_addresses` where `lat`= -71.05888010000001 AND `long` = 42.3600825
+--------------------------------------------
+1000000427
+
+ UPDATE `address_unique` set `latlongid` = 1000000427 WHERE `id` = 42060
+SELECT `id` FROM `final_addresses` where `lat`= 139.73199249999993 AND `long` = 35.7090259
+--------------------------------------------
+1000000577
+
+ UPDATE `address_unique` set `latlongid` = 1000000577 WHERE `id` = 42058
+SELECT `id` FROM `final_addresses` where `lat`= -71.05888010000001 AND `long` = 42.3600825
+--------------------------------------------
+1000015716
+
+ UPDATE `address_unique` set `latlongid` = 1000015716 WHERE `id` = 42062
+SELECT `id` FROM `final_addresses` where `lat`= 77.90353049999999 AND `long` = 29.8630594
+--------------------------------------------
+1000002196
+
+ UPDATE `address_unique` set `latlongid` = 1000002196 WHERE `id` = 42063
+SELECT `id` FROM `final_addresses` where `lat`= -119.82763890000001 AND `long` = 34.4358294
+--------------------------------------------
+1000018957
+
+ UPDATE `address_unique` set `latlongid` = 1000018957 WHERE `id` = 42065
+
+--------------------------------------------
+1000015719
+
+ UPDATE `address_unique` set `latlongid` = 1000015719 WHERE `id` = 42067
+SELECT `id` FROM `final_addresses` where `lat`= 12.530804499999931 AND `long` = 55.68162230000001
+--------------------------------------------
+1000001121
+
+ UPDATE `address_unique` set `latlongid` = 1000001121 WHERE `id` = 42069
+SELECT `id` FROM `final_addresses` where `lat`= 3.8767159999999876 AND `long` = 43.610769
+--------------------------------------------
+1000000049
+
+ UPDATE `address_unique` set `latlongid` = 1000000049 WHERE `id` = 42073
+SELECT `id` FROM `final_addresses` where `lat`= -9.139336599999979 AND `long` = 38.7222524
+--------------------------------------------
+1000015695
+
+ UPDATE `address_unique` set `latlongid` = 1000015695 WHERE `id` = 42071
+SELECT `id` FROM `final_addresses` where `lat`= 5.286415099999999 AND `long` = 52.1154381
+--------------------------------------------
+1000000879
+
+ UPDATE `address_unique` set `latlongid` = 1000000879 WHERE `id` = 42075
+SELECT `id` FROM `final_addresses` where `lat`= 5.121420100000023 AND `long` = 52.09073739999999
+--------------------------------------------
+1000000879
+
+ UPDATE `address_unique` set `latlongid` = 1000000879 WHERE `id` = 42077
+SELECT `id` FROM `final_addresses` where `lat`= 5.121420100000023 AND `long` = 52.09073739999999
+--------------------------------------------
+1000000246
+
+ UPDATE `address_unique` set `latlongid` = 1000000246 WHERE `id` = 42078
+SELECT `id` FROM `final_addresses` where `lat`= -73.5387341 AND `long` = 41.0534302
+--------------------------------------------
+1000012155
+
+ UPDATE `address_unique` set `latlongid` = 1000012155 WHERE `id` = 42080
+SELECT `id` FROM `final_addresses` where `lat`= -1.7944720000000416 AND `long` = 51.068785
+--------------------------------------------
+1000002038
+
+ UPDATE `address_unique` set `latlongid` = 1000002038 WHERE `id` = 42082
+SELECT `id` FROM `final_addresses` where `lat`= 4.357067700000016 AND `long` = 52.01157689999999
+--------------------------------------------
+1000000141
+
+ UPDATE `address_unique` set `latlongid` = 1000000141 WHERE `id` = 42085
+SELECT `id` FROM `final_addresses` where `lat`= 77.20902120000005 AND `long` = 28.6139391
+--------------------------------------------
+1000007852
+
+ UPDATE `address_unique` set `latlongid` = 1000007852 WHERE `id` = 42086
+SELECT `id` FROM `final_addresses` where `lat`= 8.466039499999965 AND `long` = 49.4874592
+--------------------------------------------
+1000018969
+
+ UPDATE `address_unique` set `latlongid` = 1000018969 WHERE `id` = 42088
+
+--------------------------------------------
+1000002871
+
+ UPDATE `address_unique` set `latlongid` = 1000002871 WHERE `id` = 42091
+SELECT `id` FROM `final_addresses` where `lat`= 5.724523999999974 AND `long` = 45.188529
+--------------------------------------------
+1000002084
+
+ UPDATE `address_unique` set `latlongid` = 1000002084 WHERE `id` = 42095
+SELECT `id` FROM `final_addresses` where `lat`= -77.30637330000002 AND `long` = 38.84622359999999
+--------------------------------------------
+1000001161
+
+ UPDATE `address_unique` set `latlongid` = 1000001161 WHERE `id` = 42093
+SELECT `id` FROM `final_addresses` where `lat`= 26.102538399999958 AND `long` = 44.4267674
+--------------------------------------------
+1000001121
+
+ UPDATE `address_unique` set `latlongid` = 1000001121 WHERE `id` = 42099
+SELECT `id` FROM `final_addresses` where `lat`= 3.8767159999999876 AND `long` = 43.610769
+--------------------------------------------
+1000001828
+
+ UPDATE `address_unique` set `latlongid` = 1000001828 WHERE `id` = 42097
+SELECT `id` FROM `final_addresses` where `lat`= -83.11407710000003 AND `long` = 40.0992294
+--------------------------------------------
+1000000417
+
+ UPDATE `address_unique` set `latlongid` = 1000000417 WHERE `id` = 42101
+SELECT `id` FROM `final_addresses` where `lat`= 116.40739499999995 AND `long` = 39.904211
+--------------------------------------------
+1000015732
+
+ UPDATE `address_unique` set `latlongid` = 1000015732 WHERE `id` = 42104
+SELECT `id` FROM `final_addresses` where `lat`= 116.32443650000005 AND `long` = 39.9566461
+--------------------------------------------
+1000000417
+
+ UPDATE `address_unique` set `latlongid` = 1000000417 WHERE `id` = 42106
+SELECT `id` FROM `final_addresses` where `lat`= 116.40739499999995 AND `long` = 39.904211
+--------------------------------------------
+1000000417
+
+ UPDATE `address_unique` set `latlongid` = 1000000417 WHERE `id` = 42108
+SELECT `id` FROM `final_addresses` where `lat`= 116.40739499999995 AND `long` = 39.904211
+--------------------------------------------
+1000018979
+
+ UPDATE `address_unique` set `latlongid` = 1000018979 WHERE `id` = 42110
+
+--------------------------------------------
+1000018980
+
+ UPDATE `address_unique` set `latlongid` = 1000018980 WHERE `id` = 42113
+
+--------------------------------------------
+1000015739
+
+ UPDATE `address_unique` set `latlongid` = 1000015739 WHERE `id` = 42115
+SELECT `id` FROM `final_addresses` where `lat`= 8.686016699999982 AND `long` = 44.4058612
+--------------------------------------------
+1000018982
+
+ UPDATE `address_unique` set `latlongid` = 1000018982 WHERE `id` = 42120
+
+--------------------------------------------
+1000002342
+
+ UPDATE `address_unique` set `latlongid` = 1000002342 WHERE `id` = 42118
+SELECT `id` FROM `final_addresses` where `lat`= -46.63330939999997 AND `long` = -23.5505199
+--------------------------------------------
+1000000602
+
+ UPDATE `address_unique` set `latlongid` = 1000000602 WHERE `id` = 42123
+SELECT `id` FROM `final_addresses` where `lat`= 0.12181699999996454 AND `long` = 52.205337
+--------------------------------------------
+1000002742
+
+ UPDATE `address_unique` set `latlongid` = 1000002742 WHERE `id` = 42125
+SELECT `id` FROM `final_addresses` where `lat`= -34.88289689999999 AND `long` = -8.0578381
+--------------------------------------------
+1000015740
+
+ UPDATE `address_unique` set `latlongid` = 1000015740 WHERE `id` = 42128
+SELECT `id` FROM `final_addresses` where `lat`= -37.10143979999998 AND `long` = -10.9228617
+--------------------------------------------
+1000018987
+
+ UPDATE `address_unique` set `latlongid` = 1000018987 WHERE `id` = 42130
+
+--------------------------------------------
+1000018988
+
+ UPDATE `address_unique` set `latlongid` = 1000018988 WHERE `id` = 42133
+
+--------------------------------------------
+1000006085
+
+ UPDATE `address_unique` set `latlongid` = 1000006085 WHERE `id` = 42136
+SELECT `id` FROM `final_addresses` where `lat`= -70.641997 AND `long` = -33.4691199
+--------------------------------------------
+1000000079
+
+ UPDATE `address_unique` set `latlongid` = 1000000079 WHERE `id` = 42138
+SELECT `id` FROM `final_addresses` where `lat`= -3.7037901999999576 AND `long` = 40.4167754
+--------------------------------------------
+1000000020
+
+ UPDATE `address_unique` set `latlongid` = 1000000020 WHERE `id` = 42144
+SELECT `id` FROM `final_addresses` where `lat`= 130.8752161 AND `long` = 33.8834093
+--------------------------------------------
+1000004969
+
+ UPDATE `address_unique` set `latlongid` = 1000004969 WHERE `id` = 42147
+SELECT `id` FROM `final_addresses` where `lat`= -77.07720519999998 AND `long` = 38.9949153
+--------------------------------------------
+1000000826
+
+ UPDATE `address_unique` set `latlongid` = 1000000826 WHERE `id` = 42150
+SELECT `id` FROM `final_addresses` where `lat`= 18.068580800000063 AND `long` = 59.32932349999999
+--------------------------------------------
+1000015747
+
+ UPDATE `address_unique` set `latlongid` = 1000015747 WHERE `id` = 42153
+SELECT `id` FROM `final_addresses` where `lat`= 5.539239899999984 AND `long` = 51.6157885
+--------------------------------------------
+1000009001
+
+ UPDATE `address_unique` set `latlongid` = 1000009001 WHERE `id` = 42156
+SELECT `id` FROM `final_addresses` where `lat`= -1.556088999999929 AND `long` = 54.66406199999999
+--------------------------------------------
+1000002276
+
+ UPDATE `address_unique` set `latlongid` = 1000002276 WHERE `id` = 42166
+SELECT `id` FROM `final_addresses` where `lat`= -2.596950099999958 AND `long` = 53.3900441
+--------------------------------------------
+1000000462
+
+ UPDATE `address_unique` set `latlongid` = 1000000462 WHERE `id` = 42170
+SELECT `id` FROM `final_addresses` where `lat`= -1.2448400000000674 AND `long` = 51.60804400000001
+--------------------------------------------
+1000018998
+
+ UPDATE `address_unique` set `latlongid` = 1000018998 WHERE `id` = 42173
+
+--------------------------------------------
+1000000483
+
+ UPDATE `address_unique` set `latlongid` = 1000000483 WHERE `id` = 42179
+SELECT `id` FROM `final_addresses` where `lat`= -83.74303780000002 AND `long` = 42.2808256
+--------------------------------------------
+1000002276
+
+ UPDATE `address_unique` set `latlongid` = 1000002276 WHERE `id` = 42176
+SELECT `id` FROM `final_addresses` where `lat`= -2.596950099999958 AND `long` = 53.3900441
+--------------------------------------------
+1000000049
+
+ UPDATE `address_unique` set `latlongid` = 1000000049 WHERE `id` = 42182
+SELECT `id` FROM `final_addresses` where `lat`= -9.139336599999979 AND `long` = 38.7222524
+--------------------------------------------
+1000000335
+
+ UPDATE `address_unique` set `latlongid` = 1000000335 WHERE `id` = 42186
+SELECT `id` FROM `final_addresses` where `lat`= 114.30539299999998 AND `long` = 30.593099
+--------------------------------------------
+1000015404
+
+ UPDATE `address_unique` set `latlongid` = 1000015404 WHERE `id` = 42197
+SELECT `id` FROM `final_addresses` where `lat`= -56.16453139999999 AND `long` = -34.9011127
+--------------------------------------------
+1000019004
+
+ UPDATE `address_unique` set `latlongid` = 1000019004 WHERE `id` = 42200
+
+--------------------------------------------
+1000013519
+
+ UPDATE `address_unique` set `latlongid` = 1000013519 WHERE `id` = 42207
+SELECT `id` FROM `final_addresses` where `lat`= 8.612078200000042 AND `long` = 45.8139584
+--------------------------------------------
+1000019006
+
+ UPDATE `address_unique` set `latlongid` = 1000019006 WHERE `id` = 42211
+
+--------------------------------------------
+1000019007
+
+ UPDATE `address_unique` set `latlongid` = 1000019007 WHERE `id` = 42215
+
+--------------------------------------------
+1000000307
+
+ UPDATE `address_unique` set `latlongid` = 1000000307 WHERE `id` = 42218
+SELECT `id` FROM `final_addresses` where `lat`= 16.37381890000006 AND `long` = 48.2081743
+--------------------------------------------
+1000015763
+
+ UPDATE `address_unique` set `latlongid` = 1000015763 WHERE `id` = 42222
+SELECT `id` FROM `final_addresses` where `lat`= -76.77913649999999 AND `long` = 39.0067768
+--------------------------------------------
+1000000128
+
+ UPDATE `address_unique` set `latlongid` = 1000000128 WHERE `id` = 42226
+SELECT `id` FROM `final_addresses` where `lat`= -122.0838511 AND `long` = 37.3860517
+--------------------------------------------
+1000002023
+
+ UPDATE `address_unique` set `latlongid` = 1000002023 WHERE `id` = 42230
+SELECT `id` FROM `final_addresses` where `lat`= -71.19562050000002 AND `long` = 42.5047161
+--------------------------------------------
+1000005578
+
+ UPDATE `address_unique` set `latlongid` = 1000005578 WHERE `id` = 42234
+SELECT `id` FROM `final_addresses` where `lat`= -43.17289649999998 AND `long` = -22.9068467
+--------------------------------------------
+1000016727
+
+ UPDATE `address_unique` set `latlongid` = 1000016727 WHERE `id` = 42242
+SELECT `id` FROM `final_addresses` where `lat`= -68.8440498 AND `long` = -32.890183
+--------------------------------------------
+1000001161
+
+ UPDATE `address_unique` set `latlongid` = 1000001161 WHERE `id` = 42238
+SELECT `id` FROM `final_addresses` where `lat`= 26.102538399999958 AND `long` = 44.4267674
+--------------------------------------------
+1000019015
+
+ UPDATE `address_unique` set `latlongid` = 1000019015 WHERE `id` = 42246
+
+--------------------------------------------
+1000002342
+
+ UPDATE `address_unique` set `latlongid` = 1000002342 WHERE `id` = 42250
+SELECT `id` FROM `final_addresses` where `lat`= -46.63330939999997 AND `long` = -23.5505199
+--------------------------------------------
+1000003855
+
+ UPDATE `address_unique` set `latlongid` = 1000003855 WHERE `id` = 42255
+SELECT `id` FROM `final_addresses` where `lat`= -105.59110069999997 AND `long` = 41.3113669
+--------------------------------------------
+1000000044
+
+ UPDATE `address_unique` set `latlongid` = 1000000044 WHERE `id` = 42259
+SELECT `id` FROM `final_addresses` where `lat`= 15.091130000000021 AND `long` = 47.37639
+--------------------------------------------
+1000001161
+
+ UPDATE `address_unique` set `latlongid` = 1000001161 WHERE `id` = 42264
+SELECT `id` FROM `final_addresses` where `lat`= 26.102538399999958 AND `long` = 44.4267674
+--------------------------------------------
+1000000128
+
+ UPDATE `address_unique` set `latlongid` = 1000000128 WHERE `id` = 42268
+SELECT `id` FROM `final_addresses` where `lat`= -122.0838511 AND `long` = 37.3860517
+--------------------------------------------
+1000019021
+
+ UPDATE `address_unique` set `latlongid` = 1000019021 WHERE `id` = 42281
+
+--------------------------------------------
+1000004633
+
+ UPDATE `address_unique` set `latlongid` = 1000004633 WHERE `id` = 121791
+SELECT `id` FROM `final_addresses` where `lat`= -84.29631230000001 AND `long` = 33.7748275
+--------------------------------------------
+1000003153
+
+ UPDATE `address_unique` set `latlongid` = 1000003153 WHERE `id` = 121790
+SELECT `id` FROM `final_addresses` where `lat`= -82.01051480000001 AND `long` = 33.4734978
+--------------------------------------------
+1000019024
+
+ UPDATE `address_unique` set `latlongid` = 1000019024 WHERE `id` = 121789
+
+--------------------------------------------
+1000019025
+
+ UPDATE `address_unique` set `latlongid` = 1000019025 WHERE `id` = 121793
+
+--------------------------------------------
+1000019026
+
+ UPDATE `address_unique` set `latlongid` = 1000019026 WHERE `id` = 121792
+
+--------------------------------------------
+1000000288
+
+ UPDATE `address_unique` set `latlongid` = 1000000288 WHERE `id` = 121795
+SELECT `id` FROM `final_addresses` where `lat`= -84.2171424 AND `long` = 33.8545479
+--------------------------------------------
+1000019028
+
+ UPDATE `address_unique` set `latlongid` = 1000019028 WHERE `id` = 
+
+--------------------------------------------
+1000019029
+
+ UPDATE `address_unique` set `latlongid` = 1000019029 WHERE `id` = 121796
+
+--------------------------------------------
+1000019030
+
+ UPDATE `address_unique` set `latlongid` = 1000019030 WHERE `id` = 121797
+
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121798
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121799
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019034
+
+ UPDATE `address_unique` set `latlongid` = 1000019034 WHERE `id` = 
+
+--------------------------------------------
+1000019033
+
+ UPDATE `address_unique` set `latlongid` = 1000019033 WHERE `id` = 121800
+
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121802
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000007615
+
+ UPDATE `address_unique` set `latlongid` = 1000007615 WHERE `id` = 121803
+SELECT `id` FROM `final_addresses` where `lat`= -81.49148939999998 AND `long` = 31.1499528
+--------------------------------------------
+1000019037
+
+ UPDATE `address_unique` set `latlongid` = 1000019037 WHERE `id` = 121804
+
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121805
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019039
+
+ UPDATE `address_unique` set `latlongid` = 1000019039 WHERE `id` = 121806
+
+--------------------------------------------
+1000019040
+
+ UPDATE `address_unique` set `latlongid` = 1000019040 WHERE `id` = 121808
+
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121807
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121809
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019043
+
+ UPDATE `address_unique` set `latlongid` = 1000019043 WHERE `id` = 
+
+--------------------------------------------
+1000019044
+
+ UPDATE `address_unique` set `latlongid` = 1000019044 WHERE `id` = 
+
+--------------------------------------------
+1000019045
+
+ UPDATE `address_unique` set `latlongid` = 1000019045 WHERE `id` = 121810
+
+--------------------------------------------
+1000003153
+
+ UPDATE `address_unique` set `latlongid` = 1000003153 WHERE `id` = 121813
+SELECT `id` FROM `final_addresses` where `lat`= -82.01051480000001 AND `long` = 33.4734978
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121814
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121816
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000554
+
+ UPDATE `address_unique` set `latlongid` = 1000000554 WHERE `id` = 121815
+SELECT `id` FROM `final_addresses` where `lat`= 126.85260119999998 AND `long` = 35.1595454
+--------------------------------------------
+1000007666
+
+ UPDATE `address_unique` set `latlongid` = 1000007666 WHERE `id` = 121817
+SELECT `id` FROM `final_addresses` where `lat`= -83.383333 AND `long` = 33.95
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121818
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000454
+
+ UPDATE `address_unique` set `latlongid` = 1000000454 WHERE `id` = 121819
+SELECT `id` FROM `final_addresses` where `lat`= -105.27054559999999 AND `long` = 40.0149856
+--------------------------------------------
+1000001199
+
+ UPDATE `address_unique` set `latlongid` = 1000001199 WHERE `id` = 121820
+SELECT `id` FROM `final_addresses` where `lat`= -82.90007509999998 AND `long` = 32.1656221
+--------------------------------------------
+1000017384
+
+ UPDATE `address_unique` set `latlongid` = 1000017384 WHERE `id` = 121821
+SELECT `id` FROM `final_addresses` where `lat`= 6.1757155999999895 AND `long` = 49.1193089
+--------------------------------------------
+1000005668
+
+ UPDATE `address_unique` set `latlongid` = 1000005668 WHERE `id` = 121822
+SELECT `id` FROM `final_addresses` where `lat`= -84.21353090000002 AND `long` = 33.9412127
+--------------------------------------------
+1000000419
+
+ UPDATE `address_unique` set `latlongid` = 1000000419 WHERE `id` = 121823
+SELECT `id` FROM `final_addresses` where `lat`= -118.14451550000001 AND `long` = 34.1477849
+--------------------------------------------
+1000019057
+
+ UPDATE `address_unique` set `latlongid` = 1000019057 WHERE `id` = 121824
+
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121826
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019059
+
+ UPDATE `address_unique` set `latlongid` = 1000019059 WHERE `id` = 121825
+
+--------------------------------------------
+1000017384
+
+ UPDATE `address_unique` set `latlongid` = 1000017384 WHERE `id` = 121828
+SELECT `id` FROM `final_addresses` where `lat`= 6.1757155999999895 AND `long` = 49.1193089
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121827
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121829
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121830
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000005041
+
+ UPDATE `address_unique` set `latlongid` = 1000005041 WHERE `id` = 121831
+SELECT `id` FROM `final_addresses` where `lat`= -74.3222146 AND `long` = 40.7016937
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121832
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121833
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121834
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000004941
+
+ UPDATE `address_unique` set `latlongid` = 1000004941 WHERE `id` = 121836
+SELECT `id` FROM `final_addresses` where `lat`= -84.5499327 AND `long` = 33.95260200000001
+--------------------------------------------
+1000019037
+
+ UPDATE `address_unique` set `latlongid` = 1000019037 WHERE `id` = 121835
+SELECT `id` FROM `final_addresses` where `lat`= -83.6324022 AND `long` = 32.8406946
+--------------------------------------------
+1000019070
+
+ UPDATE `address_unique` set `latlongid` = 1000019070 WHERE `id` = 121837
+
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121838
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019072
+
+ UPDATE `address_unique` set `latlongid` = 1000019072 WHERE `id` = 121839
+
+--------------------------------------------
+1000005030
+
+ UPDATE `address_unique` set `latlongid` = 1000005030 WHERE `id` = 121840
+SELECT `id` FROM `final_addresses` where `lat`= -122.44429059999999 AND `long` = 47.2528768
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121842
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000004633
+
+ UPDATE `address_unique` set `latlongid` = 1000004633 WHERE `id` = 121843
+SELECT `id` FROM `final_addresses` where `lat`= -84.29631230000001 AND `long` = 33.7748275
+--------------------------------------------
+1000000326
+
+ UPDATE `address_unique` set `latlongid` = 1000000326 WHERE `id` = 121841
+SELECT `id` FROM `final_addresses` where `lat`= -77.03687070000001 AND `long` = 38.9071923
+--------------------------------------------
+1000004633
+
+ UPDATE `address_unique` set `latlongid` = 1000004633 WHERE `id` = 121844
+SELECT `id` FROM `final_addresses` where `lat`= -84.29631230000001 AND `long` = 33.7748275
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121845
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121846
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019080
+
+ UPDATE `address_unique` set `latlongid` = 1000019080 WHERE `id` = 121848
+
+--------------------------------------------
+1000019081
+
+ UPDATE `address_unique` set `latlongid` = 1000019081 WHERE `id` = 121847
+
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121849
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019083
+
+ UPDATE `address_unique` set `latlongid` = 1000019083 WHERE `id` = 121851
+
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121850
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019085
+
+ UPDATE `address_unique` set `latlongid` = 1000019085 WHERE `id` = 121852
+
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121853
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000004633
+
+ UPDATE `address_unique` set `latlongid` = 1000004633 WHERE `id` = 121854
+SELECT `id` FROM `final_addresses` where `lat`= -84.29631230000001 AND `long` = 33.7748275
+--------------------------------------------
+1000004633
+
+ UPDATE `address_unique` set `latlongid` = 1000004633 WHERE `id` = 121855
+SELECT `id` FROM `final_addresses` where `lat`= -84.29631230000001 AND `long` = 33.7748275
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121856
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019090
+
+ UPDATE `address_unique` set `latlongid` = 1000019090 WHERE `id` = 121857
+
+--------------------------------------------
+1000019091
+
+ UPDATE `address_unique` set `latlongid` = 1000019091 WHERE `id` = 121858
+
+--------------------------------------------
+1000019092
+
+ UPDATE `address_unique` set `latlongid` = 1000019092 WHERE `id` = 121859
+
+--------------------------------------------
+1000019093
+
+ UPDATE `address_unique` set `latlongid` = 1000019093 WHERE `id` = 121860
+
+--------------------------------------------
+1000019094
+
+ UPDATE `address_unique` set `latlongid` = 1000019094 WHERE `id` = 121861
+
+--------------------------------------------
+1000019095
+
+ UPDATE `address_unique` set `latlongid` = 1000019095 WHERE `id` = 121862
+
+--------------------------------------------
+1000019096
+
+ UPDATE `address_unique` set `latlongid` = 1000019096 WHERE `id` = 121863
+
+--------------------------------------------
+1000019097
+
+ UPDATE `address_unique` set `latlongid` = 1000019097 WHERE `id` = 121864
+
+--------------------------------------------
+1000019093
+
+ UPDATE `address_unique` set `latlongid` = 1000019093 WHERE `id` = 121865
+SELECT `id` FROM `final_addresses` where `lat`= -84.21750809999998 AND `long` = 32.0560379
+--------------------------------------------
+1000019099
+
+ UPDATE `address_unique` set `latlongid` = 1000019099 WHERE `id` = 121867
+
+--------------------------------------------
+1000019100
+
+ UPDATE `address_unique` set `latlongid` = 1000019100 WHERE `id` = 121866
+
+--------------------------------------------
+1000019100
+
+ UPDATE `address_unique` set `latlongid` = 1000019100 WHERE `id` = 121868
+SELECT `id` FROM `final_addresses` where `lat`= -84.39628499999998 AND `long` = 33.7756178
+--------------------------------------------
+1000019102
+
+ UPDATE `address_unique` set `latlongid` = 1000019102 WHERE `id` = 
+
+--------------------------------------------
+1000017384
+
+ UPDATE `address_unique` set `latlongid` = 1000017384 WHERE `id` = 121872
+SELECT `id` FROM `final_addresses` where `lat`= 6.1757155999999895 AND `long` = 49.1193089
+--------------------------------------------
+1000019104
+
+ UPDATE `address_unique` set `latlongid` = 1000019104 WHERE `id` = 121870
+
+--------------------------------------------
+1000017384
+
+ UPDATE `address_unique` set `latlongid` = 1000017384 WHERE `id` = 121873
+SELECT `id` FROM `final_addresses` where `lat`= 6.1757155999999895 AND `long` = 49.1193089
+--------------------------------------------
+1000019104
+
+ UPDATE `address_unique` set `latlongid` = 1000019104 WHERE `id` = 121871
+SELECT `id` FROM `final_addresses` where `lat`= -84.32217779999996 AND `long` = 33.7931436
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121875
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019104
+
+ UPDATE `address_unique` set `latlongid` = 1000019104 WHERE `id` = 121876
+SELECT `id` FROM `final_addresses` where `lat`= -84.32217779999996 AND `long` = 33.7931436
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121874
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121877
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121878
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121880
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121879
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121881
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121882
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019104
+
+ UPDATE `address_unique` set `latlongid` = 1000019104 WHERE `id` = 121883
+SELECT `id` FROM `final_addresses` where `lat`= -84.32217779999996 AND `long` = 33.7931436
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121884
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019099
+
+ UPDATE `address_unique` set `latlongid` = 1000019099 WHERE `id` = 121885
+SELECT `id` FROM `final_addresses` where `lat`= 6.215220300000055 AND `long` = 49.10220349999999
+--------------------------------------------
+1000019099
+
+ UPDATE `address_unique` set `latlongid` = 1000019099 WHERE `id` = 121886
+SELECT `id` FROM `final_addresses` where `lat`= 6.215220300000055 AND `long` = 49.10220349999999
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121887
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121889
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019057
+
+ UPDATE `address_unique` set `latlongid` = 1000019057 WHERE `id` = 121888
+SELECT `id` FROM `final_addresses` where `lat`= -81.09983419999998 AND `long` = 32.0835407
+--------------------------------------------
+1000001199
+
+ UPDATE `address_unique` set `latlongid` = 1000001199 WHERE `id` = 121890
+SELECT `id` FROM `final_addresses` where `lat`= -82.90007509999998 AND `long` = 32.1656221
+--------------------------------------------
+1000019124
+
+ UPDATE `address_unique` set `latlongid` = 1000019124 WHERE `id` = 121891
+
+--------------------------------------------
+1000019125
+
+ UPDATE `address_unique` set `latlongid` = 1000019125 WHERE `id` = 121892
+
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121893
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121894
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019128
+
+ UPDATE `address_unique` set `latlongid` = 1000019128 WHERE `id` = 
+
+--------------------------------------------
+1000004633
+
+ UPDATE `address_unique` set `latlongid` = 1000004633 WHERE `id` = 121897
+SELECT `id` FROM `final_addresses` where `lat`= -84.29631230000001 AND `long` = 33.7748275
+--------------------------------------------
+1000004633
+
+ UPDATE `address_unique` set `latlongid` = 1000004633 WHERE `id` = 121896
+SELECT `id` FROM `final_addresses` where `lat`= -84.29631230000001 AND `long` = 33.7748275
+--------------------------------------------
+1000007666
+
+ UPDATE `address_unique` set `latlongid` = 1000007666 WHERE `id` = 121898
+SELECT `id` FROM `final_addresses` where `lat`= -83.383333 AND `long` = 33.95
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121899
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121900
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000001199
+
+ UPDATE `address_unique` set `latlongid` = 1000001199 WHERE `id` = 121902
+SELECT `id` FROM `final_addresses` where `lat`= -82.90007509999998 AND `long` = 32.1656221
+--------------------------------------------
+1000001199
+
+ UPDATE `address_unique` set `latlongid` = 1000001199 WHERE `id` = 121903
+SELECT `id` FROM `final_addresses` where `lat`= -82.90007509999998 AND `long` = 32.1656221
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121905
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000019137
+
+ UPDATE `address_unique` set `latlongid` = 1000019137 WHERE `id` = 121904
+
+--------------------------------------------
+1000019138
+
+ UPDATE `address_unique` set `latlongid` = 1000019138 WHERE `id` = 121907
+
+--------------------------------------------
+1000019138
+
+ UPDATE `address_unique` set `latlongid` = 1000019138 WHERE `id` = 121906
+SELECT `id` FROM `final_addresses` where `lat`= -74.22607779999998 AND `long` = 40.0999248
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121908
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121901
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000019142
+
+ UPDATE `address_unique` set `latlongid` = 1000019142 WHERE `id` = 121909
+
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121910
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121911
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121912
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121914
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000000614
+
+ UPDATE `address_unique` set `latlongid` = 1000000614 WHERE `id` = 121913
+SELECT `id` FROM `final_addresses` where `lat`= 44.78333299999997 AND `long` = 41.716667
+--------------------------------------------
+1000000873
+
+ UPDATE `address_unique` set `latlongid` = 1000000873 WHERE `id` = 121915
+SELECT `id` FROM `final_addresses` where `lat`= -87.62979819999998 AND `long` = 41.8781136
+--------------------------------------------
+1000019100
+
+ UPDATE `address_unique` set `latlongid` = 1000019100 WHERE `id` = 121916
+SELECT `id` FROM `final_addresses` where `lat`= -84.39628499999998 AND `long` = 33.7756178
+--------------------------------------------
+1000019099
+
+ UPDATE `address_unique` set `latlongid` = 1000019099 WHERE `id` = 121917
+SELECT `id` FROM `final_addresses` where `lat`= 6.215220300000055 AND `long` = 49.10220349999999
+--------------------------------------------
+1000000536
+
+ UPDATE `address_unique` set `latlongid` = 1000000536 WHERE `id` = 121918
+SELECT `id` FROM `final_addresses` where `lat`= 22.944419100000005 AND `long` = 40.6400629
+--------------------------------------------
+1000000536
+
+ UPDATE `address_unique` set `latlongid` = 1000000536 WHERE `id` = 121919
+SELECT `id` FROM `final_addresses` where `lat`= 22.944419100000005 AND `long` = 40.6400629
+--------------------------------------------
+1000019153
+
+ UPDATE `address_unique` set `latlongid` = 1000019153 WHERE `id` = 121921
+
+--------------------------------------------
+1000002529
+
+ UPDATE `address_unique` set `latlongid` = 1000002529 WHERE `id` = 121922
+SELECT `id` FROM `final_addresses` where `lat`= 5.369779999999992 AND `long` = 43.296482
+--------------------------------------------
+1000000973
+
+ UPDATE `address_unique` set `latlongid` = 1000000973 WHERE `id` = 121920
+SELECT `id` FROM `final_addresses` where `lat`= 23.321867500000053 AND `long` = 42.6977082
+--------------------------------------------
+1000001695
+
+ UPDATE `address_unique` set `latlongid` = 1000001695 WHERE `id` = 121923
+SELECT `id` FROM `final_addresses` where `lat`= 149.12868430000003 AND `long` = -35.2819998
+--------------------------------------------
+1000009308
+
+ UPDATE `address_unique` set `latlongid` = 1000009308 WHERE `id` = 121924
+SELECT `id` FROM `final_addresses` where `lat`= 149.12868400000002 AND `long` = -35.282
+--------------------------------------------
+1000019158
+
+ UPDATE `address_unique` set `latlongid` = 1000019158 WHERE `id` = 121925
+
+--------------------------------------------
+1000000427
+
+ UPDATE `address_unique` set `latlongid` = 1000000427 WHERE `id` = 121926
+SELECT `id` FROM `final_addresses` where `lat`= 139.73199249999993 AND `long` = 35.7090259
+--------------------------------------------
+1000019160
+
+ UPDATE `address_unique` set `latlongid` = 1000019160 WHERE `id` = 121927
+
+--------------------------------------------
+1000000535
+
+ UPDATE `address_unique` set `latlongid` = 1000000535 WHERE `id` = 121928
+SELECT `id` FROM `final_addresses` where `lat`= 9.915803500000038 AND `long` = 51.54128040000001
+--------------------------------------------
+1000006278
+
+ UPDATE `address_unique` set `latlongid` = 1000006278 WHERE `id` = 121929
+SELECT `id` FROM `final_addresses` where `lat`= 73.09314610000001 AND `long` = 33.7293882
+--------------------------------------------
+1000000178
+
+ UPDATE `address_unique` set `latlongid` = 1000000178 WHERE `id` = 121930
+SELECT `id` FROM `final_addresses` where `lat`= 2.3522219000000177 AND `long` = 48.856614
+--------------------------------------------
+1000001701
+
+ UPDATE `address_unique` set `latlongid` = 1000001701 WHERE `id` = 121931
+SELECT `id` FROM `final_addresses` where `lat`= -1.6777925999999752 AND `long` = 48.117266
+--------------------------------------------
+1000001701
+
+ UPDATE `address_unique` set `latlongid` = 1000001701 WHERE `id` = 121932
+SELECT `id` FROM `final_addresses` where `lat`= -1.6777925999999752 AND `long` = 48.117266
+--------------------------------------------
+1000000417
+
+ UPDATE `address_unique` set `latlongid` = 1000000417 WHERE `id` = 121933
+SELECT `id` FROM `final_addresses` where `lat`= 116.40739499999995 AND `long` = 39.904211
+--------------------------------------------
+1000001701
+
+ UPDATE `address_unique` set `latlongid` = 1000001701 WHERE `id` = 121934
+SELECT `id` FROM `final_addresses` where `lat`= -1.6777925999999752 AND `long` = 48.117266
+--------------------------------------------
+1000019168
+
+ UPDATE `address_unique` set `latlongid` = 1000019168 WHERE `id` = 121935
+
+--------------------------------------------
+1000000299
+
+ UPDATE `address_unique` set `latlongid` = 1000000299 WHERE `id` = 121936
+SELECT `id` FROM `final_addresses` where `lat`= 17.638926699999956 AND `long` = 59.85856380000001
+--------------------------------------------
+1000002939
+
+ UPDATE `address_unique` set `latlongid` = 1000002939 WHERE `id` = 121937
+SELECT `id` FROM `final_addresses` where `lat`= 33.36666700000001 AND `long` = 35.166667
+--------------------------------------------
+1000002352
+
+ UPDATE `address_unique` set `latlongid` = 1000002352 WHERE `id` = 121938
+SELECT `id` FROM `final_addresses` where `lat`= -118.4164652 AND `long` = 33.9191799
+--------------------------------------------
+1000002352
+
+ UPDATE `address_unique` set `latlongid` = 1000002352 WHERE `id` = 121939
+SELECT `id` FROM `final_addresses` where `lat`= -118.4164652 AND `long` = 33.9191799
+--------------------------------------------
+1000002352
+
+ UPDATE `address_unique` set `latlongid` = 1000002352 WHERE `id` = 121940
+SELECT `id` FROM `final_addresses` where `lat`= -118.4164652 AND `long` = 33.9191799
+--------------------------------------------
+1000000427
+
+ UPDATE `address_unique` set `latlongid` = 1000000427 WHERE `id` = 121941
+SELECT `id` FROM `final_addresses` where `lat`= 139.73199249999993 AND `long` = 35.7090259
+--------------------------------------------
+1000019175
+
+ UPDATE `address_unique` set `latlongid` = 1000019175 WHERE `id` = 121944
+
+--------------------------------------------
+1000000235
+
+ UPDATE `address_unique` set `latlongid` = 1000000235 WHERE `id` = 121942
+SELECT `id` FROM `final_addresses` where `lat`= -122.3320708 AND `long` = 47.6062095
+--------------------------------------------
+1000000195
+
+ UPDATE `address_unique` set `latlongid` = 1000000195 WHERE `id` = 121946
+SELECT `id` FROM `final_addresses` where `lat`= -74.6672226 AND `long` = 40.3572976
+--------------------------------------------
+1000000124
+
+ UPDATE `address_unique` set `latlongid` = 1000000124 WHERE `id` = 121945
+SELECT `id` FROM `final_addresses` where `lat`= 37.6173 AND `long` = 55.755826
+--------------------------------------------
+1000000483
+
+ UPDATE `address_unique` set `latlongid` = 1000000483 WHERE `id` = 121947
+SELECT `id` FROM `final_addresses` where `lat`= -83.74303780000002 AND `long` = 42.2808256
+--------------------------------------------
+1000000282
+
+ UPDATE `address_unique` set `latlongid` = 1000000282 WHERE `id` = 121948
+SELECT `id` FROM `final_addresses` where `lat`= -84.3879824 AND `long` = 33.7489954
+--------------------------------------------
+1000019181
+
+ UPDATE `address_unique` set `latlongid` = 1000019181 WHERE `id` = 121949
+
+--------------------------------------------
+1000002371
+
+ UPDATE `address_unique` set `latlongid` = 1000002371 WHERE `id` = 121951
+SELECT `id` FROM `final_addresses` where `lat`= -71.38243740000001 AND `long` = 42.4072107
+--------------------------------------------
+1000001908
+
+ UPDATE `address_unique` set `latlongid` = 1000001908 WHERE `id` = 121952
+SELECT `id` FROM `final_addresses` where `lat`= -76.86104619999998 AND `long` = 39.2037144
+--------------------------------------------
+1000019184
+
+ UPDATE `address_unique` set `latlongid` = 1000019184 WHERE `id` = 121953
+
+--------------------------------------------
+1000006352
+
+ UPDATE `address_unique` set `latlongid` = 1000006352 WHERE `id` = 121954
+SELECT `id` FROM `final_addresses` where `lat`= -117.99922650000002 AND `long` = 33.660297
+--------------------------------------------
+1000014856
+
+ UPDATE `address_unique` set `latlongid` = 1000014856 WHERE `id` = 121956
+SELECT `id` FROM `final_addresses` where `lat`= -74.73610129999997 AND `long` = 40.3016375
+--------------------------------------------
+1000000193
+
+ UPDATE `address_unique` set `latlongid` = 1000000193 WHERE `id` = 121957
+SELECT `id` FROM `final_addresses` where `lat`= -122.67648159999999 AND `long` = 45.5230622
+--------------------------------------------
+1000000235
+
+ UPDATE `address_unique` set `latlongid` = 1000000235 WHERE `id` = 121958
+SELECT `id` FROM `final_addresses` where `lat`= -122.3320708 AND `long` = 47.6062095
+--------------------------------------------
+1000003350
+
+ UPDATE `address_unique` set `latlongid` = 1000003350 WHERE `id` = 121959
+SELECT `id` FROM `final_addresses` where `lat`= -122.06518189999997 AND `long` = 37.9100783
+--------------------------------------------
+1000001161
+
+ UPDATE `address_unique` set `latlongid` = 1000001161 WHERE `id` = 121963
+SELECT `id` FROM `final_addresses` where `lat`= 26.102538399999958 AND `long` = 44.4267674
+--------------------------------------------
+1000019181
+
+ UPDATE `address_unique` set `latlongid` = 1000019181 WHERE `id` = 121960
+SELECT `id` FROM `final_addresses` where `lat`= -71.51671390000001 AND `long` = 42.4834197
+--------------------------------------------
+1000001548
+
+ UPDATE `address_unique` set `latlongid` = 1000001548 WHERE `id` = 121964
+SELECT `id` FROM `final_addresses` where `lat`= -110.92647899999997 AND `long` = 32.2217429
+--------------------------------------------
+1000019193
+
+ UPDATE `address_unique` set `latlongid` = 1000019193 WHERE `id` = 121967
+
+--------------------------------------------
+1000000059
+
+ UPDATE `address_unique` set `latlongid` = 1000000059 WHERE `id` = 121965
+SELECT `id` FROM `final_addresses` where `lat`= -0.12775829999998223 AND `long` = 51.5073509
+--------------------------------------------
+1000001109
+
+ UPDATE `address_unique` set `latlongid` = 1000001109 WHERE `id` = 121969
+SELECT `id` FROM `final_addresses` where `lat`= 7.444608499999958 AND `long` = 46.9479222
+--------------------------------------------
+1000016601
+
+ UPDATE `address_unique` set `latlongid` = 1000016601 WHERE `id` = 121972
+SELECT `id` FROM `final_addresses` where `lat`= -99.22156590000003 AND `long` = 18.9242095
+--------------------------------------------
+1000009814
+
+ UPDATE `address_unique` set `latlongid` = 1000009814 WHERE `id` = 121971
+SELECT `id` FROM `final_addresses` where `lat`= -96.7311034 AND `long` = 43.5445959
+--------------------------------------------
+1000000699
+
+ UPDATE `address_unique` set `latlongid` = 1000000699 WHERE `id` = 121973
+SELECT `id` FROM `final_addresses` where `lat`= 6.083886799999959 AND `long` = 50.7753455
+--------------------------------------------
+1000000951
+
+ UPDATE `address_unique` set `latlongid` = 1000000951 WHERE `id` = 121976
+SELECT `id` FROM `final_addresses` where `lat`= -123.12073750000002 AND `long` = 49.2827291
+--------------------------------------------
+1000001255
+
+ UPDATE `address_unique` set `latlongid` = 1000001255 WHERE `id` = 121974
+SELECT `id` FROM `final_addresses` where `lat`= 14.43780049999998 AND `long` = 50.0755381
+--------------------------------------------
+1000000454
+
+ UPDATE `address_unique` set `latlongid` = 1000000454 WHERE `id` = 121977
+SELECT `id` FROM `final_addresses` where `lat`= -105.27054559999999 AND `long` = 40.0149856
+--------------------------------------------
+1000000483
+
+ UPDATE `address_unique` set `latlongid` = 1000000483 WHERE `id` = 121978
+SELECT `id` FROM `final_addresses` where `lat`= -83.74303780000002 AND `long` = 42.2808256
+--------------------------------------------
+1000003245
+
+ UPDATE `address_unique` set `latlongid` = 1000003245 WHERE `id` = 121980
+SELECT `id` FROM `final_addresses` where `lat`= -105.13192960000003 AND `long` = 39.977763
+--------------------------------------------
+1000000205
+
+ UPDATE `address_unique` set `latlongid` = 1000000205 WHERE `id` = 121982
+SELECT `id` FROM `final_addresses` where `lat`= -77.35700279999998 AND `long` = 38.9586307
+--------------------------------------------
+1000002337
+
+ UPDATE `address_unique` set `latlongid` = 1000002337 WHERE `id` = 121981
+SELECT `id` FROM `final_addresses` where `lat`= -121.302728 AND `long` = 38.5890723
+--------------------------------------------
+1000000178
+
+ UPDATE `address_unique` set `latlongid` = 1000000178 WHERE `id` = 121984
+SELECT `id` FROM `final_addresses` where `lat`= 2.3522219000000177 AND `long` = 48.856614
+--------------------------------------------
+1000000343
+
+ UPDATE `address_unique` set `latlongid` = 1000000343 WHERE `id` = 121985
+SELECT `id` FROM `final_addresses` where `lat`= 8.539182500000038 AND `long` = 47.3686498
+--------------------------------------------
+1000000535
+
+ UPDATE `address_unique` set `latlongid` = 1000000535 WHERE `id` = 121987
+SELECT `id` FROM `final_addresses` where `lat`= 9.915803500000038 AND `long` = 51.54128040000001
+--------------------------------------------
+1000019209
+
+ UPDATE `address_unique` set `latlongid` = 1000019209 WHERE `id` = 121988
+
+--------------------------------------------
+1000012964
+
+ UPDATE `address_unique` set `latlongid` = 1000012964 WHERE `id` = 121989
+SELECT `id` FROM `final_addresses` where `lat`= -0.7514109999999619 AND `long` = 46.104913
+--------------------------------------------
+1000019211
+
+ UPDATE `address_unique` set `latlongid` = 1000019211 WHERE `id` = 121994
+
+--------------------------------------------
+1000001770
+
+ UPDATE `address_unique` set `latlongid` = 1000001770 WHERE `id` = 121995
+SELECT `id` FROM `final_addresses` where `lat`= -0.5791799999999512 AND `long` = 44.837789
+--------------------------------------------

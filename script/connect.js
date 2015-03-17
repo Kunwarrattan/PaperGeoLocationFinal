@@ -12,7 +12,7 @@ var latti;
 var ajaxRequest;
 var milliseconds = 1001;
 
-var index = 5156;
+var index = 15186;
 
 function sleep() {
     var start = new Date().getTime();
@@ -104,9 +104,11 @@ function getLatLong(address,id,flag) {
             else if(province==""){
                 add = ville+","+country;
             }
-            if(country==""){
+            else if(country==""){
                 add = ville+","+province;
-            }
+            }else{
+				add = country;
+			}
             console.log("igonred address="+add+" id =" + id);
             getLatLong(add,id,false);
         }
