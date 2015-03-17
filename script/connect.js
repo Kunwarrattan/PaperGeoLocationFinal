@@ -12,7 +12,7 @@ var latti;
 var ajaxRequest;
 var milliseconds = 1001;
 
-var index = 1840;
+var index = 1860;
 
 function sleep() {
     var start = new Date().getTime();
@@ -130,8 +130,8 @@ function ajaxFunction(){
                 adddresSetup(data[i].count,data[i].institute, data[i].ville, data[i].province, data[i].country);
             }
             var temp = "-------------------------------------------<br/>";
-            $('#data-list').html(temp_html);
-            $('#data-list').html(temp);
+            $('#data-list').text(temp_html);
+            $('#data-list').text(temp);
 
         }
     }

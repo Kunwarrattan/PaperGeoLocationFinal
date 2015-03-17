@@ -37,8 +37,8 @@
       <file leaf-file-name="insertLLIntoDB.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/insertLLIntoDB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.034483" vertical-offset="1062" max-vertical-offset="1640">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state vertical-scroll-proportion="-3.4482758" vertical-offset="0" max-vertical-offset="1640">
+              <caret line="5" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="2" />
               <folding>
                 <marker date="1426548734419" expanded="true" signature="805:902" placeholder="INSERT INTO ..." />
                 <marker date="1426548734419" expanded="true" signature="1067:1134" placeholder="SELECT `id` ..." />
@@ -47,45 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="distanceMatrix.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/distanceMatrix.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.48788926" vertical-offset="582" max-vertical-offset="1160">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <marker date="1426150314324" expanded="true" signature="85:110" placeholder="SELECT lat,l..test..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="distanceMatrix.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/distanceMatrix.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
-              <caret line="15" column="44" selection-start-line="3" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc;n#distance#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ajaxCallClient.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/ajaxCallClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.655172" vertical-offset="0" max-vertical-offset="520">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="18" />
+            <state vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="520">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connect.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="connect.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/connect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="3480">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.49557522" vertical-offset="0" max-vertical-offset="3480">
+              <caret line="16" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="170" selection-end-column="1" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -96,22 +72,12 @@
       <file leaf-file-name="insert.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/insert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="19.37931" vertical-offset="682" max-vertical-offset="1260">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="1260">
+              <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
-                <marker date="1426560492791" expanded="true" signature="166:253" placeholder="SELECT id,in..address_unique..." />
-                <marker date="1426560492791" expanded="true" signature="166:255" placeholder="SELECT id,in..address_unique..." />
+                <marker date="1426566974941" expanded="true" signature="166:253" placeholder="SELECT id,in..address_unique..." />
+                <marker date="1426566974941" expanded="true" signature="166:255" placeholder="SELECT id,in..address_unique..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="distanceMap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/distanceMap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1925" max-vertical-offset="4940">
-              <caret line="234" column="5" selection-start-line="233" selection-start-column="0" selection-end-line="239" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -119,8 +85,8 @@
       <file leaf-file-name="FlyingDistance.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/FlyingDistance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-30.275862" vertical-offset="362" max-vertical-offset="2240">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2240">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1426548705146" expanded="true" signature="133:185" placeholder="select `fID_..." />
                 <marker date="1426548705146" expanded="true" signature="542:601" placeholder="SELECT `id_a..." />
@@ -154,8 +120,8 @@
         <option value="$PROJECT_DIR$/script/distanceMap.js" />
         <option value="$PROJECT_DIR$/database/FlyingDistance.php" />
         <option value="$PROJECT_DIR$/database/insertLLIntoDB.php" />
-        <option value="$PROJECT_DIR$/script/connect.js" />
         <option value="$PROJECT_DIR$/database/insert.php" />
+        <option value="$PROJECT_DIR$/script/connect.js" />
       </list>
     </option>
   </component>
@@ -296,13 +262,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0658858" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="7.320644E-4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14055637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -364,7 +330,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
-            <marker date="1426150314324" expanded="true" signature="85:110" placeholder="SELECT lat,l..test..." />
+            <marker date="1426150314324" expanded="true" signature="-1:-1" placeholder="SELECT lat,l..test..." />
           </folding>
         </state>
       </provider>
@@ -402,8 +368,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1071">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
-            <marker date="1426560492791" expanded="true" signature="166:253" placeholder="SELECT id,in..address_unique..." />
-            <marker date="1426560492791" expanded="true" signature="166:255" placeholder="SELECT id,in..address_unique..." />
+            <marker date="1426566974941" expanded="true" signature="166:253" placeholder="SELECT id,in..address_unique..." />
+            <marker date="1426566974941" expanded="true" signature="166:255" placeholder="SELECT id,in..address_unique..." />
           </folding>
         </state>
       </provider>
@@ -482,8 +448,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1020">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <marker date="1426560492791" expanded="true" signature="166:253" placeholder="SELECT id,in..address_unique..." />
-            <marker date="1426560492791" expanded="true" signature="166:255" placeholder="SELECT id,in..address_unique..." />
+            <marker date="1426566974941" expanded="true" signature="166:253" placeholder="SELECT id,in..address_unique..." />
+            <marker date="1426566974941" expanded="true" signature="166:255" placeholder="SELECT id,in..address_unique..." />
           </folding>
         </state>
       </provider>
@@ -544,8 +510,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="850">
           <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
-            <marker date="1426560492791" expanded="true" signature="166:253" placeholder="SELECT id,in..address_unique..." />
-            <marker date="1426560492791" expanded="true" signature="166:255" placeholder="SELECT id,in..address_unique..." />
+            <marker date="1426566974941" expanded="true" signature="166:253" placeholder="SELECT id,in..address_unique..." />
+            <marker date="1426566974941" expanded="true" signature="166:255" placeholder="SELECT id,in..address_unique..." />
           </folding>
         </state>
       </provider>
@@ -597,33 +563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/FlyingDistance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.275862" vertical-offset="362" max-vertical-offset="2240">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <marker date="1426548705146" expanded="true" signature="133:185" placeholder="select `fID_..." />
-            <marker date="1426548705146" expanded="true" signature="542:601" placeholder="SELECT `id_a..." />
-            <marker date="1426548705146" expanded="true" signature="923:998" placeholder="SELECT `Cite..." />
-            <marker date="1426548705146" expanded="true" signature="1406:1461" placeholder="SELECT `lat`..." />
-            <marker date="1426548705146" expanded="true" signature="1644:1699" placeholder="SELECT `lat`..." />
-            <marker date="1426548705146" expanded="true" signature="2104:2200" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/distanceMap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3605" max-vertical-offset="4199">
           <caret line="234" column="5" selection-start-line="233" selection-start-column="0" selection-end-line="239" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/ajaxCallClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.655172" vertical-offset="0" max-vertical-offset="520">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -638,31 +581,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/insert.php">
+    <entry file="file://$PROJECT_DIR$/database/distanceMatrix.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.37931" vertical-offset="682" max-vertical-offset="1260">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.689655" vertical-offset="582" max-vertical-offset="1160">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
           <folding>
-            <marker date="1426560492791" expanded="true" signature="166:253" placeholder="SELECT id,in..address_unique..." />
-            <marker date="1426560492791" expanded="true" signature="166:255" placeholder="SELECT id,in..address_unique..." />
+            <marker date="1426150314324" expanded="true" signature="-1:-1" placeholder="SELECT lat,l..test..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/connect.js">
+    <entry file="file://$PROJECT_DIR$/database/FlyingDistance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="3480">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2240">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <marker date="1426548705146" expanded="true" signature="133:185" placeholder="select `fID_..." />
+            <marker date="1426548705146" expanded="true" signature="542:601" placeholder="SELECT `id_a..." />
+            <marker date="1426548705146" expanded="true" signature="923:998" placeholder="SELECT `Cite..." />
+            <marker date="1426548705146" expanded="true" signature="1406:1461" placeholder="SELECT `lat`..." />
+            <marker date="1426548705146" expanded="true" signature="1644:1699" placeholder="SELECT `lat`..." />
+            <marker date="1426548705146" expanded="true" signature="2104:2200" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/ajaxCallClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="520">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="1260">
+          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <marker date="1426566974941" expanded="true" signature="166:253" placeholder="SELECT id,in..address_unique..." />
+            <marker date="1426566974941" expanded="true" signature="166:255" placeholder="SELECT id,in..address_unique..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/insertLLIntoDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.034483" vertical-offset="1062" max-vertical-offset="1640">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state vertical-scroll-proportion="-3.4482758" vertical-offset="0" max-vertical-offset="1640">
+          <caret line="5" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="2" />
           <folding>
             <marker date="1426548734419" expanded="true" signature="805:902" placeholder="INSERT INTO ..." />
             <marker date="1426548734419" expanded="true" signature="1067:1134" placeholder="SELECT `id` ..." />
@@ -670,12 +636,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/distanceMatrix.php">
+    <entry file="file://$PROJECT_DIR$/script/connect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.48788926" vertical-offset="582" max-vertical-offset="1160">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.49557522" vertical-offset="0" max-vertical-offset="3480">
+          <caret line="16" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="170" selection-end-column="1" />
           <folding>
-            <marker date="1426150314324" expanded="true" signature="85:110" placeholder="SELECT lat,l..test..." />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
