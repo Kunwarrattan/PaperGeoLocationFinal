@@ -10,9 +10,9 @@ var markersArray = [];
 var longi;
 var latti;
 var ajaxRequest;
-var milliseconds = 1001;
+var milliseconds = 1001;	
 
-var index = 2236;
+var index = 6700;
 
 function sleep() {
     var start = new Date().getTime();
@@ -22,7 +22,14 @@ function sleep() {
         }
     }
 }
-
+function sleep(val) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+        if ((new Date().getTime() - start) > val){
+            break;
+        }
+    }
+}
 function ajaxCall(){
      try{
         ajaxRequest = new XMLHttpRequest();
@@ -69,6 +76,7 @@ function getLatLong(address,id,flag) {
     if(flag == false){
         console.log(address);
         console.log("Inverse action");
+		sleep(500);
     }
     var add = address;
     geocoder = new google.maps.Geocoder();
@@ -135,7 +143,8 @@ function getLatLong(address,id,flag) {
 
                     insertlatLongIntoDB(v);
                    // alert(v);
-        } else if (status == google.maps.GeocoderStatus.ZERO_RESULTS) {
+        } 
+		else if (status == google.maps.GeocoderStatus.ZERO_RESULTS) {
             //console.log(address);
             var str_array = address.split(",");
             var ints = str_array[0];
@@ -164,6 +173,9 @@ function getLatLong(address,id,flag) {
             console.log("igonred address="+add+" id =" + id);
             getLatLong(add,id,false);
         }
+		else if (status == google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {
+			sleep(5000);
+		}
     });
 }
 
@@ -221,5 +233,6 @@ function insertlatLongIntoDB(stringVal){
     //alert("insertLLIntoDB.php?lat="+k[0]+"&lng="+k[1]+"&addressnew="+k[2]+"&addressold="+k[3]);
     ajaxRequest.open("POST", "insertLLIntoDB.php?lat="+k[0]+"&lng="+k[1]+"&addressnew="+k[2]+"&addressold="+k[3]+"&id="+k[4] +"&cty="+k[5]+"&state="+k[6]+"&country="+k[7], true);
     ajaxRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	ajaxRequest.setRequestHeader("Accept-Language", "en-US");
     ajaxRequest.send(null);
 }
