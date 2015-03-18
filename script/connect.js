@@ -12,7 +12,7 @@ var latti;
 var ajaxRequest;
 var milliseconds = 1001;
 
-var index = 15186;
+var index = 2036;
 
 function sleep() {
     var start = new Date().getTime();
@@ -74,13 +74,61 @@ function getLatLong(address,id,flag) {
     geocoder = new google.maps.Geocoder();
     var result = "";
     geocoder.geocode( { 'address': address }, function(results, status) {
+        //alert(status);
         console.log(status);
         if (status == google.maps.GeocoderStatus.OK) {
                     var addr_type = results[0].formatted_address;
                     longi = results[0].geometry.location.lng();
                     latti = results[0].geometry.location.lat();
-                    var v = longi+"||"+ latti+"||"+addr_type+"||"+address+"||"+id;
-                    console.log(v);
+                    var city1;
+                    var state1;
+                    var coutry1;
+                    var v;
+                    //cit = results[0].geometry.location.lat();
+                    //prov = results[0].geometry.location.lat();
+                    //cntry = results[0].geometry.location.lat();
+
+
+
+                        if (results[0]) {
+                            //formatted address
+                           // alert(results[0].formatted_address)
+                            //find country name
+                            for (var i=0; i<results[0].address_components.length; i++) {
+                                for (var b=0;b<results[0].address_components[i].types.length;b++) {
+
+                                    //there are different types that might hold a city admin_area_lvl_1 usually does in come cases looking for sublocality type will be more appropriate
+                                    if (results[0].address_components[i].types[b] == "administrative_area_level_1") {
+                                        //this is the object you are looking for
+                                        city1 = results[0].address_components[i];
+                                       // alert(city1);
+                                        break;
+                                    }
+                                    if (results[0].address_components[i].types[b] == "locality") {
+                                        //this is the object you are looking for
+                                        state1 = results[0].address_components[i];
+                                     //   alert(state1);
+                                        break;
+                                    }
+                                    if (results[0].address_components[i].types[b] == "country") {
+                                        //this is the object you are looking for
+                                        coutry1 = results[0].address_components[i];
+                                       // alert(coutry1);
+                                        break;
+                                    }
+                                }
+                            }
+                            //city data
+                           // alert(city1.short_name + " ... " + city1.long_name);
+                          //  alert(state1.short_name+ " ... " + state1.long_name);
+                          //  alert(coutry1.short_name+ " ... " + coutry1.long_name);
+                            v = longi+"||"+ latti+"||"+addr_type+"||"+address+"||"+id+"||"+city1.long_name+"||"+state1.long_name+"||"+coutry1.long_name;
+                            //alert(v);
+                            console.log(v);
+                        } else {
+                            alert("No results found");
+                        }
+
                     insertlatLongIntoDB(v);
                    // alert(v);
         } else if (status == google.maps.GeocoderStatus.ZERO_RESULTS) {
@@ -167,7 +215,7 @@ function insertlatLongIntoDB(stringVal){
     k = stringVal.split("||");
    // alert(k[0]+" "+k[1]+" "+k[2]+" "+k[3]);
     //alert("insertLLIntoDB.php?lat="+k[0]+"&lng="+k[1]+"&addressnew="+k[2]+"&addressold="+k[3]);
-    ajaxRequest.open("POST", "insertLLIntoDB.php?lat="+k[0]+"&lng="+k[1]+"&addressnew="+k[2]+"&addressold="+k[3]+"&id="+k[4], true);
+    ajaxRequest.open("POST", "insertLLIntoDB.php?lat="+k[0]+"&lng="+k[1]+"&addressnew="+k[2]+"&addressold="+k[3]+"&id="+k[4] +"&cty="+k[5]+"&state="+k[6]+"&country="+k[7], true);
     ajaxRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     ajaxRequest.send(null);
 }

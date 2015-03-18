@@ -5,7 +5,10 @@ $lng = null;
 $addressnew  = null;
 $addressold = null;
 $id=null;
-
+$cty = null;
+$state = null;
+$country = null;
+$myfile = fopen("newfile.txt", "a") or die("Unable to open file!");
 if(isset($_REQUEST['lat']) && $_REQUEST['lat']!="")
 {
     $lati=($_REQUEST['lat']);
@@ -27,7 +30,16 @@ if(isset($_REQUEST['id']) && $_REQUEST['id']!="")
 {
     $id=($_REQUEST['id']);
 }
-
+if(isset($_REQUEST['cty']) && $_REQUEST['cty']!="")
+{
+    $cty=($_REQUEST['cty']);
+}if(isset($_REQUEST['state']) && $_REQUEST['state']!="")
+{
+    $state=($_REQUEST['state']);
+}if(isset($_REQUEST['country']) && $_REQUEST['country']!="")
+{
+    $country=($_REQUEST['country']);
+}
 print_r($_REQUEST);
 
 
@@ -35,11 +47,20 @@ require 'database.php';
 // INSERT INTO `final_addresses`(`lat`, `long`, `full_address`) VALUES ('12.49494290000007','55.763516','2800 Lyngby Denmark')
 if($lng!= null && $lng != null){
 
-    $query = "INSERT INTO `final_addresses`( `lat`, `long`, `full_address`) VALUES ($lati,$lng,\"$addressnew\")";
+    $query = "INSERT INTO `final_addresses`( `lat`, `long`, `full_address`,`city`,`province`,`country`) VALUES ($lati,$lng,\"$addressnew\",\"$cty\",\"$state\",\"$country\")";
     $result = mysqli_query($link, $query);
 
     $idN = mysqli_insert_id($link);
+    fwrite($myfile, $query);
+    fwrite($myfile,"\n");
    // $idOLD = null;
+    if (!$result) {
+        $queryUpdate6 = "UPDATE `final_addresses` set `city` = \"$cty\" and `province` = \"$state\" and `country` = \"$country\"WHERE `lat` = $lati and `long` = $lng";
+        $result6 = mysqli_query($link, $queryUpdate6);
+        fwrite($myfile, $queryUpdate6);
+        fwrite($myfile,"\n");
+    }
+
     $query2 = null;
     if($idN == null){
         $query2 = "SELECT `id` FROM `final_addresses` where `lat`= $lati AND `long` = $lng";
@@ -55,7 +76,9 @@ if($lng!= null && $lng != null){
     echo $queryUpdate;
 
 
-    $myfile = fopen("newfile.txt", "a") or die("Unable to open file!");
+
+
+
     fwrite($myfile, $idN);
     fwrite($myfile,"\n");
     fwrite($myfile, $queryUpdate);
