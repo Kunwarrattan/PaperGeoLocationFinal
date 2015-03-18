@@ -12,7 +12,7 @@ var latti;
 var ajaxRequest;
 var milliseconds = 1001;
 
-var index = 2036;
+var index = 2236;
 
 function sleep() {
     var start = new Date().getTime();
@@ -100,13 +100,13 @@ function getLatLong(address,id,flag) {
                                     //there are different types that might hold a city admin_area_lvl_1 usually does in come cases looking for sublocality type will be more appropriate
                                     if (results[0].address_components[i].types[b] == "administrative_area_level_1") {
                                         //this is the object you are looking for
-                                        city1 = results[0].address_components[i];
+                                        state1 = results[0].address_components[i];
                                        // alert(city1);
                                         break;
                                     }
                                     if (results[0].address_components[i].types[b] == "locality") {
                                         //this is the object you are looking for
-                                        state1 = results[0].address_components[i];
+                                        city1 = results[0].address_components[i];
                                      //   alert(state1);
                                         break;
                                     }
@@ -122,6 +122,10 @@ function getLatLong(address,id,flag) {
                            // alert(city1.short_name + " ... " + city1.long_name);
                           //  alert(state1.short_name+ " ... " + state1.long_name);
                           //  alert(coutry1.short_name+ " ... " + coutry1.long_name);
+                            var ki = city1.long_name+"||"+state1.long_name+"||"+coutry1.long_name;
+                            var kis = city1.short_name+"||"+state1.short_name+"||"+coutry1.short_name;
+                            console.log(ki);
+                            console.log(kis);
                             v = longi+"||"+ latti+"||"+addr_type+"||"+address+"||"+id+"||"+city1.long_name+"||"+state1.long_name+"||"+coutry1.long_name;
                             //alert(v);
                             console.log(v);

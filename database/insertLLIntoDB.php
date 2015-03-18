@@ -54,12 +54,12 @@ if($lng!= null && $lng != null){
     fwrite($myfile, $query);
     fwrite($myfile,"\n");
    // $idOLD = null;
-    if (!$result) {
-        $queryUpdate6 = "UPDATE `final_addresses` set `city` = \"$cty\" and `province` = \"$state\" and `country` = \"$country\"WHERE `lat` = $lati and `long` = $lng";
-        $result6 = mysqli_query($link, $queryUpdate6);
-        fwrite($myfile, $queryUpdate6);
-        fwrite($myfile,"\n");
-    }
+//    if (!$result) {
+//        $queryUpdate6 = "UPDATE `final_addresses` set `city` = \"$cty\" and `province` = \"$state\" and `country` = \"$country\"WHERE `lat` = $lati and `long` = $lng";
+//        $result6 = mysqli_query($link, $queryUpdate6);
+//        fwrite($myfile, $queryUpdate6);
+//        fwrite($myfile,"\n");
+//    }
 
     $query2 = null;
     if($idN == null){

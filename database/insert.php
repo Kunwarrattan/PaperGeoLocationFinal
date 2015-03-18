@@ -5,7 +5,7 @@ $data = array();
     $i=1;
 $index = $_GET['index']-1;
 
-if($index >= 2036 || $index < 2100)
+if($index >= 2236 || $index < 2300)
 {    //exit();
 $sql    = 'SELECT id,institute,ville, province,country FROM address_unique Limit '.($index*8).", 8";
 }else{
