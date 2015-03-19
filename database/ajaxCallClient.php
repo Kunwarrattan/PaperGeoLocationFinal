@@ -1,5 +1,6 @@
 <html>
 <head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <script language="javascript" type="text/javascript" src="../script/connect.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.js"></script>
 

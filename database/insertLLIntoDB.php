@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html;charset=utf-8");
 set_time_limit(0);
 $lati = null;
 $lng = null;
@@ -47,7 +48,11 @@ require 'database.php';
 // INSERT INTO `final_addresses`(`lat`, `long`, `full_address`) VALUES ('12.49494290000007','55.763516','2800 Lyngby Denmark')
 if($lng!= null && $lng != null){
 
-    $query = "INSERT INTO `final_addresses`( `lat`, `long`, `full_address`,`city`,`province`,`country`) VALUES ($lati,$lng,\"$addressnew\",\"$cty\",\"$state\",\"$country\")";
+    $query = "INSERT INTO `final_addresses2`( `lat`, `long`, `full_address`,`city`,`province`,`country`) VALUES ($lati,$lng,\"$addressnew\",\"$cty\",\"$state\",\"$country\")";
+	//mysqli_query("utf8",$query);
+	mysqli_set_charset($link, "utf8");
+	mysqli_query($link, "SET NAMES 'utf8'"); 
+	mysqli_query($link, "SET CHARACTER SET 'utf8'");
     $result = mysqli_query($link, $query);
 
     $idN = mysqli_insert_id($link);
@@ -63,7 +68,7 @@ if($lng!= null && $lng != null){
 
     $query2 = null;
     if($idN == null){
-        $query2 = "SELECT `id` FROM `final_addresses` where `lat`= $lati AND `long` = $lng";
+        $query2 = "SELECT `id` FROM `final_addresses2` where `lat`= $lati AND `long` = $lng";
         $result2 = mysqli_query($link, $query2);
         while ($row = mysqli_fetch_assoc($result2)) {
             $idN  = $row['id'];

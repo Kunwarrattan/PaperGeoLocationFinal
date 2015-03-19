@@ -170,7 +170,7 @@ function getLatLong(address,id,flag) {
             }else{
 				add = country;
 			}
-            console.log("igonred address="+add+" id =" + id);
+            console.log("ignored address="+add+" id =" + id);
             getLatLong(add,id,false);
         }
 		else if (status == google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {

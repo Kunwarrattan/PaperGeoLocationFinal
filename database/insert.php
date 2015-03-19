@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html;charset=utf-8");
 set_time_limit(0);
 require 'database.php';
 $data = array();
