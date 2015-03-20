@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <meta name="robots" content="noindex,follow" />
+        <title>Calculate driving distance with Google Maps API</title>
+        <script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAA7j_Q-rshuWkc8HyFI4V2HxQYPm-xtd00hTQOC0OXpAMO40FHAxT29dNBGfxqMPq5zwdeiDSHEPL89A" type="text/javascript"></script>
+        <!-- According to the Google Maps API Terms of Service you are required display a Google map when using the Google Maps API. see: http://code.google.com/apis/maps/terms.html -->
+
+    </head>
+
+    <body onload="initialize()">
+
+    <form action="#" onsubmit="showLocation(); return false;">
+        <p>
+            <input type="text" name="address1" value="Address 1" />
+            <input type="text" name="address2" value="Address 2" />
+            <input type="submit" value="Search" />
+        </p>
+    </form>
+    <p id="results"></p>
+
+    </body>
+    </html>
