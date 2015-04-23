@@ -1,0 +1,20 @@
+select `fID_Art`, `Cited_ID_Art`  from `cited_paper`
+SELECT `id_art`,`latlong` FROM `addresses` where `id_art`= 5540 
+SELECT `Cited_ID_Art`,`latlong` FROM `cited_paper_address` where `id_art`= 35137447 
+SELECT `lat`,`long`,`city`,`province`,`country` FROM `final_addresses` where `id`=  
+SELECT `lat`,`long`,`city`,`province`,`country` FROM `final_addresses` where `id`=  
+SELECT `continent` FROM `countries` where `name` =  OR `native`= 
+SELECT `continent` FROM `countries` where `name` =  OR `native`= 
+INSERT INTO `distance` (`lat1`,`lng1`,`lat2`,`lng2`, `FlyingDistance`, `FlyingTime`,`Category`) VALUES (, , , ,0,00:00:00,1)
+--------------------------------------------------------------------------------------------------
+
+select `fID_Art`, `Cited_ID_Art`  from `cited_paper`
+SELECT `id_art`,`latlong` FROM `addresses` where `id_art`= 5540 
+SELECT `Cited_ID_Art`,`latlong` FROM `cited_paper_address` where `id_art`= 35137447 
+SELECT `lat`,`long`,`city`,`province`,`country` FROM `final_addresses` where `id`=  
+SELECT `lat`,`long`,`city`,`province`,`country` FROM `final_addresses` where `id`=  
+SELECT `continent` FROM `countries` where `name` =  OR `native`= 
+SELECT `continent` FROM `countries` where `name` =  OR `native`= 
+INSERT INTO `distance` (`lat1`,`lng1`,`lat2`,`lng2`, `FlyingDistance`, `FlyingTime`,`Category`) VALUES (, , , ,0,00:00:00,1)
+--------------------------------------------------------------------------------------------------
+

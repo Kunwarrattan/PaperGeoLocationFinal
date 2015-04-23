@@ -10,8 +10,7 @@
 require 'database.php';
 $rowid = null;
 $k=1;
-echo "asdasd";
-for($index=36000;$index<50000;$index=$index+50){
+for($index=1;$index<10000;$index=$index+50){
 
     $query2 = 'SELECT * FROM `address_unique` where `latlongid` is NULL Limit '.($index*1).", 50 ";
     $result2 = mysqli_query($link, $query2);
