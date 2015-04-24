@@ -11,11 +11,11 @@ require 'database.php';
 $rowid = null;
 $k=1;
 
-for($index=36000;$index<50000;$index=$index+50){
+for($index=1;$index<10000;$index=$index+50){
 //$index = 2;
     $query2 = 'SELECT * FROM `address_unique` where `latlongid` is NULL Limit '.($index*1).", 50 ";
     $result2 = mysqli_query($link, $query2);
-    echo $result2->num_rows."<br/>";
+    //echo $result2->num_rows."<br/>";
     if($result2->num_rows>0){
     while ($row = mysqli_fetch_assoc($result2)) {
         $idN  = $row['institute'];
@@ -36,7 +36,7 @@ for($index=36000;$index<50000;$index=$index+50){
                             $length2 = strlen($row['institute']);
                             $str1 = strtolower(substr($inst,0,$length1/2));
                             $str2 = strtolower(substr($row['institute'],0,$length2/2));
-                            echo $str1 ." = " . $row['institute']." ====== ".$str2 . " = " . $inst . "<br/>";
+                           // echo $str1 ." = " . $row['institute']." ====== ".$str2 . " = " . $inst . "<br/>";
 
                                 if (stristr($inst, $row['institute']) || stristr($row['institute'], $inst)) {
                                     echo $row['id'] . " <- Level 1 match------".$k."------------>  " . $row['institute'] . "     <-------------------->  " . $inst;
@@ -44,8 +44,8 @@ for($index=36000;$index<50000;$index=$index+50){
                                     $newID = $row['latlongid'];
                                     $queryUpdate ="\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
                                     $result9 = mysqli_query($link, $queryUpdate);
-                                    echo $queryUpdate;
-                                    echo "<br />";
+                                   // echo $queryUpdate;
+                                   // echo "<br />";
                                     $k++;
                                     break;
                                 }elseif(stristr($str1, $str2) || stristr($str2, $str1)){
@@ -54,13 +54,13 @@ for($index=36000;$index<50000;$index=$index+50){
                                     $newID = $row['latlongid'];
                                     $queryUpdate ="\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
                                     $result9 = mysqli_query($link, $queryUpdate);
-                                    echo $queryUpdate;
-                                    echo "<br />";
+                                   // echo $queryUpdate;
+                                   // echo "<br />";
                                     $k++;
                                     break;
                                 }else{
-                                    echo "I am no where<br />";
-                                    break;
+                                   // echo "I am no where<br />";
+                                   // break;
                                 }
                         }
                     }
