@@ -8,7 +8,7 @@ $index = $_GET['index']-1;
 
 if($index >= 10618 || $index < 30300)
 {    //exit();
-$sql    = 'SELECT id,institute,ville, province,country FROM address_unique Limit '.($index*8).", 8";
+$sql    = 'SELECT `id`,`institute`,`ville`, `province`,`country` FROM `address_unique` where `latlongid` is null Limit'  .($index*8).", 8";
 }else{
     exit();
 }
