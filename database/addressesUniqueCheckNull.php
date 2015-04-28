@@ -18,7 +18,10 @@ if($result->num_rows>0) {
         }else{
             $j++;
             echo "<br />".$query1;
-            echo "<br />".$id;
+            //echo "<br />".$id;
+            $query2 = "update `address_unique` set `latlongid` = NULL where `id` = $id ";
+            echo "<br/>".$query2;
+            $result2 = mysqli_query($link,$query2);
         }
 
 //        while ($row = mysqli_fetch_assoc($result1)) {
