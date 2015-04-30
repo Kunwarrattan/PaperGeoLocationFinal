@@ -1,4 +1,4 @@
-<?php
+    <?php
 header("Content-Type: text/html;charset=utf-8");
 set_time_limit(0);
 require 'database.php';
@@ -8,7 +8,7 @@ $index = $_GET['index']-1;
 
 if($index >= 1 || $index < 5000)
 {    //exit();
-$sql    = 'SELECT `id`,`institute`,`ville`, `province`,`country` FROM `address_unique` where `latlongid` Limit'  .($index*8).", 8";
+$sql    = 'SELECT `id`,`institute`,`ville`, `province`,`country` FROM `address_unique` where `latlongid`  is NULL Limit '.($index*1).", 50 ";
 }else{
     exit();
 }

@@ -1,7 +1,7 @@
 /**
  * Created by india on 3/8/2015.
  */
-
+//alert("aa");
 var address;
 var map;
 var geocoder;
@@ -182,8 +182,10 @@ function getLatLong(address,id,flag) {
 
 function ajaxFunction(){
 
-    alert("a");
+
+
     ajaxCall();
+    //alert("a");
     ajaxRequest.onreadystatechange = function(){
         if(ajaxRequest.readyState == 4){
             var val = ajaxRequest.responseText;

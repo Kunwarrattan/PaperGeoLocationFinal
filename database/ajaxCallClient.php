@@ -11,7 +11,7 @@
 <body>
 
 <form name='myForm'>
-    <input type='button' onclick='ajaxFunction()' value='Query MySQL'/>
+    <input type='button' onclick='ajaxFunction()' value='Insert Query'/>
 </form>
 <div id="data-list"></div>
 <div id="map-canvas">
