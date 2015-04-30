@@ -12,7 +12,7 @@ var latti;
 var ajaxRequest;
 var milliseconds = 1001;	
 
-var index = 18390;
+var index = 1;
 
 function sleep() {
     var start = new Date().getTime();
@@ -181,6 +181,8 @@ function getLatLong(address,id,flag) {
 
 
 function ajaxFunction(){
+
+    alert("a");
     ajaxCall();
     ajaxRequest.onreadystatechange = function(){
         if(ajaxRequest.readyState == 4){
