@@ -15,8 +15,8 @@ $myfile = fopen("FlyingDistance.txt", "a") or die("Unable to open file!");
 $sql1 = "select `fID_Art`, `Cited_ID_Art`  from `cited_paper`";
 $result1 = mysqli_query($link, $sql1);
 
-fwrite($myfile, $sql1);
-fwrite($myfile,"\n");
+//fwrite($myfile, $sql1);
+//fwrite($myfile,"\n");
 
 if (!$result1) {
     echo "\nDB Error, could not query the database Cited_Paper\n";
@@ -36,8 +36,8 @@ while ($row = mysqli_fetch_assoc($result1)) {
     $sql2 = "SELECT `id_art`,`latlong` FROM `addresses` where `id_art`= $addFID ";
     $result2 = mysqli_query($link, $sql2);
 
-    fwrite($myfile, $sql2);
-    fwrite($myfile,"\n");
+  //  fwrite($myfile, $sql2);
+   // fwrite($myfile,"\n");
 
     while ($row = mysqli_fetch_assoc($result2)) {
         $add1  = $row['latlong'];
@@ -51,8 +51,8 @@ while ($row = mysqli_fetch_assoc($result1)) {
     $sql3 = "SELECT `Cited_ID_Art`,`latlong` FROM `cited_paper_address` where `id_art`= $addCFID ";
     $result3 = mysqli_query($link, $sql3);
 
-    fwrite($myfile, $sql3);
-    fwrite($myfile,"\n");
+    //fwrite($myfile, $sql3);
+    //fwrite($myfile,"\n");
 
     while ($row = mysqli_fetch_assoc($result3)) {
         $add2  = $row['latlong'];
@@ -78,8 +78,8 @@ while ($row = mysqli_fetch_assoc($result1)) {
     $sql4 = "SELECT `lat`,`long`,`city`,`province`,`country` FROM `final_addresses` where `id`= $add1 ";
     $result4 = mysqli_query($link, $sql4);
 
-    fwrite($myfile, $sql4);
-    fwrite($myfile,"\n");
+    //fwrite($myfile, $sql4);
+    //fwrite($myfile,"\n");
 
     while ($row = mysqli_fetch_assoc($result4)) {
         $lat1  = $row['lat'];

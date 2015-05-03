@@ -12,7 +12,7 @@ var latti;
 var ajaxRequest;
 var milliseconds = 1001;	
 
-var index = 1;
+var index =280;
 
 function sleep() {
     var start = new Date().getTime();
