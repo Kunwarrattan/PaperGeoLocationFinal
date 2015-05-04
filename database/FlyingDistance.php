@@ -30,19 +30,19 @@ while ($row = mysqli_fetch_assoc($result1)) {
     $addFID  = $row['fID_Art'];
     $addCFID  = $row['Cited_ID_Art'];
 
-
     $add1 = null;
     $add2 = null;
 
     $sql2 = "SELECT `id_art`,`latlong` FROM `addresses` where `id_art`= $addFID ";
     $result2 = mysqli_query($link, $sql2);
 
-  //  fwrite($myfile, $sql2);
-   // fwrite($myfile,"\n");
+   //  fwrite($myfile, $sql2);
+   //  fwrite($myfile,"\n");
 
     while ($row = mysqli_fetch_assoc($result2)) {
         $add1  = $row['latlong'];
     }
+
     if (!$result2) {
         echo "\nDB Error, could not query the Addresses database\n";
         echo 'MySQL Error: ' . mysqli_error($link);
