@@ -12,7 +12,7 @@ var latti;
 var ajaxRequest;
 var milliseconds = 1001;	
 
-var index =280;
+var index =514;
 
 function sleep() {
     var start = new Date().getTime();
@@ -22,6 +22,7 @@ function sleep() {
         }
     }
 }
+
 function sleep(val) {
     var start = new Date().getTime();
     for (var i = 0; i < 1e7; i++) {
@@ -30,6 +31,7 @@ function sleep(val) {
         }
     }
 }
+
 function ajaxCall(){
      try{
         ajaxRequest = new XMLHttpRequest();
@@ -47,6 +49,7 @@ function ajaxCall(){
     }
 }
 
+
 function initialize() {
     var opts = {
         center: new google.maps.LatLng(55.53, 9.4),
@@ -59,6 +62,7 @@ function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), opts);
     geocoder = new google.maps.Geocoder();
 }
+
 
 function adddresSetup(i,inst,vil,pro,con){
     //startTimer();

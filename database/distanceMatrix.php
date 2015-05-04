@@ -1,7 +1,7 @@
 <?php
 set_time_limit(0);
 
-require 'database.php';
+require 'database1.php';
 $data = array();
 $i=1;
 

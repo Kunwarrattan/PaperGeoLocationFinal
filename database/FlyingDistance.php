@@ -1,6 +1,7 @@
+
 <?php
 
-require 'database.php';
+require 'database1.php';
 
 $lat1 = null;
 $long1 = null;
@@ -9,7 +10,7 @@ $long2 = null;
 $addFID = null;
 $addCFID = null;
 
-$myfile = fopen("FlyingDistance.txt", "a") or die("Unable to open file!");
+//$myfile = fopen("FlyingDistance.txt", "a") or die("Unable to open file!");
 
 
 $sql1 = "select `fID_Art`, `Cited_ID_Art`  from `cited_paper`";

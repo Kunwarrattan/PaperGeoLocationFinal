@@ -9,7 +9,7 @@
 header("Content-Type: text/html;charset=utf-8");
 set_time_limit(0);
 
-require 'database.php';
+require 'database1.php';
 
 for($index=1;$index<1000;$index=$index+50){
 
