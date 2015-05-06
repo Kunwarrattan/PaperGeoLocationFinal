@@ -33,7 +33,6 @@ if($result->num_rows>0) {
                 mysqli_query($link, "SET NAMES 'utf8'");
                 mysqli_query($link, "SET CHARACTER SET 'utf8'");
                 mysqli_query($link, $query6);
-
             }
         }
     }
