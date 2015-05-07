@@ -6,7 +6,7 @@ $data = array();
     $i=1;
 $index = $_GET['index']-1;
 
-if($index >= 562 || $index < 5000)
+if($index >= 3342 || $index < 10000)
 {    //exit();
 $sql    = 'SELECT `id`,`institute`,`ville`, `province`,`country` FROM `address_unique` where `latlongid`  is NULL Limit '.($index*1).", 8 ";
 }else{
