@@ -6,7 +6,7 @@
  * Time: 4:24 PM
  */
 
-require 'database1.php';
+require 'database.php';
 
 $addFID = null;
 $addCFID = null;
@@ -58,7 +58,7 @@ if($result1->num_rows>0) {
                                     while ($row = mysqli_fetch_assoc($result5)) {
                                         $nom1 = $row['Nom'];
                                         $query6 = "INSERT INTO `main_database` (`Paper_ID`, `P_order`, `P_Author`, `P_year`" .
-                                                " `Cited_paper_ID`, `C_order`, `C_Auhtor`, `C_year`, `Count`)" .
+                                                " `Cited_paper_ID`, `C_order`, `C_Author`, `C_year`, `Count`)" .
                                                 "VALUES ($addFID,$order,\"$nom\",$pyear,$addCFID,$order1,\"$nom1\",$pyear1,$i)";
 
                                         mysqli_query($link, "SET CHARACTER SET 'utf8'");
@@ -96,7 +96,7 @@ if($result1->num_rows>0) {
                                         while ($row = mysqli_fetch_assoc($result5)) {
                                             $nom1 = $row['Nom'];
                                             $query6 = "INSERT INTO `main_database` (`Paper_ID`, `P_order`, ".
-                                                " `Cited_paper_ID`, `C_order`, `C_Auhtor`, `C_year`, `Count`)" .
+                                                " `Cited_paper_ID`, `C_order`, `C_Author`, `C_year`, `Count`)" .
                                                 "VALUES ($addFID,$order,$addCFID,$order1,\"$nom1\",$pyear1,$i)";
 
                                             mysqli_query($link, "SET CHARACTER SET 'utf8'");
