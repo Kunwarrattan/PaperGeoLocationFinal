@@ -10,6 +10,9 @@ require 'database.php';
 
 $addFID = null;
 $addCFID = null;
+$missespaper = null;
+$missesCitedAuthor = null;
+
 for($index=1;$index<100;$index=$index+100){
 
     $sql1 = 'select `ID_Art`, `Cited_ID_Art`, `Publication_year` from `cited_papers` Limit '.($index*1).", 100 ";
@@ -61,9 +64,17 @@ for($index=1;$index<100;$index=$index+100){
                             echo "<br />" . $query6;
 
                         }
+                    }else{
+                        $missesCitedAuthor++;
                     }
                 }
+            }else{
+                $missespaper++;
             }
         }
     }
+
 }
+
+echo "Papaer author Missed = ".$missespaper;
+echo "Cited Papaer author Missed = ".$missesCitedAuthor;
