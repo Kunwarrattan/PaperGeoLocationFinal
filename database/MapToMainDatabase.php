@@ -10,8 +10,8 @@ require 'database1.php';
 
 $addFID = null;
 $addCFID = null;
-
-$sql1 = 'select `fID_Art`, `Cited_ID_Art`, `Publication_year` from `cited_paper` ';
+for($index=1;$index<1000;$index=$index+100){
+$sql1 = 'select `fID_Art`, `Cited_ID_Art`, `Publication_year` from `cited_paper` Limit '.($index*1).", 100 ";
 $result1 = mysqli_query($link, $sql1);
 
 if (!$result1) {
@@ -126,7 +126,7 @@ if($result1->num_rows>0) {
         }
 
 
-    }
-}else{
+    } else{
     echo "Enough.......................................................<br />";
+    }
 }
