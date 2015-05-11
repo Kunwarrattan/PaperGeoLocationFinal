@@ -10,9 +10,9 @@ var markersArray = [];
 var longi;
 var latti;
 var ajaxRequest;
-var milliseconds = 1001;	
+var milliseconds = 1001;
 
-var index = 3342;
+var index = 12;
 
 function sleep() {
     var start = new Date().getTime();

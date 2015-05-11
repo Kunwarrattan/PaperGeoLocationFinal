@@ -72,7 +72,7 @@ if($lng!= null && $lng != null){
         $result2 = mysqli_query($link, $query2);
         while ($row = mysqli_fetch_assoc($result2)) {
             $idN  = $row['id'];
-    }
+     }
     }
 
 

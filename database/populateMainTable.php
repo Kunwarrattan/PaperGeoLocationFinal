@@ -12,7 +12,7 @@ $addFID = null;
 $addCFID = null;
 $missespaper = null;
 $missesCitedAuthor = null;
-
+$myfile = fopen("index1.txt", "rw") or die("Unable to open file!");
 for($index=1;$index<100;$index=$index+100){
 
     $sql1 = 'select `ID_Art`, `Cited_ID_Art`, `Publication_year` from `cited_papers` Limit '.($index*1).", 100 ";
@@ -75,6 +75,15 @@ for($index=1;$index<100;$index=$index+100){
     }
 
 }
+$data = stream_get_contents($myfile);
+if($data == null){
+    fwrite($myfile, $missesCitedAuthor);
+}else{
+    $data = $data + $missesCitedAuthor;
+    fwrite($myfile, $data);
+}
 
+
+fclose($myfile);
 echo "Papaer author Missed = ".$missespaper;
 echo "Cited Papaer author Missed = ".$missesCitedAuthor;

@@ -6,9 +6,9 @@ $data = array();
     $i=1;
 $index = $_GET['index']-1;
 
-if($index >= 3342 || $index < 10000)
+if($index >= 12 || $index < 10000)
 {    //exit();
-$sql    = 'SELECT `id`,`institute`,`ville`, `province`,`country` FROM `address_unique` where `latlongid`  is NULL Limit '.($index*1).", 8 ";
+$sql    = 'SELECT `id`,`institute`,`ville`, `province`,`country` FROM `address_unique` where `latlongid`  is NULL  and `Country` = "United States" or `Country` = "Canada" Limit '.($index*1).", 8 ";
 }else{
     exit();
 }
