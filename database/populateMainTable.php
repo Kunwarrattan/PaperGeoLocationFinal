@@ -10,11 +10,16 @@ require 'database.php';
 
 $addFID = null;
 $addCFID = null;
-$missespaper = null;
-$missesCitedAuthor = null;
-$myfile = fopen("index1.txt", "rw") or die("Unable to open file!");
-for($index=1;$index<100;$index=$index+100){
+$missespaper = 0;
+$missesCitedAuthor = 0;
+$total = 0;
+$t1=0;
+$t2= 0;
 
+//&myfile = fopen("store.txt", "rw") or die("Can't open file");
+
+for($index=1500000;$index<1550000;$index=$index+100){
+	
     $sql1 = 'select `ID_Art`, `Cited_ID_Art`, `Publication_year` from `cited_papers` Limit '.($index*1).", 100 ";
     $result1 = mysqli_query($link, $sql1);
 
@@ -31,6 +36,7 @@ for($index=1;$index<100;$index=$index+100){
             $addFID = $row['ID_Art'];
             $addCFID = $row['Cited_ID_Art'];
             $pyear1 = $row['Publication_year'];
+			$total++;
             echo "<br /> " . $addFID . " = " . $addCFID;
             $i = 1;
             //$sql_year = " SELECT `Pyear` FROM `authors`  where `ID_Art` = $addCFID and ";
@@ -41,6 +47,8 @@ for($index=1;$index<100;$index=$index+100){
 
 
             if ($result3->num_rows > 0) {
+				$missespaper++;
+				$io= 0;
                 while ($row = mysqli_fetch_assoc($result3)) {
                     $nom = $row['Nom'];
                     $pyear = $row['Pyear'];
@@ -52,8 +60,10 @@ for($index=1;$index<100;$index=$index+100){
                     $result5 = mysqli_query($link, $sql5);
 
                     if ($result5->num_rows > 0) {
+						$io = 1;
                         while ($row = mysqli_fetch_assoc($result5)) {
-                            $nom1 = $row['Nom'];
+                            
+							$nom1 = $row['Nom'];
                             $order1 = $row['ordre'];
                             $query6 = "INSERT INTO `main_database`( `Paper_ID`, `P_order`, `P_Author`, `P_year`, `Cited_paper_ID`, `C_order`, `C_Author`, `C_year`, `Count`)" .
                                 "VALUES ($addFID,$order,\"$nom\",$pyear,$addCFID,$order1,\"$nom1\",$pyear1,$i)";
@@ -68,22 +78,18 @@ for($index=1;$index<100;$index=$index+100){
                         $missesCitedAuthor++;
                     }
                 }
+				if($io=1){
+					$missesCitedAuthor++;
+				}
             }else{
                 $missespaper++;
+				echo "-------------------------------------------------------------";
             }
         }
     }
 
 }
-$data = stream_get_contents($myfile);
-if($data == null){
-    fwrite($myfile, $missesCitedAuthor);
-}else{
-    $data = $data + $missesCitedAuthor;
-    fwrite($myfile, $data);
-}
-
-
-fclose($myfile);
-echo "Papaer author Missed = ".$missespaper;
-echo "Cited Papaer author Missed = ".$missesCitedAuthor;
+$t1 = $total - $missespaper;
+$t2 =$total - $missesCitedAuthor;
+echo "<br /> Paper author Missed = ".$t1;
+echo "<br /> Cited Paper author Missed = ".$t2;
