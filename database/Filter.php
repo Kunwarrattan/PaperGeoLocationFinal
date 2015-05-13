@@ -13,9 +13,9 @@ require 'database.php';
 $rowid = null;
 $k=1;
 
-for($index=1;$index<80000;$index=$index+50){
+for($index=1;$index<80000;$index=$index+150){
 //$index = 2;
-    $query2 = 'SELECT * FROM `address_unique` where `latlongid` is NULL and `Country` = "Canada" or  `Country` = "United States" Limit '.($index*1).", 50 ";
+    $query2 = 'SELECT * FROM `address_unique` where `latlongid` is NULL and `Country` = "Canada" or  `Country` = "United States" Limit '.($index*1).", 150 ";
     $result2 = mysqli_query($link, $query2);
     //echo $result2->num_rows."<br/>";
     if($result2->num_rows>0){
@@ -27,7 +27,7 @@ for($index=1;$index<80000;$index=$index+50){
             $province = $row['province'];
             $Country = $row['Country'];
                // echo "<br/>".$inst."------<br/>";
-                $query1 = "SELECT * FROM `address_unique` where `latlongid` is NOT NULL";
+                $query1 = 'SELECT * FROM `address_unique` where `latlongid` is NOT NULL and `Country` = "Canada" or  `Country` = "United States" ';
                 $result1 = mysqli_query($link, $query1);
                // echo $result1->num_rows;
                 if($result1->num_rows>0) {
@@ -46,8 +46,6 @@ for($index=1;$index<80000;$index=$index+50){
                                     $newID = $row['latlongid'];
                                     $queryUpdate ="\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
                                     $result9 = mysqli_query($link, $queryUpdate);
-                                   // echo $queryUpdate;
-                                   // echo "<br />";
                                     $k++;
                                     break;
                                 }elseif(stristr($str1, $str2) || stristr($str2, $str1)){
@@ -56,8 +54,6 @@ for($index=1;$index<80000;$index=$index+50){
                                     $newID = $row['latlongid'];
                                     $queryUpdate ="\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
                                     $result9 = mysqli_query($link, $queryUpdate);
-                                   // echo $queryUpdate;
-                                   // echo "<br />";
                                     $k++;
                                     break;
                                 }else{
