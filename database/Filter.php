@@ -13,9 +13,9 @@ require 'database.php';
 $rowid = null;
 $k=1;
 
-for($index=1;$index<80000;$index=$index+150){
+for($index=1;$index<30000;$index=$index+100){
 //$index = 2;
-    $query2 = 'SELECT * FROM `address_unique` where `latlongid` is NULL and `Country` = "Canada" or  `Country` = "United States" Limit '.($index*1).", 150 ";
+    $query2 = 'SELECT * FROM `address_unique` where `latlongid` is NULL  Limit '.($index*1).", 100 ";
     $result2 = mysqli_query($link, $query2);
     //echo $result2->num_rows."<br/>";
     if($result2->num_rows>0){
@@ -27,18 +27,19 @@ for($index=1;$index<80000;$index=$index+150){
             $province = $row['province'];
             $Country = $row['Country'];
                // echo "<br/>".$inst."------<br/>";
-                $query1 = 'SELECT * FROM `address_unique` where `latlongid` is NOT NULL and `Country` = "Canada" or  `Country` = "United States" ';
+                $query1 = "SELECT * FROM `address_unique` where `latlongid` is NOT NULL and `ville` = \"$ville\" and `province` = \"$province\" and `Country` = \"$Country\" ";
                 $result1 = mysqli_query($link, $query1);
+                echo "<br />".$query1;
                // echo $result1->num_rows;
                 if($result1->num_rows>0) {
                     while ($row = mysqli_fetch_assoc($result1)) {
-                        if ($ville == $row['ville'] && $province == $row['province'] && $Country == $row['Country'] && $id != $row['id'] && $inst != null && $row['institute'] != null) {
+                        if ($id != $row['id'] && $inst != null && $row['institute'] != null) {
 
                             $length1 = strlen($inst);
                             $length2 = strlen($row['institute']);
                             $str1 = strtolower(substr($inst,0,$length1/2));
                             $str2 = strtolower(substr($row['institute'],0,$length2/2));
-                           // echo $str1 ." = " . $row['institute']." ====== ".$str2 . " = " . $inst . "<br/>";
+                            //echo $str1 ." = " . $row['institute']." ====== ".$str2 . " = " . $inst . "<br/>";
 
                                 if (stristr($inst, $row['institute']) || stristr($row['institute'], $inst)) {
                                     echo $row['id'] . " <- Level 1 match------".$k."------------>  " . $row['institute'] . "     <-------------------->  " . $inst;
