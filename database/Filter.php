@@ -29,7 +29,7 @@ for($index=1;$index<30000;$index=$index+100){
                // echo "<br/>".$inst."------<br/>";
                 $query1 = "SELECT * FROM `address_unique` where `latlongid` is NOT NULL and `ville` = \"$ville\" and `province` = \"$province\" and `Country` = \"$Country\" ";
                 $result1 = mysqli_query($link, $query1);
-                echo "<br />".$query1;
+              //  echo "<br />".$query1;
                // echo $result1->num_rows;
                 if($result1->num_rows>0) {
                     while ($row = mysqli_fetch_assoc($result1)) {
