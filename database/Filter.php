@@ -13,7 +13,7 @@ require 'database.php';
 $rowid = null;
 $k=1;
 
-for($index=1;$index<30000;$index=$index+100){
+for($index=1;$index<50000;$index=$index+100){
 //$index = 2;
     $query2 = 'SELECT * FROM `address_unique` where `latlongid` is NULL  Limit '.($index*1).", 100 ";
     $result2 = mysqli_query($link, $query2);
@@ -37,48 +37,53 @@ for($index=1;$index<30000;$index=$index+100){
 
                             $length1 = strlen($inst);
                             $length2 = strlen($row['institute']);
-                            $str1 = strtolower(substr($inst,0,$length1/2));
-                            $str2 = strtolower(substr($row['institute'],0,$length2/2));
-                            $str3 = strtolower(substr($inst,0,$length1/3));
-                            $str4 = strtolower(substr($row['institute'],0,$length2/3));
-                            $str5 = strtolower(substr($inst,0,$length1/4));
-                            $str6 = strtolower(substr($row['institute'],0,$length2/4));
+                            $str1 = strtolower(substr($inst, 0, $length1 / 2));
+                            $str2 = strtolower(substr($row['institute'], 0, $length2 / 2));
+                            $str3 = strtolower(substr($inst, 0, $length1 / 3));
+                            $str4 = strtolower(substr($row['institute'], 0, $length2 / 3));
+                            $str5 = strtolower(substr($inst, 0, $length1 / 4));
+                            $str6 = strtolower(substr($row['institute'], 0, $length2 / 4));
 
                             //echo $str1 ." = " . $row['institute']." ====== ".$str2 . " = " . $inst . "<br/>";
 
-                                if (stristr($inst, $row['institute']) || stristr($row['institute'], $inst)) {
-                                    echo $row['id'] . " <- Level 1 match------".$k."------------>  " . $row['institute'] . "     <-------------------->  " . $inst;
+                            if (stristr($inst, $row['institute']) || stristr($row['institute'], $inst)) {
+                                echo $row['id'] . " <- Level 1 match------" . $k . "------------>  " . $row['institute'] . "     <-------------------->  " . $inst;
+                                echo "<br />";
+                                $newID = $row['latlongid'];
+                                $queryUpdate = "\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
+                                $result9 = mysqli_query($link, $queryUpdate);
+                                $k++;
+                                break;
+                            } elseif (stristr($str1, $str2) || stristr($str2, $str1)) {
+                                echo $row['id'] . " <- Level 2 Match ------" . $k . "------------>  " . $str1 . "     <-------------------->  " . $str2;
+                                echo "<br />";
+                                $newID = $row['latlongid'];
+                                $queryUpdate = "\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
+                                $result9 = mysqli_query($link, $queryUpdate);
+                                $k++;
+                                break;
+                            } elseif ($str3 != "" && $str4 != "") {
+                                if (stristr($str3, $str4) || stristr($str4, $str3)) {
+                                    echo $row['id'] . " <- Level 3 Match ------" . $k . "------------>  " . $str3 . "     <-------------------->  " . $str4;
                                     echo "<br />";
                                     $newID = $row['latlongid'];
-                                    $queryUpdate ="\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
+                                    $queryUpdate = "\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
                                     $result9 = mysqli_query($link, $queryUpdate);
                                     $k++;
                                     break;
-                                }elseif(stristr($str1, $str2) || stristr($str2, $str1)){
-                                    echo $row['id'] . " <- Level 2 Match ------".$k."------------>  " . $str1 . "     <-------------------->  " . $str2;
+
+                                }
+                            } else if ($str5 != "" && $str6 != ""){
+                                if (stristr($str5, $str6) || stristr($str6, $str5)) {
+                                    echo $row['id'] . " <- Level 4 Match ------" . $k . "------------>  " . $str5 . "     <-------------------->  " . $str6;
                                     echo "<br />";
                                     $newID = $row['latlongid'];
-                                    $queryUpdate ="\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
+                                    $queryUpdate = "\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
                                     $result9 = mysqli_query($link, $queryUpdate);
                                     $k++;
                                     break;
-                                }elseif(stristr($str3, $str4) || stristr($str4, $str3) && $str3 != "" && $str4 != ""){
-                                    echo $row['id'] . " <- Level 3 Match ------".$k."------------>  " . $str3 . "     <-------------------->  " . $str4;
-                                    echo "<br />";
-                                    $newID = $row['latlongid'];
-                                    $queryUpdate ="\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
-                                    $result9 = mysqli_query($link, $queryUpdate);
-                                    $k++;
-                                    break;
-                                }elseif(stristr($str5, $str6) || stristr($str6, $str5)&& $str3 != "" && $str4 != ""){
-                                    echo $row['id'] . " <- Level 4 Match ------".$k."------------>  " . $str5 . "     <-------------------->  " . $str6;
-                                    echo "<br />";
-                                    $newID = $row['latlongid'];
-                                    $queryUpdate ="\n UPDATE `address_unique` set `latlongid` = $newID WHERE `id` = $id";
-                                    $result9 = mysqli_query($link, $queryUpdate);
-                                    $k++;
-                                    break;
-                                }else{
+                                }
+                             }else{
 
                                 }
                         }//elseif($id != $row['id'] &&  $inst == null && $row['institute'] == null){
