@@ -73,7 +73,7 @@ for($index=1;$index<50000;$index=$index+100){
                                     break;
 
                                 }
-                            } else if ($str5 != "" && $str6 != ""){
+                            } elseif ($str5 != "" && $str6 != ""){
                                 if (stristr($str5, $str6) || stristr($str6, $str5)) {
                                     echo $row['id'] . " <- Level 4 Match ------" . $k . "------------>  " . $str5 . "     <-------------------->  " . $str6;
                                     echo "<br />";

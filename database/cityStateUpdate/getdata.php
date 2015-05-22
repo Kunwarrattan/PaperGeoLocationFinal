@@ -12,10 +12,10 @@ require '../database.php';
 $data = array();
     $i=1;
 $index = $_GET['index']-1;
-    for($j=1;$j<13;$j++){
-        if($index >= 1 || $index < 2)
+
+        if($index >= 1 || $index < 13)
         {    //exit();
-            $sql    = 'SELECT `id`,`lat`,`long` FROM `final_addresses2` where `city` = "" and `province` = "" and `country` = "" Limit '.($index*1).", 2 ";
+            $sql    = 'SELECT `id`,`lat`,`long` FROM `final_addresses2` where `city` = "" and `province` = "" and `country` = "" Limit '.($index*1).", 8 ";
         }else{
             exit();
         }
@@ -35,7 +35,7 @@ $index = $_GET['index']-1;
                 }
                 $i++;
 
-            }
+
     }
             mysqli_free_result($result);
                 function insert($i,$lat,$long)

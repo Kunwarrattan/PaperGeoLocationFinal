@@ -15,7 +15,7 @@ function codeLatLng(lat1,long1) {
     geocoder.geocode({'latLng': latlng}, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
             var addr_type = results[0].formatted_address;
-           // longi = results[0].geometry.location.lng();
+          // longi = results[0].geometry.location.lng();
            // latti = results[0].geometry.location.lat();
             var city1 = null;
             var state1 = null;
@@ -38,19 +38,20 @@ function codeLatLng(lat1,long1) {
                         if (results[0].address_components[i].types[b] == "administrative_area_level_1") {
                             //this is the object you are looking for
                             state1 = results[0].address_components[i];
+                          //  alert(state1);
                             // alert(city1);
                             break;
                         }
                         if (results[0].address_components[i].types[b] == "locality") {
                             //this is the object you are looking for
                             city1 = results[0].address_components[i];
-                            //   alert(state1);
+                         //     alert(state1);
                             break;
                         }
                         if (results[0].address_components[i].types[b] == "country") {
                             //this is the object you are looking for
                             coutry1 = results[0].address_components[i];
-                            // alert(coutry1);
+                         //   alert(coutry1);
                             break;
                         }
                     }
@@ -63,14 +64,15 @@ function codeLatLng(lat1,long1) {
                 var kis = city1.short_name+"||"+state1.short_name+"||"+coutry1.short_name;
                 console.log(ki);
                 console.log(kis);
-                v = longi+"||"+ latti+"||"+addr_type+"||"+address+"||"+id+"||"+city1.long_name+"||"+state1.long_name+"||"+coutry1.long_name;
-                //alert(v);
+                v = addr_type+"||"+address+""+city1.long_name+"||"+state1.long_name+"||"+coutry1.long_name;
+                //longi+"||"+ latti+"||"+
+                alert(v);
                 console.log(v);
             } else {
                 alert("No results found");
             }
 
-            insertlatLongIntoDB(v);
+           // insertlatLongIntoDB(v);
             // alert(v);
         } else {
             alert('Geocoder failed due to: ' + status);
@@ -111,12 +113,13 @@ function ajaxFunction(){
             var temp_html = "";
             console.log(data);
             console.log("-------------------------------------------------------------------");
-            //for(i=0;i<data.length;i++) {
-            //    temp_html+= data[i].count+" , "+data[i].lat+" , "+data[i].long+ "<br />";
-            //
-            //    adddresSetup(data[i].count,data[i].lat,data[i].long);
-            //}
-            adddresSetup(11,-92.1640352,34.3806516);
+            alert(data.length);
+            for(i=0;i<data.length;i++) {
+                temp_html= data[i].count+" , "+data[i].lat+" , "+data[i].long+ "<br />";
+                alert(temp_html);
+                adddresSetup(data[i].count,data[i].lat,data[i].long);
+            }
+            //adddresSetup(11,41.2772797,-7.477030199999945);
             //alert(data.length);
             var temp = "-------------------------------------------<br/>";
             $('#data-list').append(temp_html);
