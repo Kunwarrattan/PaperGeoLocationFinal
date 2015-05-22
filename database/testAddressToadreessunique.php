@@ -10,11 +10,13 @@
 header("Content-Type: text/html;charset=utf-8");
 set_time_limit(0);
 
-require 'database1.php';
+require 'database.php';
 
 //for($index=1;$index<1000;$index=$index+100){
 
-    $query1 = " SELECT * FROM `addresses` "; //Limit '.($index*1).",100
+$index = 1;
+
+    $query1 = ' SELECT * FROM `addresses` where mapID is NULL  Limit '.($index*1).",10 ";
     $result1 = mysqli_query($link, $query1);
 
     if($result1->num_rows>0){
@@ -28,7 +30,7 @@ require 'database1.php';
 
             //echo $row['id_art']." ".$row['ordre']."<br />";
 
-            $query2 = "INSERT INTO `address_unique` (`institute`, `ville`, `province`, `Country`) VALUES ".
+            $query2 = "INSERT INTO `address_unique_test` (`institute`, `ville`, `province`, `Country`) VALUES ".
                             "(\"$inst\",\"$ville\",\"$province\",\"$country\")";
 
             echo $query2."<br/>";
@@ -41,7 +43,7 @@ require 'database1.php';
             $idN = mysqli_insert_id($link);
 
            if($idN == null){
-                $query3 = "SELECT `id` FROM `address_unique` where `institute` = \"$inst\" and `ville` = \"$ville\"  and `province` = \"$province\" and `Country` = \"$country\"";
+                $query3 = "SELECT `id` FROM `address_unique_test` where `institute` = \"$inst\" and `ville` = \"$ville\"  and `province` = \"$province\" and `Country` = \"$country\"";
                 echo $query3."<br/>";
                 $result2 = mysqli_query($link, $query3);
                 while ($row = mysqli_fetch_assoc($result2)) {
@@ -50,7 +52,7 @@ require 'database1.php';
             }
 //
 //
-            $queryUpdate ="UPDATE `addresses` set `adduniqueID` = $idN WHERE `id_art` = $id1 and `ordre` = $order";
+            $queryUpdate ="UPDATE `addresses` set `mapID` = $idN WHERE `id_art` = $id1 and `ordre` = $order";
             $result5 = mysqli_query($link, $queryUpdate);
             echo $queryUpdate."<br />";
 

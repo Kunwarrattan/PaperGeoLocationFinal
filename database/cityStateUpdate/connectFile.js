@@ -5,12 +5,36 @@
  * Created by india on 3/8/2015.
  */
 //alert("aa");
+
+var milliseconds = 10;
+
+var index = 5;
+
+function sleep() {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+        if ((new Date().getTime() - start) > milliseconds){
+            break;
+        }
+    }
+}
+
+function sleep(val) {
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+        if ((new Date().getTime() - start) > val){
+            break;
+        }
+    }
+}
+
 function codeLatLng(lat1,long1) {
-    var input = document.getElementById('latlng').value;
-    var latlngStr = input.split(',', 2);
+   // var input = document.getElementById('latlng').value;
+   // var latlngStr = input.split(',', 2);
     var lat = parseFloat(lat1);
     var lng = parseFloat(long1);
-    alert(lat+" , "+lng);
+
+
     var latlng = new google.maps.LatLng(lat, lng);
     geocoder.geocode({'latLng': latlng}, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
@@ -25,7 +49,7 @@ function codeLatLng(lat1,long1) {
             //prov = results[0].geometry.location.lat();
             //cntry = results[0].geometry.location.lat();
 
-
+            console.log(lat+" , "+lng);
 
             if (results[0]) {
                 //formatted address
@@ -60,29 +84,29 @@ function codeLatLng(lat1,long1) {
                 // alert(city1.short_name + " ... " + city1.long_name);
                 //  alert(state1.short_name+ " ... " + state1.long_name);
                 //  alert(coutry1.short_name+ " ... " + coutry1.long_name);
-                var ki = city1.long_name+"||"+state1.long_name+"||"+coutry1.long_name;
+                var ki = latlng + " || " +city1.long_name+"||"+state1.long_name+"||"+coutry1.long_name;
                 var kis = city1.short_name+"||"+state1.short_name+"||"+coutry1.short_name;
                 console.log(ki);
                 console.log(kis);
-                v = addr_type+"||"+address+""+city1.long_name+"||"+state1.long_name+"||"+coutry1.long_name;
-                //longi+"||"+ latti+"||"+
-                alert(v);
-                console.log(v);
+                //v = city1.long_name+"||"+state1.long_name+"||"+coutry1.long_name;
+                ////longi+"||"+ latti+"||"+
+                ////alert(v);
+                //console.log(v);
             } else {
-                alert("No results found");
+                console.log("No results found");
             }
 
            // insertlatLongIntoDB(v);
             // alert(v);
         } else {
-            alert('Geocoder failed due to: ' + status);
+            console.log('Geocoder failed due to: ' + status);
         }
     });
 }
 
 
 
-var index = 1;
+
 
 function ajaxCall(){
     try{
@@ -102,7 +126,7 @@ function ajaxCall(){
 }
 function ajaxFunction(){
     ajaxCall();
-
+    while(index < 10){
     ajaxRequest.onreadystatechange = function(){
         if(ajaxRequest.readyState == 4){
             var val = ajaxRequest.responseText;
@@ -113,10 +137,10 @@ function ajaxFunction(){
             var temp_html = "";
             console.log(data);
             console.log("-------------------------------------------------------------------");
-            alert(data.length);
+           // alert(data.length);
             for(i=0;i<data.length;i++) {
                 temp_html= data[i].count+" , "+data[i].lat+" , "+data[i].long+ "<br />";
-                alert(temp_html);
+               // alert(temp_html);
                 adddresSetup(data[i].count,data[i].lat,data[i].long);
             }
             //adddresSetup(11,41.2772797,-7.477030199999945);
@@ -127,14 +151,21 @@ function ajaxFunction(){
 
         }
     }
-    ajaxRequest.open("GET", "getdata.php?index="+index , true);
-    ajaxRequest.send();
+
+        ajaxRequest.open("GET", "getdata.php?index="+index , true);
+        ajaxRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        ajaxRequest.setRequestHeader("Accept-Language", "en-US");
+        ajaxRequest.send();
+        sleep();
+        index++;
+    }
 }
 
 function adddresSetup(i,lat,long){
     //startTimer();
     address = i+","+lat+","+long;
     //alert(address);
+    //sleep();
     codeLatLng(lat,long);
 }
 

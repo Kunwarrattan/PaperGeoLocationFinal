@@ -13,9 +13,9 @@ require 'database.php';
 $rowid = null;
 $k=1;
 
-for($index=1;$index<50000;$index=$index+100){
+for($index=1;$index<50000;$index=$index+50){
 //$index = 2;
-    $query2 = 'SELECT * FROM `address_unique` where `latlongid` is NULL  Limit '.($index*1).", 100 ";
+    $query2 = 'SELECT * FROM `address_unique` where `latlongid` is NULL  Limit '.($index*1).", 50 ";
     $result2 = mysqli_query($link, $query2);
     //echo $result2->num_rows."<br/>";
     if($result2->num_rows>0){
@@ -62,8 +62,7 @@ for($index=1;$index<50000;$index=$index+100){
                                 $result9 = mysqli_query($link, $queryUpdate);
                                 $k++;
                                 break;
-                            } elseif ($str3 != "" && $str4 != "") {
-                                if (stristr($str3, $str4) || stristr($str4, $str3)) {
+                            } elseif ($str3 != "" && $str4 != "" && (stristr($str3, $str4) || stristr($str4, $str3))) {
                                     echo $row['id'] . " <- Level 3 Match ------" . $k . "------------>  " . $str3 . "     <-------------------->  " . $str4;
                                     echo "<br />";
                                     $newID = $row['latlongid'];
@@ -72,9 +71,8 @@ for($index=1;$index<50000;$index=$index+100){
                                     $k++;
                                     break;
 
-                                }
-                            } elseif ($str5 != "" && $str6 != ""){
-                                if (stristr($str5, $str6) || stristr($str6, $str5)) {
+
+                            } elseif ($str5 != "" && $str6 != "" && (stristr($str5, $str6) || stristr($str6, $str5))) {
                                     echo $row['id'] . " <- Level 4 Match ------" . $k . "------------>  " . $str5 . "     <-------------------->  " . $str6;
                                     echo "<br />";
                                     $newID = $row['latlongid'];
@@ -82,7 +80,7 @@ for($index=1;$index<50000;$index=$index+100){
                                     $result9 = mysqli_query($link, $queryUpdate);
                                     $k++;
                                     break;
-                                }
+
                              }else{
 
                                 }

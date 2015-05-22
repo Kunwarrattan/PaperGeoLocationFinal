@@ -186,8 +186,6 @@ function getLatLong(address,id,flag) {
 
 function ajaxFunction(){
 
-
-
     ajaxCall();
     //alert("a");
     ajaxRequest.onreadystatechange = function(){

@@ -9,7 +9,7 @@ $id=null;
 $cty = null;
 $state = null;
 $country = null;
-$myfile = fopen("newfile.txt", "a") or die("Unable to open file!");
+//$myfile = fopen("newfile.txt", "a") or die("Unable to open file!");
 if(isset($_REQUEST['lat']) && $_REQUEST['lat']!="")
 {
     $lati=($_REQUEST['lat']);
@@ -56,8 +56,8 @@ if($lng!= null && $lng != null){
     $result = mysqli_query($link, $query);
 
     $idN = mysqli_insert_id($link);
-    fwrite($myfile, $query);
-    fwrite($myfile,"\n");
+   // fwrite($myfile, $query);
+   // fwrite($myfile,"\n");
    // $idOLD = null;
 //    if (!$result) {
 //        $queryUpdate6 = "UPDATE `final_addresses` set `city` = \"$cty\" and `province` = \"$state\" and `country` = \"$country\"WHERE `lat` = $lati and `long` = $lng";
@@ -84,15 +84,15 @@ if($lng!= null && $lng != null){
 
 
 
-    fwrite($myfile, $idN);
-    fwrite($myfile,"\n");
-    fwrite($myfile, $queryUpdate);
-    fwrite($myfile,"\n");
-    fwrite($myfile, $query2);
-    $txt = "\n--------------------------------------------";
-    fwrite($myfile, $txt);
-    fwrite($myfile,"\n");
-    fclose($myfile);
+//    fwrite($myfile, $idN);
+//    fwrite($myfile,"\n");
+//    fwrite($myfile, $queryUpdate);
+//    fwrite($myfile,"\n");
+//    fwrite($myfile, $query2);
+//    $txt = "\n--------------------------------------------";
+//    fwrite($myfile, $txt);
+//    fwrite($myfile,"\n");
+//    fclose($myfile);
 
 
 
