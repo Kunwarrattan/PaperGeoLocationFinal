@@ -5,15 +5,26 @@
  * Date: 5/1/2015
  * Time: 6:31 PM
  */
-
+// combinning three final addresses and addresses unique table
 
 header("Content-Type: text/html;charset=utf-8");
 set_time_limit(0);
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 
-require 'database1.php';
+if (!$link = mysqli_connect('localhost', 'root', '')) {
+    echo 'Could not connect to mysql';
+    exit;
+}
+
+if (!mysqli_select_db($link,'geotest')) {
+    echo 'Could not select database';
+    exit;
+}
+//require 'database1.php';
 $m = 0;
 $n = 0;
-for($index=1;$index<10000;$index=$index+50){
+for($index=1;$index<3;$index=$index+50){
 
     $query1 = 'SELECT * FROM `final_addresses2_1stfile` Limit '.($index*1).", 50 ";
     $result1 = mysqli_query($link, $query1);
