@@ -11,10 +11,11 @@ header("Content-Type: text/html;charset=utf-8");
 set_time_limit(0);
 
 require 'database1.php';
+$m = 0;
+$n = 0;
+for($index=1;$index<10000;$index=$index+50){
 
-for($index=1;$index<1000;$index=$index+50){
-
-    $query1 = 'SELECT * FROM `final_addresses2` Limit '.($index*1).", 50 ";
+    $query1 = 'SELECT * FROM `final_addresses2_1stfile` Limit '.($index*1).", 50 ";
     $result1 = mysqli_query($link, $query1);
     //echo $result2->num_rows."<br/>";
     if($result1->num_rows>0){
@@ -27,7 +28,7 @@ for($index=1;$index<1000;$index=$index+50){
             $fulladress = $row['full_address'];
             $country = $row['country'];
 
-            $query2 ="SELECT * FROM `final_addresses1` where `lat` = $lat1 and `long` = $long1 ";
+            $query2 ="SELECT * FROM `final_addresses` where `lat` = $lat1 and `long` = $long1 ";
             $result2 = mysqli_query($link, $query2);
 
             if($result2->num_rows>0){
@@ -36,13 +37,21 @@ for($index=1;$index<1000;$index=$index+50){
                     $query3 = "UPDATE `address_unique` set `latlongid` = $id2 WHERE `latlongid` = $id1";
                     //$query3 ="SELECT `latlongid` FROM `address_unique` where `latlongid` = $id1 ";
                     $result3 = mysqli_query($link, $query3);
+                    echo $query3."<br />";
+                    $m++;
+
                 }
             }else{
-                $query4 = "insert into final_addresses1(`lat`,`long`,`full_address`,`city`,`province`,`country`) VALUES ($lat1,$long1,$fulladress,$city,$province,$country)";
+                $query4 = "insert into final_addresses(`lat`,`long`,`full_address`,`city`,`province`,`country`) VALUES ($lat1,$long1,$fulladress,$city,$province,$country)";
                 //$query4 ="SELECT `latlongid` FROM `address_unique` where `latlongid` = $id1 ";
                 $result4 = mysqli_query($link, $query4);
+                echo $query4."<br />";
+                $n++;
             }
 
         }
     }
 }
+
+echo "<br/><br/>Old = ".$m;
+echo "<br/>New = ".$n;
