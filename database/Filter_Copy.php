@@ -41,7 +41,6 @@ for($index=1;$index<50000;$index=$index+50){
                                 $result9 = mysqli_query($link, $queryUpdate);
                                 $k++;
                                 break;
-
                                 }
                         }
                     }
