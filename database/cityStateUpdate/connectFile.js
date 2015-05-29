@@ -1,11 +1,3 @@
-/**
- * Created by india on 5/19/2015.
- */
-/**
- * Created by india on 3/8/2015.
- */
-//alert("aa");
-
 var milliseconds = 10;
 
 var index = 5;
