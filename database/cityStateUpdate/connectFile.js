@@ -118,7 +118,7 @@ function ajaxCall(){
 }
 function ajaxFunction(){
     ajaxCall();
-    while(index < 10){
+
     ajaxRequest.onreadystatechange = function(){
         if(ajaxRequest.readyState == 4){
             var val = ajaxRequest.responseText;
@@ -143,14 +143,13 @@ function ajaxFunction(){
 
         }
     }
-
         ajaxRequest.open("GET", "getdata.php?index="+index , true);
         ajaxRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         ajaxRequest.setRequestHeader("Accept-Language", "en-US");
         ajaxRequest.send();
         sleep();
-        index++;
-    }
+
+
 }
 
 function adddresSetup(i,lat,long){

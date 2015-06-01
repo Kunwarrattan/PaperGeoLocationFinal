@@ -20,7 +20,9 @@ function initialize() {
 }
 
 //------------------------------------------------------------------------------------------------------
-function calculateDistances(dest1,dest2) {
+function calculateDistances() {
+    dest1 = "montreal";
+    dest2 = "toronto";
     cal(dest1,dest2);
 }
 

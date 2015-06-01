@@ -19,6 +19,7 @@ function initialize() {
         streetViewControl: true,
         overviewMapControl: true,
         zoom: 4
+
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), opts);
     geocoder = new google.maps.Geocoder();
