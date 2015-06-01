@@ -1,3 +1,6 @@
+<!-- you have to run this page for calculating distance between lat,long -->
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,7 +31,7 @@
 <body>
 <div id="content-pane">
     <div id="inputs">
-        <p><button type="button" onclick="calculateDistances();">Calculate distances</button></p>
+        <p><button type="button" onclick="ajaxFunction()">Calculate distances</button></p>
     </div>
     <div id="outputDiv"></div>
 </div>
