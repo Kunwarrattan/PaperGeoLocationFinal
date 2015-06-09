@@ -9,8 +9,8 @@
 </head>
 <body>
 <div id="panel">
-    <input id="latlng" type="text" value="40.714224,-73.961452">
-    <input type="button" value="Reverse Geocode" onclick="codeLatLng()">
+
+    <input type="button" value="Reverse Geocode" onclick="getData()">
 </div>
 <div id="map-canvas"></div>
 </body>
