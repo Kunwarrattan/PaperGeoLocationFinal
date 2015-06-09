@@ -25,17 +25,14 @@ $id = null;
 $distance = null;
 $time = null;
 
-if(isset($_REQUEST['id']) && $_REQUEST['id']!="")
-{
+if(isset($_REQUEST['id']) && $_REQUEST['id']!="") {
     $id=($_REQUEST['id']);
 }
 
-if(isset($_REQUEST['distance']) && $_REQUEST['distance']!="")
-{
+if(isset($_REQUEST['distance']) && $_REQUEST['distance']!="") {
     $distance=($_REQUEST['distance']);
 }
-if(isset($_REQUEST['time']) && $_REQUEST['time']!="")
-{
+if(isset($_REQUEST['time']) && $_REQUEST['time']!="") {
     $time=($_REQUEST['time']);
 }
 

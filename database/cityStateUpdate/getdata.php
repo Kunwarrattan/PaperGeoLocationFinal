@@ -12,7 +12,7 @@ require '../database.php';
 $data = array();
     $i=1;
 $index = $_GET['index']-1;
-
+echo "i m in";
         if($index >= 5 && $index < 100)
         {    //exit();
             $sql    = 'SELECT `id`,`lat`,`long` FROM `final_addresses2` where `city` = "" and `province` = "" and `country` = "" Limit '.($index*1).",5 ";

@@ -129,7 +129,7 @@ function ajaxFunction(){
             var temp_html = "";
             console.log(data);
             console.log("-------------------------------------------------------------------");
-           // alert(data.length);
+            alert(data.length);
             for(i=0;i<data.length;i++) {
                 temp_html= data[i].count+" , "+data[i].lat+" , "+data[i].long+ "<br />";
                // alert(temp_html);
@@ -141,8 +141,8 @@ function ajaxFunction(){
             $('#data-list').append(temp_html);
           //  $('#data-list').append(temp);
 
+            }
         }
-    }
         ajaxRequest.open("GET", "getdata.php?index="+index , true);
         ajaxRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         ajaxRequest.setRequestHeader("Accept-Language", "en-US");
