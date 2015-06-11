@@ -14,6 +14,8 @@ var ajaxRequest;
 
 var index = 15;
 var milliseconds = 1001;
+
+
 function sleep() {
     var start = new Date().getTime();
     for (var i = 0; i < 1e7; i++) {

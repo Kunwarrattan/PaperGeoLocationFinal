@@ -1,10 +1,5 @@
+
 <?php
-/**
- * Created by PhpStorm.
- * User: india
- * Date: 5/19/2015
- * Time: 8:30 PM
- */
 
 header("Content-Type: text/html;charset=utf-8");
 set_time_limit(0);
@@ -20,15 +15,18 @@ if (!mysqli_select_db($link,'geotest')) {
     exit;
 }
 
+mysql_query("SET NAMES 'utf8'");
+
 $data = array();
 $i=1;
 $index = $_GET['index']-1;
-if($index >= 1 && $index < 100)
+if($index >= 0 && $index < 1000)
 {    //exit();
-    $sql    = 'SELECT `id`,`lat`,`lng` FROM `final_addresses` where `city` = "" and `province` = "" and `country` = "" Limit '.($index*1).",5 ";
+    $sql    = 'SELECT `id`,`lat`,`lng` FROM `final_addresses` where `city` = "" and `province` = "" and `country` = "" Limit '.($index*1).",8 ";
 }else{
     exit();
 }
+
 $result = mysqli_query($link, $sql);
 
 if (!$result) {
@@ -55,4 +53,4 @@ function insert($i,$lat,$long)
     );
 }
 echo json_encode($data);
-?>
+
