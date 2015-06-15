@@ -9,7 +9,7 @@ if (!$link = mysqli_connect('localhost', 'root', '')) {
     exit;
 }
 
-if (!mysqli_select_db($link,'geotest')) {
+if (!mysqli_select_db($link,'filtereddb')) {
     echo 'Could not select database';
     exit;
 }

@@ -18,7 +18,7 @@ $t2= 0;
 
 //&myfile = fopen("store.txt", "rw") or die("Can't open file");
 
-for($index=1500000;$index<1550000;$index=$index+100){
+for($index=4650000;$index<4670000;$index=$index+100){
 	
     $sql1 = 'select `ID_Art`, `Cited_ID_Art`, `Publication_year` from `cited_papers` Limit '.($index*1).", 100 ";
     $result1 = mysqli_query($link, $sql1);

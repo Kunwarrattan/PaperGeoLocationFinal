@@ -18,7 +18,7 @@ if (!$link = mysqli_connect('localhost', 'root', '')) {
     exit;
 }
 
-if (!mysqli_select_db($link,'geotest')) {
+if (!mysqli_select_db($link,'filtereddb')) {
     echo 'Could not select database';
     exit;
 }
@@ -27,7 +27,7 @@ if (!mysqli_select_db($link,'geotest')) {
 
 //for($index =1 ;$index <100 ;$index= $index+50)
 //{
-    $query1 = ' SELECT * FROM `addresses` where `Country` = "canada" and  `mapID` is NULL'; // Limit '.($index*1).",50 ";
+    $query1 = ' SELECT * FROM `addresses` where `mapID` is NULL'; // Limit '.($index*1).",50 ";
     $result1 = mysqli_query($link, $query1);
 
     if($result1->num_rows>0){

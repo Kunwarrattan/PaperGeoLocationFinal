@@ -43,10 +43,10 @@ function randomIntFromInterval(min,max) {
 }
 
 
-function codeLatLng(id,lat,long) {
+function codeLatLng(id,lat1,lng1) {
     var count = id;
-    var latitude = lat;
-    var longitude = long;
+    var latitude = lat1;
+    var longitude = lng1;
     //var input = document.getElementById('latlng').value;
     //var latlngStr = input.split(',', 2);
     //sleep(500);
@@ -85,14 +85,45 @@ function codeLatLng(id,lat,long) {
                 var address = count+" ||||| "+result+" ---- "+city.long_name+ " " +region.long_name+ " " + country.long_name;
                 //alert(address);
                 update(count,result,city.long_name,region.long_name,country.long_name);
-            } else {
+            } else if (results[0]) {
+				
+				var result = results[0].formatted_address;
+				console.log("status ok = "+result);
+				
+                var city="";
+                var region="";
+                var country="";
+                //var result = results[1].formatted_address;
+               // document.getElementById("map-canvas").innerHTML = result;
+                for (var i=0; i<results[0].address_components.length; i++)
+                {
+                    if (results[0].address_components[i].types[0] == "locality") {
+                        city = results[0].address_components[i];
+                //        alert("city = "+city.long_name);
+                    }
+                    if (results[0].address_components[i].types[0] == "administrative_area_level_1") {
+                        region = results[0].address_components[i];
+                        //alert("state ="+ region.long_name);
+                    }
+
+                    if (results[0].address_components[i].types[0] == "country") {
+                        country = results[0].address_components[i];
+                    //    alert("country = "+country.long_name);
+                    }
+                }
+                var address = count+" ||||| "+result+" ---- "+city.long_name+ " " +region.long_name+ " " + country.long_name;
+                //alert(address);
+                //update(count,result,city.long_name,region.long_name,country.long_name);
+			}else {
                 console.log('No results found');
             }
         } else if (status == google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {
-            sleep(5000);
+            sleep(2000);
             getData();
         }else {
+			
             console.log('Geocoder failed due to: ' + status);
+			console.log("Failed  ||  " +id+"   "+lat+"    "+lng);
         }
     });
 }
@@ -129,7 +160,7 @@ function call(index){
                 temp_html+= data[i].count+" , "+data[i].lat+" , "+data[i].long+ "<br />";
                 adddresSetup(data[i].count,data[i].lat,data[i].long);
             }
-            sleep(2000);
+            sleep(1001);
 
            // var temp = "-------------------------------------------<br/>";
             var temp = "-------------------------------------------<br/>";
@@ -159,7 +190,7 @@ function update(id, address, city,state,country){
     ajaxRequest.onreadystatechange = function(){
         if(ajaxRequest.readyState == 4){
             index++;
-            var k =randomIntFromInterval(1000,2500);
+            var k =randomIntFromInterval(1000,2000);
             sleep();
             setTimeout(getData(),  k);
             var val = ajaxRequest.responseText;

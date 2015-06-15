@@ -10,7 +10,7 @@ if (!$link = mysqli_connect('localhost', 'root', '')) {
     exit;
 }
 
-if (!mysqli_select_db($link,'geotest')) {
+if (!mysqli_select_db($link,'filtereddb')) {
     echo 'Could not select database';
     exit;
 }
@@ -20,9 +20,9 @@ mysql_query("SET NAMES 'utf8'");
 $data = array();
 $i=1;
 $index = $_GET['index']-1;
-if($index >= 0 && $index < 1000)
+if($index >= 0 && $index < 15)
 {    //exit();
-    $sql    = 'SELECT `id`,`lat`,`lng` FROM `final_addresses` where `city` = "" and `province` = "" and `country` = "" Limit '.($index*1).",8 ";
+    $sql    = 'SELECT `id`,`lat`,`lng` FROM `final_addresses` where `city` = "" and `province` = "" and `country` = "" Limit '.($index*1).",5 ";
 }else{
     exit();
 }
