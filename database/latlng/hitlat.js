@@ -84,6 +84,7 @@ function codeLatLng(id,lat1,lng1) {
 
                 var address = count+" ||||| "+result+" ---- "+city.long_name+ " " +region.long_name+ " " + country.long_name;
                 //alert(address);
+                console.log("result[1] = "+address);
                 update(count,result,city.long_name,region.long_name,country.long_name);
             } else if (results[0]) {
 				
@@ -112,18 +113,28 @@ function codeLatLng(id,lat1,lng1) {
                     }
                 }
                 var address = count+" ||||| "+result+" ---- "+city.long_name+ " " +region.long_name+ " " + country.long_name;
-                //alert(address);
-                //update(count,result,city.long_name,region.long_name,country.long_name);
+                console.log("result[0] = "+address);
+                update(count,result,city.long_name,region.long_name,country.long_name);
 			}else {
                 console.log('No results found');
             }
         } else if (status == google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {
-            sleep(2000);
-            getData();
+            sleep(10000);
+            console.log(status);
+            //setTimeout(function() {
+                getData();
+            //}, 10001);
+            //var k =randomIntFromInterval(1000,2000);
+            //sleep();
+            //
+            //setTimeout(getData(),  k);
+
         }else {
-			
-            console.log('Geocoder failed due to: ' + status);
+			console.log('Geocoder failed due to: ' + status);
 			console.log("Failed  ||  " +id+"   "+lat+"    "+lng);
+            setTimeout(function() {
+                getData();
+            }, 10000);
         }
     });
 }
@@ -181,6 +192,7 @@ function getData(){
 
 function adddresSetup(id,lat,long){
     address = id+","+lat+","+long;
+    sleep(500);
     codeLatLng(id,lat,long);
 }
 
