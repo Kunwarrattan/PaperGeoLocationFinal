@@ -20,10 +20,10 @@ if (!mysqli_select_db($link,'geolocation')) {
     echo 'Could not select database';
     exit;
 }
-$query = ' SELECT `Cited_ID_Art`,`Publication_year` FROM `cited_papers_unique` LIMIT 1,10' ;
-
+$query = "SELECT distinct(`Cited_ID_Art`),`Publication_year` FROM `cited_papers` LIMIT 1,10"  ;
+echo
 $result = mysqli_query($link, $query);
-echo "<br/>".$query;‏
+//echo "<br/>".$query;‏
 if($result->num_rows>0) {
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<br/>-------------------------------------------";
@@ -31,7 +31,7 @@ if($result->num_rows>0) {
         $author_ID = $row['Cited_ID_Art'];
         $pyear = $row['Publication_year'];
 
-        $query1 = " SELECT `Nom` FROM `cited_papers_authors` where `Cited_ID_Art`   = $author_ID ";
+        $query1 = " SELECT `Nom` FROM `cited_papers_authors` where `Cited_ID_Art`  = $author_ID ";
 
         $result1 = mysqli_query($link, $query1);
 
@@ -39,10 +39,10 @@ if($result->num_rows>0) {
 
         if ($result1->num_rows > 0) {
             while ($row = mysqli_fetch_assoc($result1)) {
-                $Nom = $row['authors'];
+                $Nom = $row['Nom'];
                 $idN = null;
 
-                $query2 = " INSERT INTO `cited_coauthors`( `authors`, `Title`,`DOP`) VALUES (\"$Nom\",$author_ID, $pyear)";
+                $query2 = " INSERT INTO `cited_coauthors`( `Authors`, `Title`,`Year`) VALUES (\"$Nom\",$author_ID, $pyear)";
                 echo "<br/>" . $query2;
 
                 mysqli_set_charset($link, "utf8");
@@ -53,7 +53,8 @@ if($result->num_rows>0) {
                 $idN = mysqli_insert_id($link);
 
                 if ($idN == null) {
-                    $query3 = "SELECT `id`,`authors` FROM `cited_coauthors` where `Title` = $author_ID ";
+                    $newAuthor = "";
+                    $query3 = "SELECT `id`,`Authors` FROM `cited_coauthors` where `Title` = $author_ID ";
                     $result3 = mysqli_query($link, $query3);
                     echo "<br/>".$query3;
                     $flag = 0;
@@ -61,7 +62,7 @@ if($result->num_rows>0) {
 
                         $idN  = $row['id'];
 
-                        $authorname = $row['authors'];
+                        $authorname = $row['Authors'];
 
                         $newAuthor = $authorname.", ".$Nom;
                         echo "<br/>".$authorname."=".$Nom;
@@ -72,7 +73,7 @@ if($result->num_rows>0) {
                         }
                     }
                     if($flag == 0){
-                        $queryUpdate ="\n UPDATE `cited_coauthors` set `authors` = \"$newAuthor\" WHERE `id` = $idN";
+                        $queryUpdate ="\n UPDATE `cited_coauthors` set `Authors` = \"$newAuthor\" WHERE `id` = $idN";
                         $result6 = mysqli_query($link, $queryUpdate);
                         echo "<br/>".$queryUpdate;
                     }
