@@ -2,7 +2,7 @@ var map;
 var geocoder;
 var bounds = new google.maps.LatLngBounds();
 var markersArray = [];
-
+var index = 1;
 var origin1 = new google.maps.LatLng(55.930, -3.118);
 var destinationB = new google.maps.LatLng(50.087, 14.421);
 
@@ -12,7 +12,7 @@ function initialize() {
     geocoder = new google.maps.Geocoder();
 }
 
-var index = 1;
+
 
 var milliseconds = 1001;
 
@@ -38,6 +38,9 @@ function sleep(val) {
 function calculateDistances(id,lat1,lng1,lat2,lng2) {
     var origin = new google.maps.LatLng(lat1, lng1);
     var destination = new google.maps.LatLng(lat2, lng2);
+	//console.log(id + "-------------------------------------------------------------------");
+	sleep(3000);
+	//console.log("-------------------------------------------------------------------");
     var service = new google.maps.DistanceMatrixService();
     service.getDistanceMatrix(
         {
@@ -51,20 +54,20 @@ function calculateDistances(id,lat1,lng1,lat2,lng2) {
 }
 
 function callback(response, status,id) {
+	//console.log("Callback="+id);
     if (status != google.maps.DistanceMatrixStatus.OK) {
         alert('Error was: ' + status);
     } else {
         var origins = response.originAddresses;
         var destinations = response.destinationAddresses;
-
-
-        for (var i = 0; i < origins.length; i++) {
+		//console.log("origins = "+origins);
+		//console.log("destinations="+destinations);
+		for (var i = 0; i < origins.length; i++) {
             var results = response.rows[i].elements;
+			console.log("Results="+results.length);
             for (var j = 0; j < results.length; j++) {
-                outputDiv.innerHTML += origins + '------ to ------' + destinations
-                + '<br/> ' + results[j].distance.text + ' in '
-                + results[j].duration.text +" ID= "+id+"<br/><br/>";
-
+                outputDiv.innerHTML += origins + '------ to ------' + destinations + '<br/> ' + results[j].distance.text + ' in ' + results[j].duration.text +" ID= "+id+"<br/><br/>";
+				console.log("Index ="+index+" .. ID =  "+id+"  .... "+results[j].distance.value+"  .... "+results[j].duration.value);
                 updateToDatabase(id,results[j].distance.value,results[j].duration.value);
             }
         }
@@ -110,43 +113,61 @@ function ajaxFunction(){
         if(ajaxRequest.readyState == 4){
             var val = ajaxRequest.responseText;
             var data = JSON.parse(val);
-            //console.log(data.length);
+			//console.log("-------------------------------------------------------------------");
+            console.log(data.length);
+			//console.log("-------------------------------------------------------------------");
             var i;
             var temp_html = "";
             console.log(data);
+			//
+		    
+			sleep(6000);
             console.log("-------------------------------------------------------------------");
+			
             for(i=0;i<data.length;i++) {
                 temp_html += data[i].count+" - "+data[i].lat1+" - "+data[i].lng1+" - "+data[i].lat2+" - "+data[i].lng2+"<br/>";
               //  alert(data[i].lat1+" ..... "+data[i].lng1+" ..... "+data[i].lat2+" ..... "+data[i].lng2);
-                calculateDistances(data[i].count,data[i].lat1,data[i].lng1,data[i].lat2,data[i].lng2)
+				console.log(data[i].count+" .. "+data[i].lat1+" .. "+data[i].lng1+" .. "+data[i].lat2+" .. "+data[i].lng2);
+                calculateDistances(data[i].count,data[i].lat1,data[i].lng1,data[i].lat2,data[i].lng2);
             }
-            var temp = "-------------------------------------------<br/>";
-          //  $('#map-canvas').append(temp_html);
-           // $('#map-canvas').append(temp);
+            //var temp = "-------------------------------------------<br/>";
+            //$('#map-canvas').append(temp_html);
+            //$('#map-canvas').append(temp);
 
         }
     }
     ajaxRequest.open("GET", "getData.php?index="+index , true);
     ajaxRequest.send();
 }
+function randomIntFromInterval(min,max)
+{
+    return Math.floor(Math.random()*(max-min+1)+min);
+}
+
 
 function updateToDatabase(id,distance11,time){
+	console.log("id="+id);
+	sleep(1111);	
     distance = distance11/1000;//.slice(0, -2);
     time =  toHHMMSS(time);
     ajaxCall();
-    //alert(id+"  "+distance+"  " +time);
+    var str = id+"  "+distance+"  " +time;
+	console.log(str);
     ajaxRequest.onreadystatechange = function(){
         if(ajaxRequest.readyState == 4){
+			index++;
             var val = ajaxRequest.responseText;
-           // var data = JSON.parse(val);
-            //console.log(data.length);
-           // var i;
-            //var temp_html = "";
+            // var data = JSON.parse(val);
+            // console.log(data.length);
+            // var i;
+            // var temp_html = "";
+			
             console.log(val);
-            console.log("-------------------------------------------------------------------");
+            //console.log("-------------------------------------------------------------------");
 
-            var temp = "-------------------------------------------<br/>";
-
+           // var temp = "-------------------------------------------<br/>";
+	       sleep(10000);
+           ajaxFunction();
         }
     }
     ajaxRequest.open("GET", "update.php?distance="+distance+"&time="+time+"&id="+id, true);

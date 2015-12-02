@@ -11,12 +11,12 @@ set_time_limit(0);
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-if (!$link = mysqli_connect('localhost', 'root', '')) {
+if (!$link = mysqli_connect('localhost', 'root', 'system')) {
 echo 'Could not connect to mysql';
 exit;
 }
 
-if (!mysqli_select_db($link,'geotest')) {
+if (!mysqli_select_db($link,'geolocation')) {
 echo 'Could not select database';
 exit;
 }

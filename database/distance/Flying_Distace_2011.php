@@ -15,7 +15,7 @@ if (!mysqli_select_db($link,'geolocation')) {
 }
 
 
-$query1 = 'SELECT * FROM `paired_links_db` WHERE `DistanceID` is null';
+$query1 = 'SELECT * FROM `paired_links_valid` WHERE `DistanceID` is null';
 $result1 = mysqli_query($link, $query1);
 	if($result1->num_rows>0) {
 		while ($row = mysqli_fetch_assoc($result1)) {
@@ -28,7 +28,7 @@ $result1 = mysqli_query($link, $query1);
 			
 			// Getting the paper pipeline
 			$query2 = "Select `latlongID` from `addresses_ca` where `id_art` = $Paper_ID and `ordre` = $P_order";
-		    echo "<br/>".$query2;
+		   // echo "<br/>".$query2;
 			$result2 = mysqli_query($link, $query2);
 			if($result2->num_rows>0) {
 				while ($row = mysqli_fetch_assoc($result2)) {
@@ -43,7 +43,7 @@ $result1 = mysqli_query($link, $query1);
 			$query3 = "Select `latlongID` from `cited_papers_addresses` where `Cited_ID_Art` = $Cited_paper_ID and `ordre` = $C_order ";
 			//$query3 = "Select `latlongID` from `addresses_noca` where `id_art` = $Cited_paper_ID and `ordre` = $C_order ";
 			$result3 = mysqli_query($link, $query3);
-			echo "<br/>".$query3;
+			//echo "<br/>".$query3;
 			if($result3->num_rows>0) {
 				while ($row = mysqli_fetch_assoc($result3)) {
 					$C_latlongID = $row['latlongID'];
@@ -62,7 +62,7 @@ $result1 = mysqli_query($link, $query1);
 			//Finding Lat Long 
 			$query4 = "Select * from `final_addresses` where `id` = $P_latlongID ";
 			$result4 = mysqli_query($link, $query4);
-			echo "<br/>".$query4;
+			//echo "<br/>".$query4;
 			if($result4->num_rows>0) {
 				while ($row = mysqli_fetch_assoc($result4)) {
 					$P_lng = $row['lng'];
@@ -83,7 +83,7 @@ $result1 = mysqli_query($link, $query1);
 			$C_continent = null;	
 			//Finding Lat Long 
 			$query5 = "Select * from `final_addresses` where `id` = $C_latlongID ";
-			echo "<br/>".$query5;
+			//echo "<br/>".$query5;
 			$result5 = mysqli_query($link, $query5);
 			if($result5->num_rows>0) {
 				while ($row = mysqli_fetch_assoc($result5)) {
@@ -123,7 +123,7 @@ $result1 = mysqli_query($link, $query1);
 			
 			$queryFinal = "INSERT INTO `distance` (`lat1`,`lng1`,`lat2`,`lng2`,  `Flying_Distance`,`Flying_Time`,`Category`) VALUES ($P_lat, $P_lng, $C_lat, $C_lng,$FlyingDistance,\"$FlyingTime\",$category)";
 			$result = mysqli_query($link, $queryFinal);
-			echo "<br/>".$queryFinal;
+			//echo "<br/>".$queryFinal;
 			$idN = mysqli_insert_id($link);
 			
 			
@@ -131,7 +131,7 @@ $result1 = mysqli_query($link, $query1);
 			if($idN == null){
 					$query21 = "SELECT `serial` FROM `distance` where `lat1`= $P_lat AND `lng1` = $P_lng AND `lat2` = $C_lat AND `lng2` = $C_lng";
 					$result21 = mysqli_query($link, $query21);
-					echo "<br/>".$query21; 
+					//echo "<br/>".$query21; 
 					while ($row = mysqli_fetch_assoc($result21)) {
 						$idN  = $row['serial'];
 				}
@@ -140,12 +140,13 @@ $result1 = mysqli_query($link, $query1);
 				$result = mysqli_query($link, $queryFinal2);
 			}
 			
-			$queryUpdateL ="\n UPDATE `paired_links_db` set `DistanceID` = $idN WHERE `Paper_ID` = $Paper_ID AND `P_order` = $P_order AND `Cited_paper_ID`  = $Cited_paper_ID  AND `C_order` = $C_order ";
+			$queryUpdateL ="\n UPDATE `paired_links_valid` set `DistanceID` = $idN WHERE `Paper_ID` = $Paper_ID AND `P_order` = $P_order AND `Cited_paper_ID`  = $Cited_paper_ID  AND `C_order` = $C_order ";
 			$result8 = mysqli_query($link, $queryUpdateL);
 			echo "<br/>".$queryUpdateL;	
 			}
 		}
 	}
+	
 	
 function distance($lat1, $lon1, $lat2, $lon2, $unit) {
     $theta = $lon1 - $lon2;

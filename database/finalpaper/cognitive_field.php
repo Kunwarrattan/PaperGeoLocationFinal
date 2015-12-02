@@ -23,7 +23,7 @@ if (!mysqli_select_db($link,'geolocation')) {
 
 //for($index=200000;$index<400000;$index=$index+50){
 
-$query = 'SELECT * FROM `paired_links_db` where `Cognitive_dist` is NULL ';//imit ';//.($index*1).", 50 ";
+$query = 'SELECT * FROM `paired_links_valid` where `Cognitive_dist` is NULL ';
 $result = mysqli_query($link, $query);
 
 //echo $query.'<br />';
@@ -45,7 +45,7 @@ if($result->num_rows>0) {
 		}else{
 			$update = 3;
 		}
-		$query2 = "UPDATE `paired_links_db` SET `Cognitive_dist` = $update where `Paper_ID` = $P_id and `Cited_paper_ID` = $C_Cited_paper_ID";
+		$query2 = "UPDATE `paired_links_valid` SET `Cognitive_dist` = $update where `Paper_ID` = $P_id and `Cited_paper_ID` = $C_Cited_paper_ID";
 		//echo "<br/>".$query2;
         $result2 = mysqli_query($link,$query2);
         

@@ -4,12 +4,12 @@ set_time_limit(0);
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-if (!$link = mysqli_connect('localhost', 'root', '')) {
+if (!$link = mysqli_connect('localhost', 'root', 'system')) {
     echo 'Could not connect to mysql';
     exit;
 }
 
-if (!mysqli_select_db($link,'geotest')) {
+if (!mysqli_select_db($link,'geolocation')) {
     echo 'Could not select database';
     exit;
 }
@@ -20,7 +20,7 @@ $index = $_GET['index']-1;
 
 if($index >= 1 || $index < 10)
 {    //exit();
-    $sql    = 'SELECT `id`,`lat1`,`lng1`,`lat2`,`lng2` FROM `distance` where `DrivingDistance`  is NULL Limit '.($index*1).", 8 ";// where `DrivingDistance`  is NULL  and `Country` = "Canada
+    $sql    = 'SELECT `serial`,`lat1`,`lng1`,`lat2`,`lng2` FROM `distance` where `Driving_Distance`  is NULL and `Flying_Distance` <= 500 Limit '.($index*1).", 8 ";// where `DrivingDistance`  is NULL  and `Country` = "Canada
 }else{
     exit();
 }
@@ -34,7 +34,7 @@ if (!$result) {
 
 while ($row = mysqli_fetch_assoc($result)) {
     if ($i >= 0){
-        $temp = insert($row['id'],$row['lat1'], $row['lng1'], $row['lat2'], $row['lng2']);
+        $temp = insert($row['serial'],$row['lat1'], $row['lng1'], $row['lat2'], $row['lng2']);
         $data[] = $temp;
     }
     $i++;
