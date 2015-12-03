@@ -37,6 +37,6 @@ if(isset($_REQUEST['time']) && $_REQUEST['time']!="") {
 }
 
 
-$query =  "update `distance` set `DrivingDistance` = $distance , `DrivingTime` = \"$time\" where `id` = $id";
+$query =  "update `distance` set `Driving_Distance` = $distance , `Driving_Time` = \"$time\" where `serial` = $id";
 $result1 = mysqli_query($link, $query);
 echo $query;

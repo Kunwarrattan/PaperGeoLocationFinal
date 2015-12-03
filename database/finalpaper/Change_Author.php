@@ -15,9 +15,9 @@ if (!mysqli_select_db($link,'geolocation')) {
 }
 
 //FOR THE CITING ONE UNCOMMENT THIS
-$query1 = 'SELECT * FROM `paired_links_db` WHERE `Citing` = 1 and `DistanceID` is NULL';
+//$query1 = 'SELECT * FROM `paired_links_valid` WHERE `Citing` = 1 and `DistanceID` is NULL';
 //FOR THE NON CITING ONE UNCOMMENT THIS
-//$query1 = 'SELECT * FROM `paired_links_db` WHERE `Citing` = 0 and `DistanceID` is NULL';
+$query1 = 'SELECT * FROM `paired_links_valid` WHERE `Citing` = 0 and `DistanceID` is NULL';
 $result1 = mysqli_query($link, $query1);
 	if($result1->num_rows>0) {
 		while ($row = mysqli_fetch_assoc($result1)) {
@@ -49,7 +49,7 @@ $result1 = mysqli_query($link, $query1);
 				}
 				
 				if($nom != null){
-					$query3 = "update `paired_links_db` set `C_order` = $array[$rand] and `C_Author` = \"$nom\" where `Cited_paper_ID` = $C_Cited_paper_ID and `C_order` =  $C_order ";
+					$query3 = "update `paired_links_valid` set `C_order` = $array[$rand] and `C_Author` = \"$nom\" where `Cited_paper_ID` = $C_Cited_paper_ID and `C_order` =  $C_order ";
 					//echo "<br/>".$query3;
 					mysqli_query($link, "SET CHARACTER SET 'utf8'");
 					$result7 = mysqli_query($link, $query3);
@@ -66,7 +66,7 @@ $result1 = mysqli_query($link, $query1);
 									while ($row = mysqli_fetch_assoc($result14)) {
 										$nom = $row['Nom'];
 											if($nom != null){
-											$query13 = "update `paired_links_db` set `C_order` = $array[$rand] and `C_Author` = \"$nom\" where `Cited_paper_ID` = $C_Cited_paper_ID and `C_order` =  $C_order ";
+											$query13 = "update `paired_links_valid` set `C_order` = $array[$rand] and `C_Author` = \"$nom\" where `Cited_paper_ID` = $C_Cited_paper_ID and `C_order` =  $C_order ";
 											echo "<br/>".$query13;
 											mysqli_query($link, "SET CHARACTER SET 'utf8'");
 											$result17 = mysqli_query($link, $query13);

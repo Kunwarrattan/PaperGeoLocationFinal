@@ -30,7 +30,7 @@ if($result->num_rows>0) {
     while ($row = mysqli_fetch_assoc($result)) {
         $authorname = $row['C_Author'];
 		
-        $query1 = "SELECT `Node_id`, `Nom` FROM `cited_authors_mysample` where `Nom` = \"$authorname\"";
+        $query1 = "SELECT `Node_id`, `Nom` FROM `nodes_0711` where `Nom` = \"$authorname\"";
         $result1 = mysqli_query($link, $query1);
 		//echo "<br/>".$query1;
 		
